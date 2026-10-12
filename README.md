@@ -5,9 +5,9 @@ Tech stack: MySQL | Python | Pandas | Power BI
 Analyze a bank's loan portfolio to understand lending volume, customer risk, defaults, repayment behavior, and branch/loan-type performance.
 
 ## Folder
-- 01_schema.sql - database and table definitions
-- 02_analysis_queries.sql - business SQL questions
-- 03_python_analysis.py - cleaning, feature engineering, analysis and Power BI export
+- Analysis_Queries.sql - database and table definitions
+- Banking_risk_anakytics.sql - business SQL questions
+- Bank_loan_risk_analysos.ipynb - cleaning, feature engineering, analysis and Power BI export
 - branches.csv
 - customers.csv
 - loans.csv
