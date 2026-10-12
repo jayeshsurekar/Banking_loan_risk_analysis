@@ -1,0 +1,801 @@
+loan_id,customer_id,branch_id,loan_type,purpose,loan_amount,tenure_months,interest_rate,dti,loan_status,approval_status
+1,435,4,Home Loan,Home Purchase,1720000,48,7.89,4.343,Closed,Approved
+2,277,3,Business Loan,Business Expansion,190000,12,10.76,0.96,Active,Approved
+3,436,3,Auto Loan,Vehicle,1075000,48,17.87,7.679,Defaulted,Approved
+4,28,5,Business Loan,Business Expansion,1545000,48,9.42,6.332,Active,Approved
+5,261,2,Business Loan,Business Expansion,675000,48,16.64,0.893,Closed,Approved
+6,38,1,Personal Loan,Medical,650000,84,13.16,0.476,Closed,Approved
+7,223,1,Business Loan,Business Expansion,1155000,12,15.96,5.984,Active,Approved
+8,329,3,Personal Loan,Medical,495000,36,14.84,1.17,Closed,Approved
+9,49,6,Personal Loan,Medical,2325000,24,14.27,6.458,Closed,Approved
+10,105,6,Home Loan,Home Purchase,1550000,36,18.06,2.839,Active,Approved
+11,255,2,Personal Loan,Medical,1050000,84,10.72,0.761,Active,Approved
+12,374,4,Auto Loan,Vehicle,1730000,12,17.62,39.318,Active,Approved
+13,226,1,Education Loan,Education,760000,24,7.98,5.067,Defaulted,Approved
+14,424,3,Education Loan,Education,75000,180,8.55,0.023,Closed,Approved
+15,334,5,Business Loan,Business Expansion,1565000,24,10.15,26.983,Active,Approved
+16,172,1,Personal Loan,Medical,925000,12,12.96,5.892,Closed,Approved
+17,376,6,Business Loan,Business Expansion,1025000,60,10.64,1.041,Closed,Approved
+18,119,1,Home Loan,Home Purchase,1605000,12,16.81,15.0,Defaulted,Approved
+19,431,6,Education Loan,Education,1285000,120,14.5,0.813,Closed,Approved
+20,149,6,Education Loan,Education,915000,180,15.73,0.28,Active,Approved
+21,135,6,Home Loan,Home Purchase,680000,84,9.45,0.578,Closed,Approved
+22,150,4,Home Loan,Home Purchase,1315000,36,10.46,2.641,Active,Approved
+23,285,5,Business Loan,Business Expansion,1800000,84,9.31,4.358,Active,Approved
+24,213,2,Business Loan,Business Expansion,1740000,60,8.51,2.384,Closed,Approved
+25,95,4,Business Loan,Business Expansion,530000,120,13.06,0.254,Active,Approved
+26,461,5,Home Loan,Home Purchase,1465000,48,13.46,3.591,Active,Approved
+27,353,6,Personal Loan,Medical,2400000,120,14.23,3.478,Active,Approved
+28,19,4,Education Loan,Education,915000,120,15.08,1.116,Closed,Approved
+29,367,2,Home Loan,Home Purchase,845000,84,15.87,0.981,Closed,Approved
+30,186,4,Auto Loan,Vehicle,2380000,84,16.43,2.282,Defaulted,Approved
+31,261,2,Education Loan,Education,2445000,24,8.59,6.468,Active,Approved
+32,354,6,Home Loan,Home Purchase,1690000,24,13.61,7.412,Active,Approved
+33,231,5,Auto Loan,Vehicle,2300000,36,15.07,11.979,Closed,Approved
+34,393,2,Business Loan,Business Expansion,2260000,84,13.27,1.856,Closed,Approved
+35,90,1,Education Loan,Education,565000,84,7.89,0.841,Defaulted,Approved
+36,462,5,Education Loan,Education,1475000,12,15.75,6.893,Defaulted,Approved
+37,377,6,Business Loan,Business Expansion,1790000,60,9.14,3.51,Active,Approved
+38,312,4,Business Loan,Business Expansion,465000,48,18.46,1.71,Active,Approved
+39,111,2,Education Loan,Education,1630000,48,14.58,2.079,Defaulted,Approved
+40,24,5,Auto Loan,Vehicle,1820000,84,14.02,1.857,Active,Approved
+41,230,5,Auto Loan,Vehicle,2250000,48,7.52,6.618,Closed,Approved
+42,202,4,Business Loan,Business Expansion,1975000,12,9.34,32.377,Closed,Approved
+43,57,4,Auto Loan,Vehicle,980000,12,11.93,5.026,Active,Approved
+44,221,2,Auto Loan,Vehicle,1770000,84,8.65,1.187,Active,Approved
+45,55,2,Personal Loan,Medical,535000,36,8.08,2.623,Closed,Approved
+46,158,4,Education Loan,Education,1340000,24,14.12,10.984,Active,Approved
+47,60,3,Home Loan,Home Purchase,945000,24,14.5,2.398,Defaulted,Approved
+48,406,6,Personal Loan,Medical,490000,120,11.18,0.282,Active,Approved
+49,314,3,Auto Loan,Vehicle,2320000,36,16.58,6.237,Active,Approved
+50,432,1,Auto Loan,Vehicle,1835000,24,9.12,6.697,Defaulted,Approved
+51,183,4,Personal Loan,Medical,2220000,36,8.47,5.692,Defaulted,Approved
+52,113,3,Home Loan,Home Purchase,2490000,24,16.32,6.694,Active,Approved
+53,313,1,Education Loan,Education,2180000,180,10.79,1.67,Closed,Approved
+54,401,3,Education Loan,Education,1915000,60,12.96,5.632,Active,Approved
+55,399,1,Business Loan,Business Expansion,690000,24,11.72,2.413,Active,Approved
+56,90,2,Home Loan,Home Purchase,565000,60,11.48,1.177,Closed,Approved
+57,259,6,Business Loan,Business Expansion,290000,180,7.77,0.134,Active,Approved
+58,118,5,Auto Loan,Vehicle,1785000,12,13.2,10.378,Active,Approved
+59,51,3,Business Loan,Business Expansion,1120000,12,8.12,50.909,Active,Approved
+60,302,4,Auto Loan,Vehicle,635000,48,12.58,0.782,Defaulted,Approved
+61,49,4,Auto Loan,Vehicle,815000,60,17.81,0.906,Active,Approved
+62,70,2,Home Loan,Home Purchase,1385000,180,8.39,0.751,Closed,Approved
+63,419,4,Personal Loan,Medical,1455000,36,16.08,2.343,Active,Approved
+64,326,4,Personal Loan,Medical,2150000,84,8.99,1.896,Active,Approved
+65,152,6,Home Loan,Home Purchase,1685000,120,18.02,0.878,Active,Approved
+66,408,6,Home Loan,Home Purchase,1825000,84,7.99,2.228,Closed,Approved
+67,220,4,Business Loan,Business Expansion,1460000,120,10.22,0.777,Closed,Approved
+68,270,6,Education Loan,Education,2295000,60,18.22,3.477,Active,Approved
+69,479,6,Home Loan,Home Purchase,2285000,84,16.79,1.569,Active,Approved
+70,44,3,Business Loan,Business Expansion,615000,180,12.86,0.788,Defaulted,Approved
+71,84,1,Auto Loan,Vehicle,2450000,24,17.47,11.343,Active,Approved
+72,21,3,Home Loan,Home Purchase,880000,48,10.97,1.038,Active,Approved
+73,7,2,Education Loan,Education,2140000,24,17.4,14.459,Active,Approved
+74,160,5,Auto Loan,Vehicle,2060000,84,18.1,3.234,Active,Approved
+75,426,5,Personal Loan,Medical,1730000,24,14.37,4.391,Closed,Approved
+76,314,3,Home Loan,Home Purchase,300000,48,10.32,0.605,Defaulted,Approved
+77,87,1,Auto Loan,Vehicle,1645000,84,12.6,1.211,Closed,Approved
+78,341,5,Personal Loan,Medical,600000,48,18.14,6.522,Active,Approved
+79,425,4,Auto Loan,Vehicle,2415000,48,9.16,3.51,Active,Approved
+80,383,1,Personal Loan,Medical,175000,24,15.02,0.515,Active,Approved
+81,81,2,Education Loan,Education,255000,180,8.76,0.083,Closed,Approved
+82,28,6,Business Loan,Business Expansion,725000,180,13.47,0.792,Closed,Approved
+83,177,6,Business Loan,Business Expansion,2495000,84,14.24,3.154,Defaulted,Approved
+84,198,5,Auto Loan,Vehicle,1075000,36,12.83,2.327,Active,Approved
+85,5,1,Education Loan,Education,1705000,180,14.81,0.768,Closed,Rejected
+86,66,3,Auto Loan,Vehicle,1685000,12,16.98,8.467,Active,Approved
+87,125,6,Home Loan,Home Purchase,1165000,60,13.5,1.273,Active,Approved
+88,444,3,Home Loan,Home Purchase,2215000,12,12.55,17.171,Active,Approved
+89,319,5,Auto Loan,Vehicle,845000,24,9.72,2.321,Closed,Approved
+90,20,4,Home Loan,Home Purchase,635000,120,15.84,0.668,Active,Approved
+91,214,5,Business Loan,Business Expansion,1625000,12,9.75,11.285,Active,Approved
+92,79,3,Business Loan,Business Expansion,2140000,48,17.08,4.084,Active,Approved
+93,381,4,Education Loan,Education,335000,36,13.66,0.512,Defaulted,Approved
+94,26,1,Education Loan,Education,1610000,24,7.8,3.927,Closed,Rejected
+95,248,4,Auto Loan,Vehicle,325000,24,11.28,4.779,Closed,Approved
+96,97,6,Personal Loan,Medical,490000,12,12.98,4.495,Active,Approved
+97,167,3,Education Loan,Education,2325000,180,12.47,0.939,Closed,Approved
+98,178,3,Business Loan,Business Expansion,1000000,36,12.35,2.625,Active,Approved
+99,268,4,Auto Loan,Vehicle,1275000,120,10.66,0.951,Active,Approved
+100,297,1,Auto Loan,Vehicle,1960000,12,10.54,12.174,Closed,Rejected
+101,47,2,Auto Loan,Vehicle,2315000,24,17.57,29.679,Active,Approved
+102,42,4,Business Loan,Business Expansion,1495000,120,15.15,0.783,Active,Approved
+103,386,5,Business Loan,Business Expansion,1575000,36,14.25,3.387,Active,Approved
+104,259,6,Business Loan,Business Expansion,2355000,36,9.36,5.451,Defaulted,Approved
+105,417,5,Auto Loan,Vehicle,2010000,120,9.72,2.831,Active,Approved
+106,416,4,Home Loan,Home Purchase,325000,60,9.17,0.425,Closed,Approved
+107,478,3,Auto Loan,Vehicle,320000,36,18.15,0.779,Defaulted,Approved
+108,32,6,Business Loan,Business Expansion,2010000,24,16.34,6.361,Closed,Approved
+109,375,5,Education Loan,Education,1465000,84,18.37,1.079,Active,Approved
+110,375,5,Auto Loan,Vehicle,1610000,36,14.85,2.766,Defaulted,Approved
+111,162,3,Auto Loan,Vehicle,80000,180,17.2,0.034,Active,Approved
+112,247,1,Personal Loan,Medical,1495000,36,13.66,3.637,Active,Approved
+113,196,3,Home Loan,Home Purchase,1360000,12,11.67,45.333,Closed,Approved
+114,189,3,Business Loan,Business Expansion,1075000,36,13.45,2.312,Closed,Approved
+115,60,4,Personal Loan,Medical,2045000,36,17.41,3.46,Active,Approved
+116,364,6,Business Loan,Business Expansion,1665000,36,10.3,3.384,Closed,Approved
+117,131,5,Home Loan,Home Purchase,1110000,120,13.28,0.755,Closed,Rejected
+118,156,5,Personal Loan,Medical,1185000,180,8.61,0.506,Closed,Approved
+119,163,3,Education Loan,Education,1640000,48,17.46,5.395,Closed,Approved
+120,431,6,Auto Loan,Vehicle,2180000,180,14.66,0.92,Defaulted,Approved
+121,273,3,Personal Loan,Medical,2330000,84,12.68,1.79,Closed,Approved
+122,419,2,Business Loan,Business Expansion,1285000,180,15.63,0.414,Active,Approved
+123,66,4,Auto Loan,Vehicle,2050000,120,15.05,1.03,Closed,Approved
+124,47,4,Education Loan,Education,375000,36,9.34,3.205,Defaulted,Approved
+125,124,3,Business Loan,Business Expansion,2330000,36,16.71,7.125,Defaulted,Approved
+126,4,6,Home Loan,Home Purchase,800000,180,13.14,0.518,Defaulted,Approved
+127,143,5,Business Loan,Business Expansion,675000,24,7.87,4.963,Closed,Approved
+128,437,4,Business Loan,Business Expansion,2020000,24,17.82,15.075,Active,Approved
+129,401,4,Personal Loan,Medical,1935000,60,16.38,5.691,Active,Approved
+130,333,1,Business Loan,Business Expansion,1810000,36,10.36,12.313,Defaulted,Approved
+131,134,3,Home Loan,Home Purchase,855000,48,13.66,3.054,Defaulted,Approved
+132,354,5,Auto Loan,Vehicle,1755000,12,9.99,15.395,Active,Approved
+133,328,6,Education Loan,Education,2270000,84,12.04,2.438,Active,Approved
+134,84,6,Home Loan,Home Purchase,1860000,84,7.96,2.46,Active,Approved
+135,154,1,Auto Loan,Vehicle,1865000,24,10.58,15.04,Defaulted,Approved
+136,83,2,Auto Loan,Vehicle,565000,36,17.52,1.865,Active,Approved
+137,275,5,Auto Loan,Vehicle,990000,180,16.73,0.635,Closed,Approved
+138,327,3,Personal Loan,Medical,1125000,180,15.49,0.688,Active,Approved
+139,124,3,Home Loan,Home Purchase,1305000,24,13.36,5.986,Active,Approved
+140,431,5,Personal Loan,Medical,1230000,36,9.9,2.595,Closed,Approved
+141,317,4,Business Loan,Business Expansion,1015000,120,7.64,0.868,Active,Approved
+142,89,3,Auto Loan,Vehicle,1405000,48,14.08,4.132,Active,Approved
+143,489,1,Home Loan,Home Purchase,540000,48,15.53,0.659,Active,Approved
+144,196,2,Business Loan,Business Expansion,210000,180,17.43,0.467,Active,Approved
+145,361,1,Education Loan,Education,1465000,12,14.03,9.043,Closed,Approved
+146,120,5,Business Loan,Business Expansion,905000,48,8.37,5.801,Closed,Approved
+147,62,3,Auto Loan,Vehicle,625000,120,7.88,0.305,Active,Approved
+148,267,5,Auto Loan,Vehicle,1425000,48,16.18,5.018,Closed,Approved
+149,255,5,Personal Loan,Medical,755000,24,10.28,1.916,Closed,Approved
+150,451,5,Auto Loan,Vehicle,450000,24,8.76,8.333,Defaulted,Approved
+151,201,3,Business Loan,Business Expansion,1970000,12,7.86,11.387,Active,Approved
+152,465,1,Education Loan,Education,1050000,12,17.17,10.0,Closed,Approved
+153,8,4,Auto Loan,Vehicle,540000,60,12.23,1.029,Closed,Approved
+154,438,1,Auto Loan,Vehicle,160000,24,12.61,1.951,Active,Approved
+155,147,5,Home Loan,Home Purchase,135000,84,9.38,0.157,Active,Approved
+156,307,4,Auto Loan,Vehicle,2130000,84,14.54,1.749,Defaulted,Approved
+157,28,4,Personal Loan,Medical,1605000,180,18.18,1.754,Defaulted,Approved
+158,194,1,Education Loan,Education,410000,36,14.11,1.085,Defaulted,Approved
+159,257,6,Home Loan,Home Purchase,1785000,180,14.48,2.245,Active,Approved
+160,214,5,Personal Loan,Medical,2130000,12,7.53,14.792,Defaulted,Approved
+161,268,3,Home Loan,Home Purchase,2435000,84,8.0,2.596,Defaulted,Approved
+162,380,1,Business Loan,Business Expansion,1205000,120,11.14,0.55,Defaulted,Approved
+163,355,5,Business Loan,Business Expansion,120000,180,14.22,0.2,Active,Approved
+164,340,6,Personal Loan,Medical,250000,60,13.18,0.427,Active,Approved
+165,49,4,Home Loan,Home Purchase,1415000,84,16.67,1.123,Active,Approved
+166,380,6,Auto Loan,Vehicle,315000,120,13.79,0.144,Defaulted,Approved
+167,106,1,Education Loan,Education,2280000,120,7.99,1.239,Active,Approved
+168,265,1,Personal Loan,Medical,1235000,180,8.46,0.769,Closed,Approved
+169,17,3,Auto Loan,Vehicle,2440000,60,13.35,8.714,Closed,Approved
+170,423,5,Education Loan,Education,2455000,24,17.12,6.427,Active,Approved
+171,192,3,Personal Loan,Medical,520000,60,7.99,2.737,Active,Approved
+172,333,4,Home Loan,Home Purchase,1410000,84,9.32,4.111,Closed,Approved
+173,19,5,Auto Loan,Vehicle,1865000,180,17.48,1.516,Closed,Approved
+174,109,1,Education Loan,Education,2125000,36,14.92,3.829,Closed,Approved
+175,301,5,Auto Loan,Vehicle,695000,180,8.06,0.311,Active,Approved
+176,431,2,Auto Loan,Vehicle,2280000,120,14.14,1.443,Active,Approved
+177,146,1,Home Loan,Home Purchase,1035000,24,14.82,8.086,Closed,Approved
+178,127,3,Education Loan,Education,2430000,84,11.56,2.197,Closed,Approved
+179,239,1,Personal Loan,Medical,60000,12,13.55,1.071,Active,Approved
+180,225,1,Business Loan,Business Expansion,485000,180,11.03,0.274,Active,Approved
+181,423,1,Home Loan,Home Purchase,2480000,48,14.85,3.246,Closed,Approved
+182,202,2,Auto Loan,Vehicle,1525000,84,14.03,3.571,Active,Approved
+183,398,1,Business Loan,Business Expansion,1565000,12,9.03,23.712,Closed,Approved
+184,377,4,Education Loan,Education,155000,84,17.11,0.217,Active,Approved
+185,454,5,Home Loan,Home Purchase,1945000,36,15.65,3.836,Closed,Approved
+186,166,1,Education Loan,Education,270000,84,9.06,0.677,Closed,Approved
+187,425,3,Personal Loan,Medical,730000,24,13.36,2.122,Active,Approved
+188,321,2,Personal Loan,Medical,1800000,180,13.85,1.846,Closed,Approved
+189,357,1,Business Loan,Business Expansion,1790000,24,13.65,7.103,Active,Approved
+190,279,4,Auto Loan,Vehicle,1410000,180,14.68,0.47,Active,Approved
+191,277,4,Business Loan,Business Expansion,520000,60,16.87,0.525,Closed,Approved
+192,99,5,Education Loan,Education,2050000,48,10.53,4.236,Active,Approved
+193,486,2,Home Loan,Home Purchase,1945000,180,12.41,5.403,Active,Approved
+194,288,4,Education Loan,Education,720000,24,12.45,2.368,Defaulted,Approved
+195,335,3,Auto Loan,Vehicle,2460000,84,12.24,2.492,Defaulted,Approved
+196,48,6,Business Loan,Business Expansion,385000,60,11.57,0.616,Defaulted,Approved
+197,100,2,Personal Loan,Medical,1750000,36,15.07,3.452,Defaulted,Approved
+198,440,1,Business Loan,Business Expansion,1045000,48,9.07,11.875,Active,Approved
+199,193,5,Personal Loan,Medical,1575000,36,9.2,5.25,Active,Approved
+200,202,3,Education Loan,Education,1400000,12,11.67,22.951,Active,Approved
+201,427,6,Business Loan,Business Expansion,615000,84,8.29,4.184,Closed,Approved
+202,395,2,Business Loan,Business Expansion,1605000,36,16.82,5.515,Closed,Approved
+203,176,6,Home Loan,Home Purchase,560000,24,13.88,1.761,Active,Approved
+204,321,5,Education Loan,Education,1625000,120,9.05,2.5,Defaulted,Approved
+205,414,3,Business Loan,Business Expansion,875000,24,18.25,4.605,Active,Approved
+206,75,3,Auto Loan,Vehicle,250000,24,11.73,2.5,Active,Approved
+207,430,3,Business Loan,Business Expansion,1300000,84,12.06,0.868,Active,Approved
+208,306,5,Business Loan,Business Expansion,1570000,36,9.12,5.567,Defaulted,Approved
+209,30,5,Personal Loan,Medical,755000,120,17.4,0.442,Closed,Approved
+210,37,6,Home Loan,Home Purchase,2155000,24,12.71,6.265,Closed,Approved
+211,196,5,Auto Loan,Vehicle,2345000,36,13.5,26.056,Active,Approved
+212,77,4,Personal Loan,Medical,1905000,84,18.07,3.728,Defaulted,Approved
+213,401,4,Business Loan,Business Expansion,215000,60,11.24,0.632,Defaulted,Approved
+214,69,2,Auto Loan,Vehicle,1505000,48,13.59,7.099,Closed,Approved
+215,365,3,Business Loan,Business Expansion,835000,60,10.22,1.305,Active,Approved
+216,387,2,Auto Loan,Vehicle,2390000,24,15.3,6.948,Closed,Approved
+217,497,1,Personal Loan,Medical,440000,36,13.49,2.126,Active,Approved
+218,92,5,Business Loan,Business Expansion,2300000,84,18.5,4.44,Defaulted,Approved
+219,111,3,Business Loan,Business Expansion,1555000,12,12.88,7.934,Defaulted,Approved
+220,273,6,Home Loan,Home Purchase,920000,24,17.18,2.473,Active,Approved
+221,249,5,Business Loan,Business Expansion,2320000,60,14.33,2.746,Closed,Approved
+222,487,1,Business Loan,Business Expansion,2295000,120,7.93,1.334,Closed,Approved
+223,101,3,Home Loan,Home Purchase,285000,180,17.48,0.905,Defaulted,Approved
+224,117,5,Business Loan,Business Expansion,2140000,60,15.44,4.0,Closed,Approved
+225,47,5,Auto Loan,Vehicle,2070000,180,13.54,3.538,Active,Approved
+226,465,6,Education Loan,Education,440000,60,10.53,0.838,Active,Approved
+227,12,2,Home Loan,Home Purchase,1585000,36,17.94,5.503,Active,Approved
+228,304,6,Education Loan,Education,85000,180,15.8,0.042,Active,Approved
+229,183,3,Business Loan,Business Expansion,1465000,36,12.91,3.756,Active,Approved
+230,417,3,Auto Loan,Vehicle,955000,84,15.88,1.922,Defaulted,Approved
+231,203,1,Personal Loan,Medical,640000,84,11.48,1.604,Closed,Rejected
+232,179,4,Home Loan,Home Purchase,1210000,84,12.52,1.729,Active,Approved
+233,435,4,Home Loan,Home Purchase,2430000,60,15.91,4.909,Active,Approved
+234,391,4,Personal Loan,Medical,1245000,24,18.46,3.683,Active,Approved
+235,429,3,Education Loan,Education,2410000,120,16.82,3.13,Active,Approved
+236,63,5,Personal Loan,Medical,855000,84,12.43,0.596,Defaulted,Approved
+237,431,2,Auto Loan,Vehicle,230000,48,17.69,0.364,Closed,Approved
+238,480,3,Education Loan,Education,2395000,180,15.06,0.928,Active,Approved
+239,323,6,Auto Loan,Vehicle,690000,180,13.3,0.253,Active,Approved
+240,277,1,Education Loan,Education,1410000,180,16.52,0.475,Defaulted,Approved
+241,152,3,Personal Loan,Medical,1155000,84,18.03,0.859,Active,Approved
+242,19,1,Auto Loan,Vehicle,2005000,180,14.95,1.63,Closed,Approved
+243,488,1,Education Loan,Education,1615000,60,7.66,1.889,Closed,Approved
+244,292,5,Home Loan,Home Purchase,735000,120,14.46,0.514,Active,Approved
+245,141,4,Auto Loan,Vehicle,2185000,84,17.81,1.696,Defaulted,Approved
+246,128,3,Auto Loan,Vehicle,2155000,12,17.23,35.917,Active,Approved
+247,194,6,Business Loan,Business Expansion,1435000,48,15.45,2.847,Active,Approved
+248,384,3,Auto Loan,Vehicle,410000,24,8.23,1.507,Active,Approved
+249,72,5,Education Loan,Education,1140000,60,16.39,1.452,Defaulted,Approved
+250,480,3,Business Loan,Business Expansion,265000,24,7.57,0.77,Active,Approved
+251,123,2,Home Loan,Home Purchase,510000,120,8.35,0.291,Active,Approved
+252,234,4,Auto Loan,Vehicle,235000,84,15.28,1.767,Closed,Approved
+253,322,4,Personal Loan,Medical,690000,120,11.93,0.35,Closed,Approved
+254,290,6,Home Loan,Home Purchase,2295000,12,17.72,91.8,Closed,Rejected
+255,55,5,Auto Loan,Vehicle,2380000,180,11.04,2.333,Closed,Approved
+256,295,6,Personal Loan,Medical,1950000,36,13.54,21.667,Active,Approved
+257,437,5,Business Loan,Business Expansion,2050000,84,14.14,4.371,Active,Approved
+258,275,1,Business Loan,Business Expansion,1580000,60,15.86,3.038,Closed,Approved
+259,183,2,Business Loan,Business Expansion,710000,180,17.04,0.364,Closed,Approved
+260,10,4,Auto Loan,Vehicle,660000,180,14.37,0.667,Defaulted,Approved
+261,148,2,Auto Loan,Vehicle,50000,84,13.29,0.073,Closed,Approved
+262,412,6,Education Loan,Education,1245000,60,16.55,2.243,Closed,Approved
+263,30,2,Home Loan,Home Purchase,1325000,180,17.58,0.517,Active,Approved
+264,12,2,Business Loan,Business Expansion,1855000,48,10.63,4.831,Closed,Approved
+265,248,4,Business Loan,Business Expansion,225000,180,8.1,0.441,Active,Approved
+266,49,1,Business Loan,Business Expansion,925000,120,8.63,0.514,Active,Approved
+267,349,6,Personal Loan,Medical,885000,12,10.54,34.038,Closed,Approved
+268,209,1,Home Loan,Home Purchase,860000,48,13.92,1.443,Active,Approved
+269,390,5,Auto Loan,Vehicle,130000,120,15.65,0.078,Active,Approved
+270,156,3,Personal Loan,Medical,1465000,120,16.59,0.939,Closed,Approved
+271,147,4,Business Loan,Business Expansion,2330000,180,16.77,1.263,Defaulted,Approved
+272,452,3,Home Loan,Home Purchase,1210000,36,17.87,6.722,Closed,Approved
+273,177,4,Business Loan,Business Expansion,1595000,84,11.65,2.016,Defaulted,Approved
+274,179,2,Education Loan,Education,1860000,120,8.78,1.86,Active,Approved
+275,413,2,Personal Loan,Medical,2125000,180,14.46,1.749,Defaulted,Approved
+276,175,5,Auto Loan,Vehicle,1445000,84,15.34,3.686,Closed,Approved
+277,101,3,Auto Loan,Vehicle,1025000,180,10.56,3.254,Active,Approved
+278,273,6,Personal Loan,Medical,1450000,60,15.23,1.559,Closed,Approved
+279,201,2,Personal Loan,Medical,2415000,60,14.59,2.792,Closed,Approved
+280,401,4,Personal Loan,Medical,2300000,180,18.02,2.255,Active,Approved
+281,41,2,Auto Loan,Vehicle,1685000,60,12.53,1.575,Active,Approved
+282,256,1,Business Loan,Business Expansion,2380000,120,15.98,1.345,Defaulted,Approved
+283,380,2,Education Loan,Education,2445000,84,15.94,1.595,Defaulted,Approved
+284,229,6,Personal Loan,Medical,390000,60,11.58,1.04,Active,Approved
+285,459,1,Home Loan,Home Purchase,165000,84,17.18,0.11,Defaulted,Approved
+286,100,5,Auto Loan,Vehicle,385000,180,15.79,0.152,Active,Approved
+287,162,4,Business Loan,Business Expansion,920000,60,9.0,1.187,Defaulted,Approved
+288,274,4,Auto Loan,Vehicle,895000,36,18.22,9.624,Active,Approved
+289,149,6,Business Loan,Business Expansion,2425000,48,15.35,2.781,Active,Approved
+290,65,3,Business Loan,Business Expansion,2480000,48,8.44,2.884,Closed,Approved
+291,227,6,Home Loan,Home Purchase,2085000,24,16.56,33.629,Active,Approved
+292,138,2,Education Loan,Education,110000,24,8.6,0.539,Closed,Approved
+293,46,2,Personal Loan,Medical,855000,12,17.52,32.885,Closed,Rejected
+294,470,2,Personal Loan,Medical,1760000,120,8.87,7.652,Closed,Approved
+295,163,6,Education Loan,Education,755000,180,13.34,0.662,Closed,Approved
+296,372,1,Auto Loan,Vehicle,725000,84,15.47,0.785,Active,Approved
+297,228,1,Home Loan,Home Purchase,2100000,24,11.87,6.688,Closed,Approved
+298,340,1,Personal Loan,Medical,2425000,12,10.44,20.726,Defaulted,Approved
+299,104,6,Personal Loan,Medical,1885000,120,16.93,6.5,Defaulted,Approved
+300,181,6,Personal Loan,Medical,965000,12,15.97,10.722,Defaulted,Approved
+301,233,5,Education Loan,Education,435000,180,9.5,0.33,Active,Approved
+302,153,1,Auto Loan,Vehicle,1690000,12,9.96,11.818,Active,Approved
+303,126,3,Business Loan,Business Expansion,1495000,24,7.51,22.652,Defaulted,Approved
+304,373,3,Auto Loan,Vehicle,2325000,60,18.22,2.173,Active,Approved
+305,457,1,Business Loan,Business Expansion,425000,180,17.38,0.244,Defaulted,Approved
+306,471,5,Personal Loan,Medical,490000,180,10.7,0.176,Active,Approved
+307,214,5,Home Loan,Home Purchase,825000,84,17.39,0.818,Active,Approved
+308,489,5,Education Loan,Education,2235000,60,14.14,2.18,Closed,Approved
+309,79,2,Home Loan,Home Purchase,675000,84,12.71,0.736,Defaulted,Approved
+310,4,4,Business Loan,Business Expansion,1515000,48,10.13,3.677,Active,Approved
+311,434,4,Education Loan,Education,305000,120,18.09,0.565,Closed,Approved
+312,278,2,Home Loan,Home Purchase,1965000,120,9.75,1.819,Closed,Approved
+313,492,1,Personal Loan,Medical,810000,36,17.36,3.0,Closed,Approved
+314,394,5,Personal Loan,Medical,790000,12,10.54,10.676,Active,Approved
+315,181,4,Personal Loan,Medical,960000,180,17.47,0.711,Defaulted,Approved
+316,459,4,Auto Loan,Vehicle,645000,60,16.41,0.603,Closed,Approved
+317,102,1,Business Loan,Business Expansion,2045000,12,15.47,12.47,Active,Approved
+318,47,2,Auto Loan,Vehicle,400000,48,15.28,2.564,Active,Approved
+319,282,1,Home Loan,Home Purchase,170000,180,12.97,0.206,Active,Approved
+320,459,6,Education Loan,Education,2135000,60,12.07,1.995,Closed,Approved
+321,411,5,Auto Loan,Vehicle,1535000,84,10.16,1.858,Closed,Approved
+322,122,6,Personal Loan,Medical,1750000,36,8.34,8.102,Closed,Approved
+323,62,6,Education Loan,Education,1445000,84,15.87,1.007,Active,Approved
+324,202,3,Business Loan,Business Expansion,900000,180,12.54,0.984,Closed,Approved
+325,478,5,Personal Loan,Medical,1030000,48,12.79,1.88,Defaulted,Approved
+326,235,3,Business Loan,Business Expansion,2285000,24,16.78,7.566,Closed,Approved
+327,333,4,Business Loan,Business Expansion,1205000,84,11.81,3.513,Active,Approved
+328,70,3,Business Loan,Business Expansion,2175000,24,9.67,8.841,Active,Approved
+329,252,2,Business Loan,Business Expansion,1870000,48,15.33,14.609,Closed,Approved
+330,446,5,Personal Loan,Medical,925000,36,9.91,2.318,Active,Approved
+331,89,6,Business Loan,Business Expansion,1945000,180,14.03,1.525,Active,Approved
+332,374,4,Personal Loan,Medical,1485000,180,18.29,2.25,Active,Approved
+333,108,3,Business Loan,Business Expansion,2405000,180,17.88,1.028,Defaulted,Approved
+334,299,5,Education Loan,Education,1145000,36,15.83,2.074,Closed,Approved
+335,362,4,Education Loan,Education,1495000,12,16.0,6.953,Closed,Approved
+336,495,3,Auto Loan,Vehicle,1020000,12,14.83,4.789,Closed,Approved
+337,84,4,Home Loan,Home Purchase,660000,48,16.91,1.528,Closed,Approved
+338,137,5,Home Loan,Home Purchase,1965000,120,7.6,2.339,Active,Approved
+339,476,3,Home Loan,Home Purchase,1820000,12,13.57,31.93,Defaulted,Approved
+340,469,2,Home Loan,Home Purchase,1750000,180,16.39,0.758,Active,Approved
+341,55,6,Education Loan,Education,1535000,36,16.39,7.525,Closed,Approved
+342,101,5,Education Loan,Education,1855000,84,12.79,12.619,Defaulted,Approved
+343,173,6,Education Loan,Education,1500000,180,17.42,1.176,Defaulted,Approved
+344,248,1,Education Loan,Education,440000,120,12.94,1.294,Active,Approved
+345,93,4,Business Loan,Business Expansion,495000,36,11.59,1.352,Closed,Approved
+346,404,3,Auto Loan,Vehicle,1590000,24,7.86,34.565,Active,Approved
+347,113,6,Business Loan,Business Expansion,175000,120,13.85,0.094,Active,Approved
+348,17,5,Personal Loan,Medical,1935000,12,18.42,34.554,Closed,Approved
+349,468,1,Auto Loan,Vehicle,820000,180,12.07,0.448,Closed,Approved
+350,114,4,Business Loan,Business Expansion,850000,120,17.15,0.407,Active,Approved
+351,116,3,Personal Loan,Medical,800000,48,13.07,0.93,Closed,Approved
+352,41,1,Personal Loan,Medical,815000,60,7.9,0.762,Active,Approved
+353,278,1,Home Loan,Home Purchase,2450000,12,14.98,22.685,Defaulted,Approved
+354,221,3,Education Loan,Education,2485000,12,15.41,11.667,Active,Approved
+355,149,3,Home Loan,Home Purchase,465000,24,11.09,1.067,Closed,Approved
+356,403,2,Education Loan,Education,1165000,12,11.38,6.619,Active,Approved
+357,40,4,Home Loan,Home Purchase,2415000,120,12.11,1.118,Active,Approved
+358,279,4,Business Loan,Business Expansion,975000,48,12.97,1.219,Closed,Approved
+359,109,3,Home Loan,Home Purchase,1380000,36,10.31,2.486,Closed,Approved
+360,112,6,Auto Loan,Vehicle,2360000,48,7.86,3.576,Defaulted,Approved
+361,475,5,Business Loan,Business Expansion,1420000,84,17.85,2.779,Closed,Approved
+362,385,3,Auto Loan,Vehicle,1045000,48,8.55,2.779,Closed,Rejected
+363,40,5,Personal Loan,Medical,735000,48,15.49,0.851,Active,Approved
+364,24,3,Auto Loan,Vehicle,320000,12,14.7,2.286,Closed,Approved
+365,290,4,Business Loan,Business Expansion,1780000,36,13.43,23.733,Closed,Rejected
+366,279,6,Education Loan,Education,1535000,180,7.91,0.512,Active,Approved
+367,181,4,Auto Loan,Vehicle,95000,120,13.99,0.106,Defaulted,Approved
+368,54,6,Auto Loan,Vehicle,2075000,120,18.2,2.184,Active,Approved
+369,85,3,Auto Loan,Vehicle,1040000,120,12.31,0.693,Active,Approved
+370,342,3,Business Loan,Business Expansion,255000,180,10.91,0.386,Active,Approved
+371,420,2,Personal Loan,Medical,1250000,60,12.15,3.378,Defaulted,Approved
+372,30,3,Personal Loan,Medical,475000,180,16.5,0.185,Defaulted,Approved
+373,435,3,Business Loan,Business Expansion,1580000,120,11.58,1.596,Defaulted,Approved
+374,47,6,Business Loan,Business Expansion,275000,36,11.96,2.35,Active,Approved
+375,213,1,Auto Loan,Vehicle,2105000,48,14.0,3.604,Active,Approved
+376,272,2,Home Loan,Home Purchase,1470000,180,12.06,0.653,Defaulted,Approved
+377,202,6,Home Loan,Home Purchase,750000,48,9.34,3.074,Active,Approved
+378,9,2,Education Loan,Education,1300000,12,17.97,6.771,Defaulted,Approved
+379,214,4,Personal Loan,Medical,1690000,48,14.12,2.934,Closed,Approved
+380,111,5,Auto Loan,Vehicle,2440000,60,8.93,2.49,Defaulted,Approved
+381,102,1,Home Loan,Home Purchase,2015000,48,13.15,3.072,Defaulted,Approved
+382,51,2,Home Loan,Home Purchase,650000,180,18.2,1.97,Defaulted,Approved
+383,104,3,Business Loan,Business Expansion,2230000,48,15.36,19.224,Active,Approved
+384,198,2,Personal Loan,Medical,460000,84,8.84,0.427,Closed,Approved
+385,167,2,Education Loan,Education,1605000,180,11.29,0.648,Closed,Approved
+386,251,5,Auto Loan,Vehicle,640000,60,9.65,1.058,Active,Approved
+387,70,3,Business Loan,Business Expansion,510000,180,18.26,0.276,Active,Approved
+388,337,5,Education Loan,Education,350000,84,15.5,0.239,Defaulted,Approved
+389,183,3,Auto Loan,Vehicle,2115000,84,12.96,2.324,Closed,Approved
+390,474,4,Business Loan,Business Expansion,360000,48,11.76,0.495,Closed,Approved
+391,402,4,Home Loan,Home Purchase,1925000,60,7.78,3.969,Closed,Approved
+392,419,4,Business Loan,Business Expansion,2325000,120,16.78,1.123,Active,Approved
+393,216,1,Personal Loan,Medical,525000,84,16.49,0.528,Active,Approved
+394,481,5,Business Loan,Business Expansion,1070000,48,13.45,3.715,Closed,Approved
+395,193,6,Auto Loan,Vehicle,1080000,60,15.4,2.16,Defaulted,Approved
+396,488,6,Education Loan,Education,2385000,180,18.08,0.93,Closed,Approved
+397,483,3,Auto Loan,Vehicle,1415000,36,11.86,9.433,Active,Approved
+398,43,4,Business Loan,Business Expansion,310000,180,16.4,0.626,Active,Approved
+399,428,6,Business Loan,Business Expansion,75000,12,10.98,0.547,Closed,Approved
+400,371,6,Home Loan,Home Purchase,2360000,12,16.26,12.041,Defaulted,Approved
+401,440,3,Education Loan,Education,2010000,36,16.86,30.455,Defaulted,Approved
+402,179,4,Personal Loan,Medical,1930000,24,10.22,9.65,Closed,Approved
+403,481,5,Home Loan,Home Purchase,180000,48,7.72,0.625,Closed,Approved
+404,331,1,Auto Loan,Vehicle,140000,12,11.38,0.824,Closed,Approved
+405,390,4,Business Loan,Business Expansion,330000,180,12.24,0.132,Closed,Approved
+406,334,3,Home Loan,Home Purchase,200000,12,8.25,6.897,Closed,Approved
+407,33,6,Education Loan,Education,690000,12,11.17,4.481,Active,Approved
+408,197,4,Auto Loan,Vehicle,1435000,60,11.61,3.376,Active,Approved
+409,289,6,Education Loan,Education,620000,36,16.13,1.088,Active,Approved
+410,215,5,Home Loan,Home Purchase,1615000,36,16.14,3.542,Active,Approved
+411,248,2,Business Loan,Business Expansion,595000,60,10.56,3.5,Defaulted,Approved
+412,319,2,Auto Loan,Vehicle,1670000,120,17.56,0.918,Active,Approved
+413,62,2,Education Loan,Education,675000,180,18.25,0.22,Active,Approved
+414,6,1,Personal Loan,Medical,145000,60,18.27,0.139,Closed,Approved
+415,453,1,Home Loan,Home Purchase,1605000,12,15.25,15.142,Active,Approved
+416,433,3,Education Loan,Education,790000,120,11.87,1.519,Closed,Approved
+417,387,3,Home Loan,Home Purchase,1140000,12,13.18,6.628,Closed,Approved
+418,208,6,Home Loan,Home Purchase,1560000,180,13.55,4.522,Defaulted,Approved
+419,22,3,Auto Loan,Vehicle,1710000,24,14.14,4.858,Defaulted,Approved
+420,157,1,Home Loan,Home Purchase,1125000,48,8.25,2.511,Active,Approved
+421,438,4,Business Loan,Business Expansion,2130000,180,14.09,3.463,Active,Approved
+422,483,5,Home Loan,Home Purchase,335000,60,13.59,1.34,Defaulted,Approved
+423,290,3,Business Loan,Business Expansion,785000,12,11.61,31.4,Closed,Rejected
+424,266,6,Auto Loan,Vehicle,2155000,12,15.27,10.262,Defaulted,Approved
+425,233,4,Business Loan,Business Expansion,1620000,36,10.48,6.136,Defaulted,Approved
+426,258,2,Education Loan,Education,1135000,24,17.91,3.834,Active,Approved
+427,473,3,Business Loan,Business Expansion,2330000,48,14.23,4.895,Closed,Approved
+428,150,6,Education Loan,Education,825000,84,7.57,0.71,Active,Approved
+429,356,4,Personal Loan,Medical,2230000,24,14.98,8.577,Closed,Approved
+430,449,3,Auto Loan,Vehicle,785000,12,13.46,12.46,Active,Approved
+431,385,2,Personal Loan,Medical,650000,24,16.74,3.457,Closed,Rejected
+432,416,2,Business Loan,Business Expansion,1955000,120,14.81,1.278,Defaulted,Approved
+433,370,1,Auto Loan,Vehicle,1800000,12,15.73,23.377,Closed,Approved
+434,412,2,Education Loan,Education,180000,180,15.46,0.108,Active,Approved
+435,403,1,Business Loan,Business Expansion,90000,120,13.52,0.051,Active,Approved
+436,170,1,Business Loan,Business Expansion,845000,120,9.74,0.748,Active,Approved
+437,245,4,Business Loan,Business Expansion,2270000,60,8.05,3.815,Defaulted,Approved
+438,47,1,Home Loan,Home Purchase,935000,24,10.23,11.987,Active,Approved
+439,366,2,Education Loan,Education,1330000,36,8.35,3.359,Closed,Approved
+440,296,3,Auto Loan,Vehicle,1630000,84,12.55,1.17,Active,Approved
+441,318,2,Home Loan,Home Purchase,1280000,60,14.07,1.196,Active,Approved
+442,94,2,Auto Loan,Vehicle,1415000,24,11.16,3.306,Active,Approved
+443,38,3,Personal Loan,Medical,2075000,120,16.55,1.064,Active,Approved
+444,319,3,Business Loan,Business Expansion,1375000,120,16.15,0.755,Active,Approved
+445,458,6,Home Loan,Home Purchase,1885000,84,15.62,1.966,Closed,Approved
+446,264,1,Business Loan,Business Expansion,475000,84,15.98,0.326,Defaulted,Approved
+447,73,1,Home Loan,Home Purchase,745000,60,13.93,1.164,Active,Approved
+448,295,1,Home Loan,Home Purchase,1330000,48,17.02,11.083,Closed,Approved
+449,182,3,Personal Loan,Medical,1975000,120,14.83,1.372,Active,Approved
+450,341,3,Auto Loan,Vehicle,935000,60,14.43,8.13,Active,Approved
+451,123,4,Personal Loan,Medical,1690000,24,16.67,4.829,Active,Approved
+452,114,6,Auto Loan,Vehicle,2325000,120,12.11,1.112,Active,Approved
+453,139,4,Home Loan,Home Purchase,960000,84,7.74,0.779,Active,Approved
+454,214,6,Personal Loan,Medical,1795000,180,8.12,0.831,Closed,Approved
+455,88,1,Personal Loan,Medical,1565000,180,9.81,0.796,Active,Approved
+456,311,2,Auto Loan,Vehicle,345000,12,12.01,8.023,Defaulted,Approved
+457,121,5,Auto Loan,Vehicle,2070000,120,17.66,0.981,Defaulted,Approved
+458,496,4,Auto Loan,Vehicle,820000,180,16.15,0.377,Active,Approved
+459,21,3,Business Loan,Business Expansion,1405000,36,15.04,2.209,Active,Approved
+460,452,4,Business Loan,Business Expansion,585000,48,7.59,2.438,Closed,Approved
+461,444,1,Personal Loan,Medical,1580000,120,13.59,1.225,Defaulted,Approved
+462,277,4,Auto Loan,Vehicle,1520000,180,11.39,0.512,Defaulted,Approved
+463,344,6,Personal Loan,Medical,1035000,84,16.61,0.96,Active,Approved
+464,32,2,Education Loan,Education,1015000,84,11.09,0.918,Active,Approved
+465,177,1,Business Loan,Business Expansion,110000,48,17.85,0.243,Closed,Approved
+466,369,6,Business Loan,Business Expansion,170000,36,17.44,0.292,Closed,Approved
+467,499,1,Business Loan,Business Expansion,920000,12,11.34,11.358,Defaulted,Approved
+468,118,1,Education Loan,Education,2370000,48,14.95,3.445,Closed,Approved
+469,76,6,Auto Loan,Vehicle,1620000,24,12.58,11.571,Defaulted,Approved
+470,313,5,Education Loan,Education,2435000,180,14.22,1.866,Active,Approved
+471,239,4,Auto Loan,Vehicle,2375000,48,15.44,10.603,Active,Approved
+472,495,1,Personal Loan,Medical,555000,120,8.79,0.261,Defaulted,Approved
+473,247,5,Home Loan,Home Purchase,215000,180,16.99,0.105,Defaulted,Approved
+474,134,6,Education Loan,Education,1635000,120,13.16,2.336,Closed,Approved
+475,246,6,Education Loan,Education,2395000,12,11.3,11.459,Defaulted,Approved
+476,235,2,Auto Loan,Vehicle,1040000,24,17.2,3.444,Active,Approved
+477,138,1,Personal Loan,Medical,530000,84,9.95,0.742,Active,Approved
+478,234,6,Business Loan,Business Expansion,1470000,12,10.92,77.368,Closed,Approved
+479,127,3,Education Loan,Education,1625000,84,18.06,1.469,Defaulted,Approved
+480,137,3,Education Loan,Education,1050000,24,17.09,6.25,Active,Approved
+481,330,3,Auto Loan,Vehicle,2375000,48,13.0,6.985,Closed,Approved
+482,141,5,Business Loan,Business Expansion,1805000,48,13.83,2.452,Active,Approved
+483,432,5,Education Loan,Education,735000,180,15.16,0.358,Closed,Approved
+484,320,2,Business Loan,Business Expansion,2240000,36,11.21,11.313,Active,Approved
+485,17,2,Home Loan,Home Purchase,895000,180,8.76,1.065,Active,Approved
+486,305,1,Education Loan,Education,850000,24,9.75,2.607,Active,Approved
+487,103,6,Personal Loan,Medical,1450000,84,16.04,2.762,Active,Approved
+488,17,5,Education Loan,Education,1745000,48,12.72,7.79,Closed,Approved
+489,117,4,Auto Loan,Vehicle,995000,180,15.07,0.62,Active,Approved
+490,144,1,Education Loan,Education,965000,84,15.54,1.745,Active,Approved
+491,120,6,Home Loan,Home Purchase,820000,24,12.62,10.513,Active,Approved
+492,336,3,Auto Loan,Vehicle,1385000,24,12.84,7.446,Closed,Rejected
+493,118,5,Personal Loan,Medical,2380000,48,13.35,3.459,Closed,Approved
+494,339,5,Business Loan,Business Expansion,1275000,36,16.9,8.333,Active,Approved
+495,271,6,Education Loan,Education,2150000,180,7.65,0.89,Active,Approved
+496,30,3,Education Loan,Education,1395000,36,16.34,2.719,Active,Approved
+497,384,6,Education Loan,Education,1540000,120,9.79,1.132,Active,Approved
+498,6,4,Business Loan,Business Expansion,405000,48,13.46,0.487,Active,Approved
+499,335,1,Education Loan,Education,730000,120,13.5,0.518,Active,Approved
+500,173,5,Personal Loan,Medical,1265000,48,11.63,3.721,Active,Approved
+501,335,3,Home Loan,Home Purchase,490000,24,18.47,1.738,Defaulted,Approved
+502,234,6,Business Loan,Business Expansion,470000,36,9.92,8.246,Active,Approved
+503,206,6,Personal Loan,Medical,2035000,180,14.19,1.596,Closed,Rejected
+504,132,3,Education Loan,Education,1640000,84,11.56,1.116,Closed,Approved
+505,122,3,Business Loan,Business Expansion,1490000,120,15.3,2.069,Closed,Approved
+506,414,1,Auto Loan,Vehicle,1390000,84,14.78,2.09,Defaulted,Approved
+507,393,2,Business Loan,Business Expansion,1895000,36,14.45,3.63,Defaulted,Approved
+508,317,1,Auto Loan,Vehicle,745000,24,13.53,3.184,Closed,Approved
+509,420,5,Auto Loan,Vehicle,1290000,24,13.92,8.716,Active,Approved
+510,368,4,Home Loan,Home Purchase,1195000,36,14.95,1.906,Active,Approved
+511,209,4,Personal Loan,Medical,1160000,120,9.78,0.779,Active,Approved
+512,29,4,Personal Loan,Medical,1655000,120,9.64,1.465,Active,Approved
+513,390,3,Education Loan,Education,2090000,36,17.49,4.172,Closed,Approved
+514,277,5,Education Loan,Education,2005000,60,16.88,2.025,Active,Approved
+515,470,2,Auto Loan,Vehicle,2000000,180,9.22,5.797,Closed,Approved
+516,445,3,Auto Loan,Vehicle,1915000,12,11.75,11.748,Closed,Approved
+517,313,2,Personal Loan,Medical,1290000,120,14.1,1.483,Defaulted,Approved
+518,94,4,Business Loan,Business Expansion,2090000,180,17.49,0.651,Active,Approved
+519,395,2,Education Loan,Education,1855000,120,13.64,1.912,Closed,Approved
+520,2,2,Education Loan,Education,2195000,180,16.54,1.394,Active,Approved
+521,318,6,Business Loan,Business Expansion,1520000,12,12.24,7.103,Closed,Approved
+522,294,6,Personal Loan,Medical,255000,60,10.4,0.287,Active,Approved
+523,451,5,Personal Loan,Medical,1905000,60,11.07,14.111,Active,Approved
+524,480,6,Education Loan,Education,2180000,180,12.59,0.845,Closed,Approved
+525,269,6,Home Loan,Home Purchase,1820000,24,14.05,41.364,Active,Approved
+526,74,4,Business Loan,Business Expansion,1865000,84,16.46,2.537,Closed,Approved
+527,480,4,Home Loan,Home Purchase,515000,180,18.32,0.2,Active,Approved
+528,357,1,Education Loan,Education,835000,24,9.16,3.313,Closed,Approved
+529,165,5,Personal Loan,Medical,1475000,60,7.87,3.933,Defaulted,Approved
+530,96,4,Home Loan,Home Purchase,1045000,180,16.57,0.571,Active,Approved
+531,120,6,Home Loan,Home Purchase,2490000,180,11.05,4.256,Defaulted,Approved
+532,187,5,Home Loan,Home Purchase,2320000,48,11.08,18.71,Active,Approved
+533,455,2,Business Loan,Business Expansion,320000,84,14.83,0.462,Defaulted,Approved
+534,258,6,Business Loan,Business Expansion,965000,120,13.84,0.652,Active,Approved
+535,176,3,Personal Loan,Medical,2110000,48,18.49,3.318,Defaulted,Approved
+536,445,5,Home Loan,Home Purchase,635000,84,16.31,0.557,Closed,Approved
+537,458,5,Business Loan,Business Expansion,2445000,36,12.62,5.949,Active,Approved
+538,269,3,Auto Loan,Vehicle,895000,60,18.07,8.136,Closed,Approved
+539,187,3,Business Loan,Business Expansion,2395000,24,16.12,38.629,Active,Approved
+540,414,5,Education Loan,Education,1240000,12,8.38,13.053,Defaulted,Approved
+541,291,6,Personal Loan,Medical,555000,36,7.66,1.907,Active,Approved
+542,408,3,Auto Loan,Vehicle,495000,48,15.89,1.058,Closed,Approved
+543,442,3,Education Loan,Education,800000,180,11.93,0.42,Active,Approved
+544,25,3,Auto Loan,Vehicle,1960000,120,14.52,1.4,Active,Approved
+545,171,3,Home Loan,Home Purchase,1525000,24,15.28,5.259,Active,Approved
+546,153,3,Auto Loan,Vehicle,1595000,84,13.76,1.593,Active,Approved
+547,110,5,Education Loan,Education,1730000,84,11.26,1.916,Closed,Approved
+548,191,4,Home Loan,Home Purchase,2345000,180,18.45,8.228,Closed,Approved
+549,50,2,Auto Loan,Vehicle,455000,24,16.97,1.191,Defaulted,Approved
+550,468,3,Education Loan,Education,2105000,48,14.02,4.314,Defaulted,Approved
+551,288,2,Personal Loan,Medical,590000,180,14.95,0.259,Active,Approved
+552,376,4,Auto Loan,Vehicle,1275000,84,17.68,0.925,Closed,Approved
+553,133,1,Personal Loan,Medical,2000000,180,14.59,1.223,Defaulted,Approved
+554,489,3,Home Loan,Home Purchase,2045000,12,10.53,9.976,Active,Approved
+555,321,1,Education Loan,Education,900000,12,16.41,13.846,Active,Approved
+556,143,6,Personal Loan,Medical,325000,180,15.26,0.319,Active,Approved
+557,242,2,Education Loan,Education,1995000,48,17.94,11.335,Defaulted,Approved
+558,404,3,Personal Loan,Medical,2420000,60,14.21,21.043,Active,Approved
+559,207,4,Auto Loan,Vehicle,1185000,24,12.5,5.197,Closed,Approved
+560,222,2,Auto Loan,Vehicle,290000,24,13.4,0.678,Active,Approved
+561,94,1,Personal Loan,Medical,1640000,12,13.93,7.664,Active,Approved
+562,230,3,Auto Loan,Vehicle,1805000,48,8.36,5.309,Active,Approved
+563,456,6,Home Loan,Home Purchase,830000,24,11.4,1.967,Active,Approved
+564,148,2,Education Loan,Education,2170000,24,8.23,11.071,Active,Approved
+565,414,6,Personal Loan,Medical,1775000,180,14.28,1.246,Active,Approved
+566,318,5,Auto Loan,Vehicle,465000,24,9.82,1.086,Defaulted,Approved
+567,443,3,Education Loan,Education,1555000,36,15.02,9.256,Active,Approved
+568,181,1,Personal Loan,Medical,1200000,120,10.65,1.333,Active,Approved
+569,419,2,Home Loan,Home Purchase,1585000,24,7.83,3.829,Active,Approved
+570,465,1,Auto Loan,Vehicle,2455000,36,14.13,7.794,Active,Approved
+571,264,6,Personal Loan,Medical,1525000,36,16.82,2.444,Active,Approved
+572,366,5,Business Loan,Business Expansion,1415000,12,11.32,10.72,Closed,Approved
+573,119,2,Personal Loan,Medical,1995000,180,16.49,1.243,Active,Approved
+574,350,3,Personal Loan,Medical,1710000,36,8.44,7.917,Defaulted,Approved
+575,98,2,Business Loan,Business Expansion,915000,180,9.82,0.332,Closed,Approved
+576,251,2,Home Loan,Home Purchase,1580000,24,8.11,6.529,Active,Approved
+577,416,4,Home Loan,Home Purchase,2190000,120,12.32,1.431,Active,Approved
+578,387,4,Education Loan,Education,2210000,84,9.33,1.836,Defaulted,Approved
+579,56,6,Personal Loan,Medical,1325000,60,16.28,1.732,Closed,Approved
+580,192,4,Personal Loan,Medical,2430000,60,9.92,12.789,Closed,Approved
+581,138,5,Home Loan,Home Purchase,1600000,60,11.41,3.137,Active,Approved
+582,13,2,Business Loan,Business Expansion,325000,48,18.23,0.419,Closed,Approved
+583,86,6,Auto Loan,Vehicle,1925000,12,16.04,13.007,Defaulted,Approved
+584,383,6,Personal Loan,Medical,1770000,180,9.2,0.694,Active,Approved
+585,130,4,Personal Loan,Medical,960000,180,10.83,0.529,Closed,Approved
+586,302,6,Home Loan,Home Purchase,450000,12,9.22,2.217,Defaulted,Approved
+587,266,4,Auto Loan,Vehicle,2300000,36,10.93,3.651,Active,Approved
+588,112,1,Business Loan,Business Expansion,1830000,120,12.87,1.109,Active,Approved
+589,65,2,Personal Loan,Medical,905000,180,16.55,0.281,Defaulted,Approved
+590,181,5,Home Loan,Home Purchase,2315000,12,12.54,25.722,Closed,Approved
+591,89,4,Home Loan,Home Purchase,345000,60,13.52,0.812,Active,Approved
+592,424,5,Home Loan,Home Purchase,645000,120,16.98,0.303,Active,Approved
+593,337,4,Business Loan,Business Expansion,2245000,120,17.28,1.074,Active,Approved
+594,218,1,Education Loan,Education,1335000,24,12.88,4.48,Closed,Approved
+595,447,3,Business Loan,Business Expansion,85000,36,12.81,0.129,Active,Approved
+596,444,2,Auto Loan,Vehicle,370000,24,8.79,1.434,Closed,Approved
+597,400,3,Personal Loan,Medical,510000,36,15.18,0.794,Closed,Approved
+598,345,5,Education Loan,Education,815000,24,8.89,4.075,Active,Approved
+599,365,6,Education Loan,Education,1220000,48,16.5,2.383,Active,Approved
+600,467,6,Home Loan,Home Purchase,960000,120,13.14,1.0,Active,Approved
+601,95,1,Business Loan,Business Expansion,1905000,12,10.03,9.115,Active,Approved
+602,333,6,Personal Loan,Medical,2345000,24,10.57,23.929,Active,Approved
+603,120,4,Personal Loan,Medical,1180000,12,10.57,30.256,Active,Approved
+604,131,6,Auto Loan,Vehicle,995000,60,11.97,1.354,Closed,Rejected
+605,96,6,Personal Loan,Medical,1620000,60,13.84,2.656,Closed,Approved
+606,185,3,Home Loan,Home Purchase,2140000,12,11.62,10.439,Active,Approved
+607,394,4,Education Loan,Education,920000,60,17.33,2.486,Closed,Approved
+608,177,5,Auto Loan,Vehicle,1740000,24,13.81,7.699,Active,Approved
+609,190,1,Business Loan,Business Expansion,1080000,84,14.9,1.265,Active,Approved
+610,287,4,Business Loan,Business Expansion,1910000,36,13.22,7.579,Active,Approved
+611,487,5,Auto Loan,Vehicle,330000,24,10.4,0.959,Defaulted,Approved
+612,45,1,Home Loan,Home Purchase,2420000,48,14.1,4.007,Closed,Approved
+613,276,6,Home Loan,Home Purchase,2425000,12,15.75,22.248,Defaulted,Approved
+614,420,5,Home Loan,Home Purchase,1405000,48,13.6,4.747,Active,Approved
+615,273,2,Auto Loan,Vehicle,65000,120,12.85,0.035,Defaulted,Approved
+616,219,3,Personal Loan,Medical,135000,12,17.89,0.894,Closed,Approved
+617,474,5,Education Loan,Education,1040000,48,13.99,1.429,Active,Approved
+618,497,2,Education Loan,Education,285000,84,15.87,0.59,Active,Approved
+619,246,6,Home Loan,Home Purchase,1325000,84,13.14,0.906,Active,Approved
+620,359,2,Home Loan,Home Purchase,1785000,36,15.29,3.005,Active,Approved
+621,269,1,Business Loan,Business Expansion,865000,12,15.89,39.318,Defaulted,Approved
+622,424,1,Home Loan,Home Purchase,815000,180,14.27,0.255,Closed,Approved
+623,180,5,Auto Loan,Vehicle,425000,84,16.01,2.024,Active,Approved
+624,471,1,Education Loan,Education,1535000,12,7.88,8.253,Active,Approved
+625,313,4,Auto Loan,Vehicle,1395000,60,18.46,3.207,Closed,Approved
+626,227,4,Personal Loan,Medical,795000,180,11.2,1.71,Active,Approved
+627,481,3,Education Loan,Education,1185000,48,17.56,4.115,Closed,Approved
+628,190,2,Business Loan,Business Expansion,1390000,48,11.68,2.848,Active,Approved
+629,190,1,Education Loan,Education,500000,12,8.88,4.098,Active,Approved
+630,481,6,Auto Loan,Vehicle,255000,12,13.72,3.542,Defaulted,Approved
+631,342,6,Home Loan,Home Purchase,1775000,120,16.6,4.034,Defaulted,Approved
+632,200,1,Auto Loan,Vehicle,265000,24,12.1,1.274,Active,Approved
+633,149,3,Personal Loan,Medical,2430000,120,10.73,1.115,Closed,Approved
+634,359,6,Home Loan,Home Purchase,630000,36,14.69,1.061,Closed,Approved
+635,28,5,Home Loan,Home Purchase,1995000,12,14.32,32.705,Defaulted,Approved
+636,371,2,Business Loan,Business Expansion,2070000,120,15.63,1.056,Defaulted,Approved
+637,177,5,Auto Loan,Vehicle,1620000,180,11.24,0.956,Defaulted,Approved
+638,308,1,Home Loan,Home Purchase,1675000,24,15.38,11.632,Closed,Approved
+639,228,2,Education Loan,Education,470000,24,18.39,1.497,Closed,Approved
+640,252,3,Home Loan,Home Purchase,600000,120,9.06,1.875,Closed,Approved
+641,284,1,Personal Loan,Medical,1365000,48,8.48,2.174,Active,Approved
+642,447,2,Auto Loan,Vehicle,2070000,120,9.54,0.945,Closed,Approved
+643,388,1,Auto Loan,Vehicle,1115000,84,8.18,2.182,Active,Approved
+644,367,6,Personal Loan,Medical,785000,24,14.05,3.191,Defaulted,Approved
+645,237,3,Personal Loan,Medical,1875000,24,17.55,10.417,Active,Approved
+646,250,2,Personal Loan,Medical,665000,180,12.68,0.232,Closed,Approved
+647,73,2,Education Loan,Education,910000,24,14.62,3.555,Closed,Approved
+648,211,3,Personal Loan,Medical,320000,180,10.74,0.577,Active,Approved
+649,442,3,Auto Loan,Vehicle,590000,24,8.11,2.323,Active,Approved
+650,460,2,Auto Loan,Vehicle,1925000,12,10.24,36.321,Active,Approved
+651,471,4,Auto Loan,Vehicle,1435000,36,17.35,2.572,Active,Approved
+652,87,1,Personal Loan,Medical,170000,84,15.1,0.125,Active,Approved
+653,246,3,Home Loan,Home Purchase,820000,60,15.53,0.785,Active,Approved
+654,378,1,Personal Loan,Medical,1255000,12,12.23,7.844,Defaulted,Approved
+655,116,1,Education Loan,Education,2160000,48,15.58,2.512,Active,Approved
+656,372,2,Home Loan,Home Purchase,2250000,36,12.92,5.682,Active,Approved
+657,366,1,Home Loan,Home Purchase,1675000,48,15.57,3.172,Active,Approved
+658,277,6,Education Loan,Education,1645000,84,11.79,1.187,Closed,Approved
+659,113,4,Home Loan,Home Purchase,1455000,60,11.28,1.565,Defaulted,Approved
+660,91,6,Home Loan,Home Purchase,1700000,12,16.53,27.869,Defaulted,Approved
+661,360,2,Personal Loan,Medical,2070000,180,17.38,1.15,Defaulted,Approved
+662,138,3,Home Loan,Home Purchase,1235000,84,7.62,1.73,Active,Approved
+663,61,5,Education Loan,Education,495000,12,13.85,2.633,Active,Approved
+664,56,5,Business Loan,Business Expansion,1640000,120,18.29,1.072,Defaulted,Approved
+665,197,1,Education Loan,Education,865000,180,14.04,0.678,Active,Approved
+666,360,3,Education Loan,Education,980000,36,14.29,2.722,Active,Approved
+667,476,2,Personal Loan,Medical,1790000,60,8.64,6.281,Active,Approved
+668,205,5,Personal Loan,Medical,535000,12,10.76,18.448,Closed,Approved
+669,381,6,Business Loan,Business Expansion,1685000,48,12.16,1.932,Closed,Approved
+670,457,5,Education Loan,Education,2315000,120,18.17,1.996,Defaulted,Approved
+671,184,1,Education Loan,Education,2390000,12,8.77,125.789,Active,Approved
+672,76,5,Education Loan,Education,685000,36,12.54,3.262,Active,Approved
+673,111,2,Business Loan,Business Expansion,985000,48,10.28,1.256,Closed,Approved
+674,182,1,Business Loan,Business Expansion,1260000,12,16.56,8.75,Defaulted,Approved
+675,22,6,Auto Loan,Vehicle,1665000,180,11.36,0.631,Closed,Approved
+676,175,2,Education Loan,Education,170000,84,11.11,0.434,Defaulted,Approved
+677,141,6,Business Loan,Business Expansion,425000,84,13.72,0.33,Active,Approved
+678,239,3,Personal Loan,Medical,1340000,12,16.56,23.929,Active,Approved
+679,269,3,Personal Loan,Medical,645000,12,10.53,29.318,Defaulted,Approved
+680,60,2,Auto Loan,Vehicle,2110000,12,14.97,10.711,Defaulted,Approved
+681,305,5,Education Loan,Education,1430000,84,14.12,1.253,Defaulted,Approved
+682,474,3,Personal Loan,Medical,2290000,36,10.25,4.194,Active,Approved
+683,448,1,Personal Loan,Medical,470000,60,18.18,0.514,Closed,Approved
+684,249,4,Home Loan,Home Purchase,630000,48,8.25,0.932,Closed,Approved
+685,375,4,Education Loan,Education,2155000,84,16.01,1.587,Defaulted,Approved
+686,419,3,Personal Loan,Medical,795000,36,10.05,1.28,Active,Approved
+687,416,5,Auto Loan,Vehicle,985000,84,11.02,0.92,Defaulted,Approved
+688,145,3,Home Loan,Home Purchase,1995000,84,18.08,2.192,Defaulted,Approved
+689,288,2,Business Loan,Business Expansion,170000,36,12.04,0.373,Closed,Approved
+690,128,4,Personal Loan,Medical,730000,180,11.85,0.811,Closed,Approved
+691,296,6,Personal Loan,Medical,2465000,180,7.82,0.826,Active,Approved
+692,388,5,Home Loan,Home Purchase,1070000,48,9.92,3.664,Closed,Approved
+693,194,3,Home Loan,Home Purchase,1765000,180,8.55,0.934,Active,Approved
+694,159,2,Business Loan,Business Expansion,520000,48,10.94,1.781,Closed,Approved
+695,264,3,Auto Loan,Vehicle,1805000,36,17.78,2.893,Defaulted,Approved
+696,103,3,Auto Loan,Vehicle,825000,12,14.43,11.0,Active,Approved
+697,286,2,Business Loan,Business Expansion,1960000,36,10.96,17.658,Closed,Approved
+698,197,6,Business Loan,Business Expansion,265000,84,12.38,0.445,Defaulted,Approved
+699,173,2,Auto Loan,Vehicle,1105000,120,13.44,1.3,Closed,Approved
+700,494,6,Auto Loan,Vehicle,875000,60,11.67,8.333,Active,Approved
+701,288,2,Personal Loan,Medical,805000,120,16.79,0.53,Defaulted,Approved
+702,96,3,Education Loan,Education,975000,84,13.8,1.142,Active,Approved
+703,447,3,Business Loan,Business Expansion,2255000,84,16.61,1.471,Active,Approved
+704,401,4,Business Loan,Business Expansion,1790000,36,18.12,8.775,Active,Approved
+705,337,6,Auto Loan,Vehicle,490000,36,16.93,0.781,Active,Approved
+706,291,6,Home Loan,Home Purchase,2055000,120,8.96,2.119,Defaulted,Approved
+707,368,3,Business Loan,Business Expansion,920000,12,10.43,4.402,Active,Approved
+708,490,4,Auto Loan,Vehicle,1675000,48,18.47,2.737,Closed,Approved
+709,87,3,Home Loan,Home Purchase,2390000,180,12.24,0.821,Active,Approved
+710,233,5,Home Loan,Home Purchase,2280000,48,8.22,6.477,Active,Approved
+711,175,1,Auto Loan,Vehicle,2455000,36,17.59,14.613,Closed,Approved
+712,412,1,Home Loan,Home Purchase,210000,84,13.72,0.27,Active,Approved
+713,74,6,Auto Loan,Vehicle,2210000,48,15.47,5.262,Active,Approved
+714,314,6,Home Loan,Home Purchase,1235000,84,7.68,1.423,Active,Approved
+715,355,5,Home Loan,Home Purchase,1825000,12,10.08,45.625,Active,Approved
+716,405,1,Education Loan,Education,90000,120,18.22,0.07,Defaulted,Approved
+717,448,1,Education Loan,Education,1100000,180,10.55,0.401,Closed,Approved
+718,298,3,Auto Loan,Vehicle,730000,120,8.06,0.562,Active,Approved
+719,272,3,Education Loan,Education,1410000,48,16.94,2.35,Active,Approved
+720,346,4,Home Loan,Home Purchase,2055000,12,7.62,13.344,Active,Approved
+721,491,4,Auto Loan,Vehicle,990000,60,15.17,7.071,Defaulted,Approved
+722,333,2,Home Loan,Home Purchase,765000,84,7.57,2.23,Active,Approved
+723,315,6,Education Loan,Education,955000,36,15.3,5.395,Closed,Rejected
+724,63,6,Business Loan,Business Expansion,1865000,24,12.19,4.549,Active,Approved
+725,43,4,Business Loan,Business Expansion,485000,180,9.97,0.98,Closed,Approved
+726,469,4,Education Loan,Education,360000,36,8.55,0.779,Closed,Approved
+727,118,5,Education Loan,Education,2370000,36,14.39,4.593,Active,Approved
+728,414,2,Auto Loan,Vehicle,1975000,48,9.82,5.197,Defaulted,Approved
+729,71,5,Education Loan,Education,2250000,60,17.08,6.25,Closed,Approved
+730,293,6,Auto Loan,Vehicle,1840000,48,12.83,10.222,Active,Approved
+731,436,5,Education Loan,Education,1055000,180,9.88,2.01,Active,Approved
+732,64,4,Auto Loan,Vehicle,2165000,12,15.86,103.095,Active,Approved
+733,285,4,Auto Loan,Vehicle,2225000,180,10.45,2.514,Active,Approved
+734,386,2,Home Loan,Home Purchase,1130000,48,8.88,1.823,Active,Approved
+735,453,5,Auto Loan,Vehicle,940000,24,7.88,4.434,Closed,Approved
+736,275,6,Home Loan,Home Purchase,550000,60,9.63,1.058,Defaulted,Approved
+737,374,4,Education Loan,Education,315000,180,11.29,0.477,Defaulted,Approved
+738,436,3,Auto Loan,Vehicle,1715000,24,10.77,24.5,Closed,Approved
+739,403,1,Education Loan,Education,1325000,36,17.13,2.509,Active,Approved
+740,148,2,Education Loan,Education,1080000,84,13.5,1.574,Active,Approved
+741,338,6,Home Loan,Home Purchase,1650000,60,9.22,1.71,Active,Approved
+742,75,4,Auto Loan,Vehicle,575000,48,8.4,2.875,Defaulted,Approved
+743,477,2,Business Loan,Business Expansion,2190000,12,8.39,19.043,Active,Approved
+744,137,2,Home Loan,Home Purchase,650000,24,8.79,3.869,Closed,Approved
+745,478,1,Business Loan,Business Expansion,1090000,120,14.75,0.796,Defaulted,Approved
+746,341,5,Business Loan,Business Expansion,935000,48,10.68,10.163,Closed,Approved
+747,288,2,Education Loan,Education,1120000,120,12.28,0.737,Defaulted,Approved
+748,130,6,Education Loan,Education,935000,48,14.82,1.932,Closed,Approved
+749,423,5,Home Loan,Home Purchase,180000,120,8.92,0.094,Closed,Approved
+750,4,1,Home Loan,Home Purchase,750000,36,16.5,2.427,Active,Approved
+751,225,1,Education Loan,Education,240000,36,18.41,0.678,Defaulted,Approved
+752,47,2,Personal Loan,Medical,1585000,48,16.09,10.16,Defaulted,Approved
+753,106,3,Personal Loan,Medical,1455000,12,13.13,7.908,Active,Approved
+754,410,5,Education Loan,Education,2185000,48,14.91,26.012,Defaulted,Approved
+755,195,3,Personal Loan,Medical,525000,60,9.17,0.946,Closed,Rejected
+756,369,2,Home Loan,Home Purchase,2490000,24,14.13,6.418,Active,Approved
+757,316,6,Education Loan,Education,1635000,84,12.22,1.557,Defaulted,Approved
+758,284,2,Business Loan,Business Expansion,160000,180,7.7,0.068,Closed,Approved
+759,444,6,Home Loan,Home Purchase,1465000,120,14.77,1.136,Active,Approved
+760,42,5,Personal Loan,Medical,490000,36,8.16,0.855,Closed,Approved
+761,22,1,Business Loan,Business Expansion,955000,24,7.99,2.713,Defaulted,Approved
+762,336,1,Business Loan,Business Expansion,2190000,24,9.52,11.774,Closed,Rejected
+763,322,4,Business Loan,Business Expansion,1085000,84,11.15,0.787,Defaulted,Approved
+764,346,1,Auto Loan,Vehicle,95000,120,14.35,0.062,Closed,Approved
+765,226,4,Business Loan,Business Expansion,985000,180,7.81,0.876,Active,Approved
+766,66,6,Auto Loan,Vehicle,1310000,120,15.47,0.658,Active,Approved
+767,411,4,Business Loan,Business Expansion,2020000,120,11.88,1.712,Active,Approved
+768,101,5,Auto Loan,Vehicle,1950000,48,7.77,23.214,Active,Approved
+769,394,6,Education Loan,Education,190000,60,16.74,0.514,Defaulted,Approved
+770,162,6,Home Loan,Home Purchase,1230000,84,16.99,1.134,Closed,Approved
+771,454,6,Auto Loan,Vehicle,1090000,60,10.73,1.29,Active,Approved
+772,127,1,Education Loan,Education,2485000,24,18.44,7.864,Defaulted,Approved
+773,96,3,Personal Loan,Medical,1025000,36,17.91,2.801,Active,Approved
+774,151,3,Education Loan,Education,630000,84,15.82,1.636,Closed,Rejected
+775,453,1,Education Loan,Education,2100000,24,15.52,9.906,Active,Approved
+776,493,6,Personal Loan,Medical,1545000,120,13.62,0.92,Closed,Approved
+777,288,4,Business Loan,Business Expansion,1880000,84,16.65,1.767,Defaulted,Approved
+778,98,3,Business Loan,Business Expansion,1645000,36,15.52,2.98,Active,Approved
+779,206,5,Business Loan,Business Expansion,280000,120,17.3,0.329,Active,Approved
+780,287,3,Business Loan,Business Expansion,2025000,12,11.42,24.107,Active,Approved
+781,110,5,Personal Loan,Medical,915000,12,8.51,7.093,Active,Approved
+782,251,1,Education Loan,Education,1610000,12,13.72,13.306,Defaulted,Approved
+783,285,6,Personal Loan,Medical,455000,60,16.43,1.542,Active,Approved
+784,450,1,Education Loan,Education,2430000,120,11.78,1.699,Defaulted,Approved
+785,72,4,Home Loan,Home Purchase,1075000,12,12.78,6.847,Active,Approved
+786,343,6,Education Loan,Education,645000,180,16.63,0.977,Active,Approved
+787,344,2,Education Loan,Education,1885000,84,13.35,1.749,Active,Approved
+788,16,3,Auto Loan,Vehicle,1990000,24,17.3,33.167,Active,Approved
+789,193,2,Education Loan,Education,390000,12,11.0,3.9,Active,Approved
+790,413,5,Business Loan,Business Expansion,825000,48,15.0,2.546,Defaulted,Approved
+791,112,4,Personal Loan,Medical,1755000,48,11.51,2.659,Active,Approved
+792,163,4,Education Loan,Education,1625000,12,8.82,21.382,Defaulted,Approved
+793,109,3,Home Loan,Home Purchase,2375000,180,16.35,0.856,Defaulted,Approved
+794,275,5,Personal Loan,Medical,185000,12,16.08,1.779,Active,Approved
+795,188,5,Business Loan,Business Expansion,1600000,60,10.88,5.0,Closed,Approved
+796,365,4,Auto Loan,Vehicle,1550000,120,10.06,1.211,Defaulted,Approved
+797,200,2,Auto Loan,Vehicle,590000,180,8.69,0.378,Active,Approved
+798,407,4,Education Loan,Education,2200000,60,13.46,9.362,Closed,Approved
+799,440,3,Business Loan,Business Expansion,1705000,120,16.66,7.75,Closed,Approved
+800,268,6,Home Loan,Home Purchase,2330000,84,13.49,2.484,Closed,Approved

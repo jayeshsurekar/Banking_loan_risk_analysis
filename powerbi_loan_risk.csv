@@ -1,0 +1,801 @@
+loan_id,customer_id,branch_id,loan_type,purpose,loan_amount,tenure_months,interest_rate,dti,loan_status,approval_status,customer_name,age,annual_income,city,occupation,credit_score,existing_loans,credit_band,dti_band,default_flag,high_risk_flag,payments,avg_days_late,late_payments,late_rate
+1,435,4,Home Loan,Home Purchase,1720000,48,7.89,4.343,Closed,Approved,Customer_0435,39,99000,Satara,Salaried,671,0,Fair,High,0,1,12,0.0,0,0.0
+2,277,3,Business Loan,Business Expansion,190000,12,10.76,0.96,Active,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,High,0,1,12,0.0,0,0.0
+3,436,3,Auto Loan,Vehicle,1075000,48,17.87,7.679,Defaulted,Approved,Customer_0436,55,35000,Nagpur,Self-Employed,605,1,Fair,High,1,1,12,0.0,0,0.0
+4,28,5,Business Loan,Business Expansion,1545000,48,9.42,6.332,Active,Approved,Customer_0028,48,61000,Satara,Salaried,735,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+5,261,2,Business Loan,Business Expansion,675000,48,16.64,0.893,Closed,Approved,Customer_0261,54,189000,Mumbai,Professional,684,1,Good,High,0,1,12,0.25,1,0.08333333333333333
+6,38,1,Personal Loan,Medical,650000,84,13.16,0.476,Closed,Approved,Customer_0038,21,195000,Nagpur,Professional,683,0,Good,Medium,0,0,12,0.0,0,0.0
+7,223,1,Business Loan,Business Expansion,1155000,12,15.96,5.984,Active,Approved,Customer_0223,49,193000,Kolhapur,Professional,665,0,Fair,High,0,1,12,0.0,0,0.0
+8,329,3,Personal Loan,Medical,495000,36,14.84,1.17,Closed,Approved,Customer_0329,37,141000,Mumbai,Salaried,672,0,Fair,High,0,1,12,0.0,0,0.0
+9,49,6,Personal Loan,Medical,2325000,24,14.27,6.458,Closed,Approved,Customer_0049,22,180000,Nashik,Professional,709,0,Good,High,0,1,12,0.0,0,0.0
+10,105,6,Home Loan,Home Purchase,1550000,36,18.06,2.839,Active,Approved,Customer_0105,56,182000,Navi Mumbai,Self-Employed,642,0,Fair,High,0,1,12,0.0,0,0.0
+11,255,2,Personal Loan,Medical,1050000,84,10.72,0.761,Active,Approved,Customer_0255,30,197000,Satara,Business Owner,762,2,Excellent,High,0,1,12,0.0,0,0.0
+12,374,4,Auto Loan,Vehicle,1730000,12,17.62,39.318,Active,Approved,Customer_0374,22,44000,Navi Mumbai,Salaried,655,2,Fair,High,0,1,12,0.0,0,0.0
+13,226,1,Education Loan,Education,760000,24,7.98,5.067,Defaulted,Approved,Customer_0226,29,75000,Nagpur,Professional,635,2,Fair,High,1,1,12,0.0,0,0.0
+14,424,3,Education Loan,Education,75000,180,8.55,0.023,Closed,Approved,Customer_0424,56,213000,Kolhapur,Student,794,1,Excellent,Low,0,0,12,0.0,0,0.0
+15,334,5,Business Loan,Business Expansion,1565000,24,10.15,26.983,Active,Approved,Customer_0334,46,29000,Kolhapur,Self-Employed,685,0,Good,High,0,1,12,0.0,0,0.0
+16,172,1,Personal Loan,Medical,925000,12,12.96,5.892,Closed,Approved,Customer_0172,42,157000,Navi Mumbai,Salaried,692,1,Good,High,0,1,12,0.0,0,0.0
+17,376,6,Business Loan,Business Expansion,1025000,60,10.64,1.041,Closed,Approved,Customer_0376,32,197000,Pune,Self-Employed,571,1,Poor,High,0,1,12,2.5,1,0.08333333333333333
+18,119,1,Home Loan,Home Purchase,1605000,12,16.81,15.0,Defaulted,Approved,Customer_0119,63,107000,Nagpur,Salaried,736,0,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+19,431,6,Education Loan,Education,1285000,120,14.5,0.813,Closed,Approved,Customer_0431,42,158000,Mumbai,Salaried,637,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+20,149,6,Education Loan,Education,915000,180,15.73,0.28,Active,Approved,Customer_0149,57,218000,Nashik,Self-Employed,666,0,Fair,Low,0,0,12,0.0,0,0.0
+21,135,6,Home Loan,Home Purchase,680000,84,9.45,0.578,Closed,Approved,Customer_0135,23,168000,Aurangabad,Self-Employed,717,3,Good,High,0,1,12,0.5,2,0.16666666666666666
+22,150,4,Home Loan,Home Purchase,1315000,36,10.46,2.641,Active,Approved,Customer_0150,65,166000,Aurangabad,Salaried,570,0,Poor,High,0,1,12,0.0,0,0.0
+23,285,5,Business Loan,Business Expansion,1800000,84,9.31,4.358,Active,Approved,Customer_0285,28,59000,Satara,Self-Employed,687,2,Good,High,0,1,12,0.0,0,0.0
+24,213,2,Business Loan,Business Expansion,1740000,60,8.51,2.384,Closed,Approved,Customer_0213,56,146000,Nagpur,Salaried,669,2,Fair,High,0,1,12,1.25,1,0.08333333333333333
+25,95,4,Business Loan,Business Expansion,530000,120,13.06,0.254,Active,Approved,Customer_0095,52,209000,Mumbai,Salaried,835,1,Excellent,Low,0,0,12,0.0,0,0.0
+26,461,5,Home Loan,Home Purchase,1465000,48,13.46,3.591,Active,Approved,Customer_0461,29,102000,Nagpur,Self-Employed,626,1,Fair,High,0,1,12,0.0,0,0.0
+27,353,6,Personal Loan,Medical,2400000,120,14.23,3.478,Active,Approved,Customer_0353,53,69000,Aurangabad,Professional,617,0,Fair,High,0,1,12,0.0,0,0.0
+28,19,4,Education Loan,Education,915000,120,15.08,1.116,Closed,Approved,Customer_0019,59,82000,Kolhapur,Salaried,576,0,Poor,High,0,1,12,0.0,0,0.0
+29,367,2,Home Loan,Home Purchase,845000,84,15.87,0.981,Closed,Approved,Customer_0367,26,123000,Nashik,Student,591,1,Poor,High,0,1,12,1.25,1,0.08333333333333333
+30,186,4,Auto Loan,Vehicle,2380000,84,16.43,2.282,Defaulted,Approved,Customer_0186,35,149000,Kolhapur,Salaried,758,0,Excellent,High,1,1,12,4.0,3,0.25
+31,261,2,Education Loan,Education,2445000,24,8.59,6.468,Active,Approved,Customer_0261,54,189000,Mumbai,Professional,684,1,Good,High,0,1,12,0.0,0,0.0
+32,354,6,Home Loan,Home Purchase,1690000,24,13.61,7.412,Active,Approved,Customer_0354,52,114000,Mumbai,Salaried,686,1,Good,High,0,1,12,0.25,1,0.08333333333333333
+33,231,5,Auto Loan,Vehicle,2300000,36,15.07,11.979,Closed,Approved,Customer_0231,44,64000,Satara,Salaried,771,1,Excellent,High,0,1,12,0.0,0,0.0
+34,393,2,Business Loan,Business Expansion,2260000,84,13.27,1.856,Closed,Approved,Customer_0393,34,174000,Nashik,Self-Employed,700,2,Good,High,0,1,12,0.0,0,0.0
+35,90,1,Education Loan,Education,565000,84,7.89,0.841,Defaulted,Approved,Customer_0090,50,96000,Navi Mumbai,Professional,670,1,Fair,High,1,1,12,7.5,2,0.16666666666666666
+36,462,5,Education Loan,Education,1475000,12,15.75,6.893,Defaulted,Approved,Customer_0462,24,214000,Nashik,Self-Employed,569,1,Poor,High,1,1,12,0.0,0,0.0
+37,377,6,Business Loan,Business Expansion,1790000,60,9.14,3.51,Active,Approved,Customer_0377,41,102000,Satara,Salaried,746,1,Good,High,0,1,12,0.0,0,0.0
+38,312,4,Business Loan,Business Expansion,465000,48,18.46,1.71,Active,Approved,Customer_0312,31,68000,Aurangabad,Salaried,675,0,Fair,High,0,1,12,0.0,0,0.0
+39,111,2,Education Loan,Education,1630000,48,14.58,2.079,Defaulted,Approved,Customer_0111,40,196000,Aurangabad,Salaried,574,0,Poor,High,1,1,12,0.0,0,0.0
+40,24,5,Auto Loan,Vehicle,1820000,84,14.02,1.857,Active,Approved,Customer_0024,35,140000,Mumbai,Professional,807,1,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+41,230,5,Auto Loan,Vehicle,2250000,48,7.52,6.618,Closed,Approved,Customer_0230,44,85000,Aurangabad,Salaried,748,0,Good,High,0,1,12,0.0,0,0.0
+42,202,4,Business Loan,Business Expansion,1975000,12,9.34,32.377,Closed,Approved,Customer_0202,62,61000,Navi Mumbai,Professional,708,1,Good,High,0,1,12,0.0,0,0.0
+43,57,4,Auto Loan,Vehicle,980000,12,11.93,5.026,Active,Approved,Customer_0057,28,195000,Kolhapur,Salaried,618,1,Fair,High,0,1,12,0.0,0,0.0
+44,221,2,Auto Loan,Vehicle,1770000,84,8.65,1.187,Active,Approved,Customer_0221,24,213000,Satara,Student,706,0,Good,High,0,1,12,0.0,0,0.0
+45,55,2,Personal Loan,Medical,535000,36,8.08,2.623,Closed,Approved,Customer_0055,36,68000,Aurangabad,Business Owner,745,0,Good,High,0,1,12,0.0,0,0.0
+46,158,4,Education Loan,Education,1340000,24,14.12,10.984,Active,Approved,Customer_0158,62,61000,Pune,Professional,695,2,Good,High,0,1,12,2.5,1,0.08333333333333333
+47,60,3,Home Loan,Home Purchase,945000,24,14.5,2.398,Defaulted,Approved,Customer_0060,54,197000,Nashik,Self-Employed,672,1,Fair,High,1,1,12,6.25,2,0.16666666666666666
+48,406,6,Personal Loan,Medical,490000,120,11.18,0.282,Active,Approved,Customer_0406,31,174000,Satara,Salaried,705,1,Good,Low,0,0,12,0.0,0,0.0
+49,314,3,Auto Loan,Vehicle,2320000,36,16.58,6.237,Active,Approved,Customer_0314,26,124000,Nashik,Salaried,618,0,Fair,High,0,1,12,3.0833333333333335,2,0.16666666666666666
+50,432,1,Auto Loan,Vehicle,1835000,24,9.12,6.697,Defaulted,Approved,Customer_0432,62,137000,Aurangabad,Professional,640,1,Fair,High,1,1,12,0.0,0,0.0
+51,183,4,Personal Loan,Medical,2220000,36,8.47,5.692,Defaulted,Approved,Customer_0183,65,130000,Satara,Salaried,585,0,Poor,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+52,113,3,Home Loan,Home Purchase,2490000,24,16.32,6.694,Active,Approved,Customer_0113,39,186000,Pune,Business Owner,719,1,Good,High,0,1,12,0.0,0,0.0
+53,313,1,Education Loan,Education,2180000,180,10.79,1.67,Closed,Approved,Customer_0313,35,87000,Nagpur,Salaried,756,1,Excellent,High,0,1,12,0.0,0,0.0
+54,401,3,Education Loan,Education,1915000,60,12.96,5.632,Active,Approved,Customer_0401,32,68000,Kolhapur,Salaried,704,1,Good,High,0,1,12,0.0,0,0.0
+55,399,1,Business Loan,Business Expansion,690000,24,11.72,2.413,Active,Approved,Customer_0399,46,143000,Nashik,Professional,687,1,Good,High,0,1,12,0.0,0,0.0
+56,90,2,Home Loan,Home Purchase,565000,60,11.48,1.177,Closed,Approved,Customer_0090,50,96000,Navi Mumbai,Professional,670,1,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+57,259,6,Business Loan,Business Expansion,290000,180,7.77,0.134,Active,Approved,Customer_0259,46,144000,Pune,Student,761,1,Excellent,Low,0,0,12,0.0,0,0.0
+58,118,5,Auto Loan,Vehicle,1785000,12,13.2,10.378,Active,Approved,Customer_0118,25,172000,Mumbai,Self-Employed,689,2,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+59,51,3,Business Loan,Business Expansion,1120000,12,8.12,50.909,Active,Approved,Customer_0051,23,22000,Kolhapur,Salaried,708,1,Good,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+60,302,4,Auto Loan,Vehicle,635000,48,12.58,0.782,Defaulted,Approved,Customer_0302,24,203000,Kolhapur,Self-Employed,640,1,Fair,High,1,1,12,0.0,0,0.0
+61,49,4,Auto Loan,Vehicle,815000,60,17.81,0.906,Active,Approved,Customer_0049,22,180000,Nashik,Professional,709,0,Good,High,0,1,12,0.0,0,0.0
+62,70,2,Home Loan,Home Purchase,1385000,180,8.39,0.751,Closed,Approved,Customer_0070,60,123000,Mumbai,Salaried,612,1,Fair,High,0,1,12,0.0,0,0.0
+63,419,4,Personal Loan,Medical,1455000,36,16.08,2.343,Active,Approved,Customer_0419,63,207000,Nashik,Salaried,669,2,Fair,High,0,1,12,0.0,0,0.0
+64,326,4,Personal Loan,Medical,2150000,84,8.99,1.896,Active,Approved,Customer_0326,52,162000,Satara,Salaried,659,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+65,152,6,Home Loan,Home Purchase,1685000,120,18.02,0.878,Active,Approved,Customer_0152,32,192000,Kolhapur,Self-Employed,669,1,Fair,High,0,1,12,0.0,0,0.0
+66,408,6,Home Loan,Home Purchase,1825000,84,7.99,2.228,Closed,Approved,Customer_0408,33,117000,Satara,Professional,747,0,Good,High,0,1,12,0.0,0,0.0
+67,220,4,Business Loan,Business Expansion,1460000,120,10.22,0.777,Closed,Approved,Customer_0220,63,188000,Navi Mumbai,Business Owner,657,1,Fair,High,0,1,12,0.0,0,0.0
+68,270,6,Education Loan,Education,2295000,60,18.22,3.477,Active,Approved,Customer_0270,40,132000,Mumbai,Professional,606,1,Fair,High,0,1,12,0.0,0,0.0
+69,479,6,Home Loan,Home Purchase,2285000,84,16.79,1.569,Active,Approved,Customer_0479,43,208000,Satara,Salaried,636,0,Fair,High,0,1,12,0.0,0,0.0
+70,44,3,Business Loan,Business Expansion,615000,180,12.86,0.788,Defaulted,Approved,Customer_0044,46,52000,Kolhapur,Professional,754,2,Excellent,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+71,84,1,Auto Loan,Vehicle,2450000,24,17.47,11.343,Active,Approved,Customer_0084,46,108000,Pune,Salaried,653,0,Fair,High,0,1,12,0.0,0,0.0
+72,21,3,Home Loan,Home Purchase,880000,48,10.97,1.038,Active,Approved,Customer_0021,55,212000,Satara,Self-Employed,724,1,Good,High,0,1,12,1.25,1,0.08333333333333333
+73,7,2,Education Loan,Education,2140000,24,17.4,14.459,Active,Approved,Customer_0007,64,74000,Pune,Self-Employed,688,2,Good,High,0,1,12,0.0,0,0.0
+74,160,5,Auto Loan,Vehicle,2060000,84,18.1,3.234,Active,Approved,Customer_0160,25,91000,Mumbai,Salaried,733,1,Good,High,0,1,12,0.0,0,0.0
+75,426,5,Personal Loan,Medical,1730000,24,14.37,4.391,Closed,Approved,Customer_0426,64,197000,Pune,Self-Employed,788,2,Excellent,High,0,1,12,0.0,0,0.0
+76,314,3,Home Loan,Home Purchase,300000,48,10.32,0.605,Defaulted,Approved,Customer_0314,26,124000,Nashik,Salaried,618,0,Fair,High,1,1,12,0.0,0,0.0
+77,87,1,Auto Loan,Vehicle,1645000,84,12.6,1.211,Closed,Approved,Customer_0087,45,194000,Aurangabad,Business Owner,703,1,Good,High,0,1,12,5.0,1,0.08333333333333333
+78,341,5,Personal Loan,Medical,600000,48,18.14,6.522,Active,Approved,Customer_0341,23,23000,Nagpur,Self-Employed,757,0,Excellent,High,0,1,12,2.5,1,0.08333333333333333
+79,425,4,Auto Loan,Vehicle,2415000,48,9.16,3.51,Active,Approved,Customer_0425,33,172000,Navi Mumbai,Professional,696,0,Good,High,0,1,12,0.0,0,0.0
+80,383,1,Personal Loan,Medical,175000,24,15.02,0.515,Active,Approved,Customer_0383,21,170000,Navi Mumbai,Self-Employed,568,0,Poor,High,0,1,12,0.0,0,0.0
+81,81,2,Education Loan,Education,255000,180,8.76,0.083,Closed,Approved,Customer_0081,52,205000,Pune,Self-Employed,814,0,Excellent,Low,0,0,12,0.0,0,0.0
+82,28,6,Business Loan,Business Expansion,725000,180,13.47,0.792,Closed,Approved,Customer_0028,48,61000,Satara,Salaried,735,1,Good,High,0,1,12,0.0,0,0.0
+83,177,6,Business Loan,Business Expansion,2495000,84,14.24,3.154,Defaulted,Approved,Customer_0177,37,113000,Kolhapur,Business Owner,695,0,Good,High,1,1,12,0.8333333333333334,2,0.16666666666666666
+84,198,5,Auto Loan,Vehicle,1075000,36,12.83,2.327,Active,Approved,Customer_0198,55,154000,Pune,Salaried,696,1,Good,High,0,1,12,0.0,0,0.0
+85,5,1,Education Loan,Education,1705000,180,14.81,0.768,Closed,Rejected,Customer_0005,64,148000,Pune,Salaried,507,0,Poor,High,0,1,12,0.0,0,0.0
+86,66,3,Auto Loan,Vehicle,1685000,12,16.98,8.467,Active,Approved,Customer_0066,43,199000,Navi Mumbai,Salaried,748,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+87,125,6,Home Loan,Home Purchase,1165000,60,13.5,1.273,Active,Approved,Customer_0125,51,183000,Satara,Salaried,713,1,Good,High,0,1,12,0.0,0,0.0
+88,444,3,Home Loan,Home Purchase,2215000,12,12.55,17.171,Active,Approved,Customer_0444,56,129000,Navi Mumbai,Professional,812,1,Excellent,High,0,1,12,0.0,0,0.0
+89,319,5,Auto Loan,Vehicle,845000,24,9.72,2.321,Closed,Approved,Customer_0319,33,182000,Pune,Business Owner,713,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+90,20,4,Home Loan,Home Purchase,635000,120,15.84,0.668,Active,Approved,Customer_0020,43,95000,Aurangabad,Professional,772,0,Excellent,High,0,1,12,2.75,2,0.16666666666666666
+91,214,5,Business Loan,Business Expansion,1625000,12,9.75,11.285,Active,Approved,Customer_0214,25,144000,Pune,Professional,616,0,Fair,High,0,1,12,0.0,0,0.0
+92,79,3,Business Loan,Business Expansion,2140000,48,17.08,4.084,Active,Approved,Customer_0079,57,131000,Navi Mumbai,Salaried,649,3,Fair,High,0,1,12,1.5,2,0.16666666666666666
+93,381,4,Education Loan,Education,335000,36,13.66,0.512,Defaulted,Approved,Customer_0381,40,218000,Navi Mumbai,Salaried,662,3,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+94,26,1,Education Loan,Education,1610000,24,7.8,3.927,Closed,Rejected,Customer_0026,43,205000,Navi Mumbai,Self-Employed,540,1,Poor,High,0,1,12,0.0,0,0.0
+95,248,4,Auto Loan,Vehicle,325000,24,11.28,4.779,Closed,Approved,Customer_0248,30,34000,Navi Mumbai,Professional,622,0,Fair,High,0,1,12,0.0,0,0.0
+96,97,6,Personal Loan,Medical,490000,12,12.98,4.495,Active,Approved,Customer_0097,48,109000,Mumbai,Salaried,777,1,Excellent,High,0,1,12,0.0,0,0.0
+97,167,3,Education Loan,Education,2325000,180,12.47,0.939,Closed,Approved,Customer_0167,61,165000,Kolhapur,Professional,648,1,Fair,High,0,1,12,0.0,0,0.0
+98,178,3,Business Loan,Business Expansion,1000000,36,12.35,2.625,Active,Approved,Customer_0178,33,127000,Satara,Professional,624,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+99,268,4,Auto Loan,Vehicle,1275000,120,10.66,0.951,Active,Approved,Customer_0268,59,134000,Aurangabad,Business Owner,630,1,Fair,High,0,1,12,0.0,0,0.0
+100,297,1,Auto Loan,Vehicle,1960000,12,10.54,12.174,Closed,Rejected,Customer_0297,40,161000,Nashik,Self-Employed,550,2,Poor,High,0,1,12,0.25,1,0.08333333333333333
+101,47,2,Auto Loan,Vehicle,2315000,24,17.57,29.679,Active,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+102,42,4,Business Loan,Business Expansion,1495000,120,15.15,0.783,Active,Approved,Customer_0042,29,191000,Nashik,Salaried,660,1,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+103,386,5,Business Loan,Business Expansion,1575000,36,14.25,3.387,Active,Approved,Customer_0386,21,155000,Navi Mumbai,Professional,709,0,Good,High,0,1,12,0.0,0,0.0
+104,259,6,Business Loan,Business Expansion,2355000,36,9.36,5.451,Defaulted,Approved,Customer_0259,46,144000,Pune,Student,761,1,Excellent,High,1,1,12,0.0,0,0.0
+105,417,5,Auto Loan,Vehicle,2010000,120,9.72,2.831,Active,Approved,Customer_0417,54,71000,Navi Mumbai,Salaried,766,1,Excellent,High,0,1,12,0.0,0,0.0
+106,416,4,Home Loan,Home Purchase,325000,60,9.17,0.425,Closed,Approved,Customer_0416,46,153000,Satara,Professional,850,1,Excellent,Medium,0,0,12,0.5833333333333334,1,0.08333333333333333
+107,478,3,Auto Loan,Vehicle,320000,36,18.15,0.779,Defaulted,Approved,Customer_0478,51,137000,Kolhapur,Student,578,0,Poor,High,1,1,12,5.0,1,0.08333333333333333
+108,32,6,Business Loan,Business Expansion,2010000,24,16.34,6.361,Closed,Approved,Customer_0032,61,158000,Nagpur,Salaried,580,0,Poor,High,0,1,12,1.25,1,0.08333333333333333
+109,375,5,Education Loan,Education,1465000,84,18.37,1.079,Active,Approved,Customer_0375,26,194000,Kolhapur,Professional,738,2,Good,High,0,1,12,1.8333333333333333,2,0.16666666666666666
+110,375,5,Auto Loan,Vehicle,1610000,36,14.85,2.766,Defaulted,Approved,Customer_0375,26,194000,Kolhapur,Professional,738,2,Good,High,1,1,12,0.25,1,0.08333333333333333
+111,162,3,Auto Loan,Vehicle,80000,180,17.2,0.034,Active,Approved,Customer_0162,43,155000,Nashik,Professional,740,0,Good,Low,0,0,12,0.0,0,0.0
+112,247,1,Personal Loan,Medical,1495000,36,13.66,3.637,Active,Approved,Customer_0247,36,137000,Kolhapur,Business Owner,563,0,Poor,High,0,1,12,0.0,0,0.0
+113,196,3,Home Loan,Home Purchase,1360000,12,11.67,45.333,Closed,Approved,Customer_0196,25,30000,Nashik,Self-Employed,630,3,Fair,High,0,1,12,5.0,1,0.08333333333333333
+114,189,3,Business Loan,Business Expansion,1075000,36,13.45,2.312,Closed,Approved,Customer_0189,25,155000,Satara,Self-Employed,738,1,Good,High,0,1,12,0.0,0,0.0
+115,60,4,Personal Loan,Medical,2045000,36,17.41,3.46,Active,Approved,Customer_0060,54,197000,Nashik,Self-Employed,672,1,Fair,High,0,1,12,0.0,0,0.0
+116,364,6,Business Loan,Business Expansion,1665000,36,10.3,3.384,Closed,Approved,Customer_0364,31,164000,Aurangabad,Self-Employed,850,0,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+117,131,5,Home Loan,Home Purchase,1110000,120,13.28,0.755,Closed,Rejected,Customer_0131,64,147000,Nashik,Professional,547,0,Poor,High,0,1,12,0.0,0,0.0
+118,156,5,Personal Loan,Medical,1185000,180,8.61,0.506,Closed,Approved,Customer_0156,38,156000,Nashik,Salaried,693,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+119,163,3,Education Loan,Education,1640000,48,17.46,5.395,Closed,Approved,Customer_0163,28,76000,Nagpur,Professional,651,2,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+120,431,6,Auto Loan,Vehicle,2180000,180,14.66,0.92,Defaulted,Approved,Customer_0431,42,158000,Mumbai,Salaried,637,1,Fair,High,1,1,12,2.5,1,0.08333333333333333
+121,273,3,Personal Loan,Medical,2330000,84,12.68,1.79,Closed,Approved,Customer_0273,60,186000,Aurangabad,Self-Employed,814,1,Excellent,High,0,1,12,0.0,0,0.0
+122,419,2,Business Loan,Business Expansion,1285000,180,15.63,0.414,Active,Approved,Customer_0419,63,207000,Nashik,Salaried,669,2,Fair,Medium,0,0,12,0.0,0,0.0
+123,66,4,Auto Loan,Vehicle,2050000,120,15.05,1.03,Closed,Approved,Customer_0066,43,199000,Navi Mumbai,Salaried,748,0,Good,High,0,1,12,0.0,0,0.0
+124,47,4,Education Loan,Education,375000,36,9.34,3.205,Defaulted,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,1,1,12,0.0,0,0.0
+125,124,3,Business Loan,Business Expansion,2330000,36,16.71,7.125,Defaulted,Approved,Customer_0124,65,109000,Nagpur,Business Owner,724,1,Good,High,1,1,12,0.0,0,0.0
+126,4,6,Home Loan,Home Purchase,800000,180,13.14,0.518,Defaulted,Approved,Customer_0004,32,103000,Mumbai,Self-Employed,650,1,Fair,High,1,1,12,1.25,1,0.08333333333333333
+127,143,5,Business Loan,Business Expansion,675000,24,7.87,4.963,Closed,Approved,Customer_0143,25,68000,Nagpur,Business Owner,700,0,Good,High,0,1,12,1.25,1,0.08333333333333333
+128,437,4,Business Loan,Business Expansion,2020000,24,17.82,15.075,Active,Approved,Customer_0437,41,67000,Nashik,Salaried,648,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+129,401,4,Personal Loan,Medical,1935000,60,16.38,5.691,Active,Approved,Customer_0401,32,68000,Kolhapur,Salaried,704,1,Good,High,0,1,12,0.0,0,0.0
+130,333,1,Business Loan,Business Expansion,1810000,36,10.36,12.313,Defaulted,Approved,Customer_0333,26,49000,Nagpur,Salaried,807,1,Excellent,High,1,1,12,5.0,1,0.08333333333333333
+131,134,3,Home Loan,Home Purchase,855000,48,13.66,3.054,Defaulted,Approved,Customer_0134,34,70000,Navi Mumbai,Professional,706,3,Good,High,1,1,12,1.8333333333333333,2,0.16666666666666666
+132,354,5,Auto Loan,Vehicle,1755000,12,9.99,15.395,Active,Approved,Customer_0354,52,114000,Mumbai,Salaried,686,1,Good,High,0,1,12,0.0,0,0.0
+133,328,6,Education Loan,Education,2270000,84,12.04,2.438,Active,Approved,Customer_0328,56,133000,Navi Mumbai,Salaried,740,2,Good,High,0,1,12,0.25,1,0.08333333333333333
+134,84,6,Home Loan,Home Purchase,1860000,84,7.96,2.46,Active,Approved,Customer_0084,46,108000,Pune,Salaried,653,0,Fair,High,0,1,12,0.0,0,0.0
+135,154,1,Auto Loan,Vehicle,1865000,24,10.58,15.04,Defaulted,Approved,Customer_0154,43,62000,Nashik,Self-Employed,762,2,Excellent,High,1,1,12,3.0833333333333335,3,0.25
+136,83,2,Auto Loan,Vehicle,565000,36,17.52,1.865,Active,Approved,Customer_0083,62,101000,Pune,Salaried,681,1,Good,High,0,1,12,0.0,0,0.0
+137,275,5,Auto Loan,Vehicle,990000,180,16.73,0.635,Closed,Approved,Customer_0275,57,104000,Nagpur,Salaried,608,1,Fair,High,0,1,12,0.0,0,0.0
+138,327,3,Personal Loan,Medical,1125000,180,15.49,0.688,Active,Approved,Customer_0327,35,109000,Pune,Salaried,747,0,Good,High,0,1,12,0.0,0,0.0
+139,124,3,Home Loan,Home Purchase,1305000,24,13.36,5.986,Active,Approved,Customer_0124,65,109000,Nagpur,Business Owner,724,1,Good,High,0,1,12,0.0,0,0.0
+140,431,5,Personal Loan,Medical,1230000,36,9.9,2.595,Closed,Approved,Customer_0431,42,158000,Mumbai,Salaried,637,1,Fair,High,0,1,12,0.0,0,0.0
+141,317,4,Business Loan,Business Expansion,1015000,120,7.64,0.868,Active,Approved,Customer_0317,60,117000,Nagpur,Salaried,708,1,Good,High,0,1,12,1.25,1,0.08333333333333333
+142,89,3,Auto Loan,Vehicle,1405000,48,14.08,4.132,Active,Approved,Customer_0089,23,85000,Navi Mumbai,Salaried,638,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+143,489,1,Home Loan,Home Purchase,540000,48,15.53,0.659,Active,Approved,Customer_0489,65,205000,Mumbai,Salaried,680,0,Good,High,0,1,12,0.0,0,0.0
+144,196,2,Business Loan,Business Expansion,210000,180,17.43,0.467,Active,Approved,Customer_0196,25,30000,Nashik,Self-Employed,630,3,Fair,Medium,0,0,12,0.0,0,0.0
+145,361,1,Education Loan,Education,1465000,12,14.03,9.043,Closed,Approved,Customer_0361,40,162000,Satara,Self-Employed,664,1,Fair,High,0,1,12,0.0,0,0.0
+146,120,5,Business Loan,Business Expansion,905000,48,8.37,5.801,Closed,Approved,Customer_0120,27,39000,Nagpur,Self-Employed,791,1,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+147,62,3,Auto Loan,Vehicle,625000,120,7.88,0.305,Active,Approved,Customer_0062,39,205000,Aurangabad,Professional,687,0,Good,Low,0,0,12,2.5,1,0.08333333333333333
+148,267,5,Auto Loan,Vehicle,1425000,48,16.18,5.018,Closed,Approved,Customer_0267,56,71000,Nagpur,Self-Employed,575,1,Poor,High,0,1,12,0.0,0,0.0
+149,255,5,Personal Loan,Medical,755000,24,10.28,1.916,Closed,Approved,Customer_0255,30,197000,Satara,Business Owner,762,2,Excellent,High,0,1,12,2.5,2,0.16666666666666666
+150,451,5,Auto Loan,Vehicle,450000,24,8.76,8.333,Defaulted,Approved,Customer_0451,54,27000,Navi Mumbai,Salaried,637,1,Fair,High,1,1,12,0.0,0,0.0
+151,201,3,Business Loan,Business Expansion,1970000,12,7.86,11.387,Active,Approved,Customer_0201,39,173000,Navi Mumbai,Business Owner,745,0,Good,High,0,1,12,0.0,0,0.0
+152,465,1,Education Loan,Education,1050000,12,17.17,10.0,Closed,Approved,Customer_0465,38,105000,Satara,Business Owner,758,2,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+153,8,4,Auto Loan,Vehicle,540000,60,12.23,1.029,Closed,Approved,Customer_0008,27,105000,Kolhapur,Salaried,716,2,Good,High,0,1,12,0.0,0,0.0
+154,438,1,Auto Loan,Vehicle,160000,24,12.61,1.951,Active,Approved,Customer_0438,27,41000,Mumbai,Self-Employed,619,1,Fair,High,0,1,12,0.0,0,0.0
+155,147,5,Home Loan,Home Purchase,135000,84,9.38,0.157,Active,Approved,Customer_0147,61,123000,Kolhapur,Professional,706,1,Good,Low,0,0,12,0.0,0,0.0
+156,307,4,Auto Loan,Vehicle,2130000,84,14.54,1.749,Defaulted,Approved,Customer_0307,62,174000,Nagpur,Salaried,627,2,Fair,High,1,1,12,0.25,1,0.08333333333333333
+157,28,4,Personal Loan,Medical,1605000,180,18.18,1.754,Defaulted,Approved,Customer_0028,48,61000,Satara,Salaried,735,1,Good,High,1,1,12,6.5,3,0.25
+158,194,1,Education Loan,Education,410000,36,14.11,1.085,Defaulted,Approved,Customer_0194,57,126000,Nagpur,Salaried,646,2,Fair,High,1,1,12,0.0,0,0.0
+159,257,6,Home Loan,Home Purchase,1785000,180,14.48,2.245,Active,Approved,Customer_0257,34,53000,Kolhapur,Salaried,630,0,Fair,High,0,1,12,0.0,0,0.0
+160,214,5,Personal Loan,Medical,2130000,12,7.53,14.792,Defaulted,Approved,Customer_0214,25,144000,Pune,Professional,616,0,Fair,High,1,1,12,2.5,2,0.16666666666666666
+161,268,3,Home Loan,Home Purchase,2435000,84,8.0,2.596,Defaulted,Approved,Customer_0268,59,134000,Aurangabad,Business Owner,630,1,Fair,High,1,1,12,2.75,3,0.25
+162,380,1,Business Loan,Business Expansion,1205000,120,11.14,0.55,Defaulted,Approved,Customer_0380,34,219000,Pune,Business Owner,668,1,Fair,High,1,1,12,0.25,1,0.08333333333333333
+163,355,5,Business Loan,Business Expansion,120000,180,14.22,0.2,Active,Approved,Customer_0355,30,40000,Aurangabad,Self-Employed,766,0,Excellent,Low,0,0,12,0.0,0,0.0
+164,340,6,Personal Loan,Medical,250000,60,13.18,0.427,Active,Approved,Customer_0340,26,117000,Mumbai,Professional,737,0,Good,Medium,0,0,12,0.0,0,0.0
+165,49,4,Home Loan,Home Purchase,1415000,84,16.67,1.123,Active,Approved,Customer_0049,22,180000,Nashik,Professional,709,0,Good,High,0,1,12,0.0,0,0.0
+166,380,6,Auto Loan,Vehicle,315000,120,13.79,0.144,Defaulted,Approved,Customer_0380,34,219000,Pune,Business Owner,668,1,Fair,Low,1,1,12,1.25,1,0.08333333333333333
+167,106,1,Education Loan,Education,2280000,120,7.99,1.239,Active,Approved,Customer_0106,29,184000,Kolhapur,Professional,755,2,Excellent,High,0,1,12,0.0,0,0.0
+168,265,1,Personal Loan,Medical,1235000,180,8.46,0.769,Closed,Approved,Customer_0265,41,107000,Nagpur,Salaried,658,1,Fair,High,0,1,12,0.0,0,0.0
+169,17,3,Auto Loan,Vehicle,2440000,60,13.35,8.714,Closed,Approved,Customer_0017,65,56000,Pune,Business Owner,733,1,Good,High,0,1,12,0.0,0,0.0
+170,423,5,Education Loan,Education,2455000,24,17.12,6.427,Active,Approved,Customer_0423,47,191000,Satara,Professional,703,0,Good,High,0,1,12,0.0,0,0.0
+171,192,3,Personal Loan,Medical,520000,60,7.99,2.737,Active,Approved,Customer_0192,23,38000,Kolhapur,Salaried,690,1,Good,High,0,1,12,0.0,0,0.0
+172,333,4,Home Loan,Home Purchase,1410000,84,9.32,4.111,Closed,Approved,Customer_0333,26,49000,Nagpur,Salaried,807,1,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+173,19,5,Auto Loan,Vehicle,1865000,180,17.48,1.516,Closed,Approved,Customer_0019,59,82000,Kolhapur,Salaried,576,0,Poor,High,0,1,12,2.5,1,0.08333333333333333
+174,109,1,Education Loan,Education,2125000,36,14.92,3.829,Closed,Approved,Customer_0109,32,185000,Navi Mumbai,Salaried,775,0,Excellent,High,0,1,12,0.0,0,0.0
+175,301,5,Auto Loan,Vehicle,695000,180,8.06,0.311,Active,Approved,Customer_0301,26,149000,Nagpur,Salaried,850,0,Excellent,Low,0,0,12,0.0,0,0.0
+176,431,2,Auto Loan,Vehicle,2280000,120,14.14,1.443,Active,Approved,Customer_0431,42,158000,Mumbai,Salaried,637,1,Fair,High,0,1,12,0.0,0,0.0
+177,146,1,Home Loan,Home Purchase,1035000,24,14.82,8.086,Closed,Approved,Customer_0146,47,64000,Pune,Salaried,639,0,Fair,High,0,1,12,0.0,0,0.0
+178,127,3,Education Loan,Education,2430000,84,11.56,2.197,Closed,Approved,Customer_0127,33,158000,Aurangabad,Self-Employed,809,2,Excellent,High,0,1,12,0.0,0,0.0
+179,239,1,Personal Loan,Medical,60000,12,13.55,1.071,Active,Approved,Customer_0239,50,56000,Pune,Professional,663,0,Fair,High,0,1,12,2.5,1,0.08333333333333333
+180,225,1,Business Loan,Business Expansion,485000,180,11.03,0.274,Active,Approved,Customer_0225,21,118000,Navi Mumbai,Self-Employed,610,1,Fair,Low,0,0,12,5.0,1,0.08333333333333333
+181,423,1,Home Loan,Home Purchase,2480000,48,14.85,3.246,Closed,Approved,Customer_0423,47,191000,Satara,Professional,703,0,Good,High,0,1,12,0.0,0,0.0
+182,202,2,Auto Loan,Vehicle,1525000,84,14.03,3.571,Active,Approved,Customer_0202,62,61000,Navi Mumbai,Professional,708,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+183,398,1,Business Loan,Business Expansion,1565000,12,9.03,23.712,Closed,Approved,Customer_0398,54,66000,Nashik,Salaried,677,2,Fair,High,0,1,12,0.0,0,0.0
+184,377,4,Education Loan,Education,155000,84,17.11,0.217,Active,Approved,Customer_0377,41,102000,Satara,Salaried,746,1,Good,Low,0,0,12,0.0,0,0.0
+185,454,5,Home Loan,Home Purchase,1945000,36,15.65,3.836,Closed,Approved,Customer_0454,32,169000,Aurangabad,Salaried,666,2,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+186,166,1,Education Loan,Education,270000,84,9.06,0.677,Closed,Approved,Customer_0166,41,57000,Satara,Professional,630,0,Fair,High,0,1,12,0.0,0,0.0
+187,425,3,Personal Loan,Medical,730000,24,13.36,2.122,Active,Approved,Customer_0425,33,172000,Navi Mumbai,Professional,696,0,Good,High,0,1,12,0.0,0,0.0
+188,321,2,Personal Loan,Medical,1800000,180,13.85,1.846,Closed,Approved,Customer_0321,51,65000,Pune,Self-Employed,707,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+189,357,1,Business Loan,Business Expansion,1790000,24,13.65,7.103,Active,Approved,Customer_0357,59,126000,Navi Mumbai,Business Owner,758,0,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+190,279,4,Auto Loan,Vehicle,1410000,180,14.68,0.47,Active,Approved,Customer_0279,51,200000,Pune,Salaried,750,1,Excellent,Medium,0,0,12,1.1666666666666667,2,0.16666666666666666
+191,277,4,Business Loan,Business Expansion,520000,60,16.87,0.525,Closed,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,High,0,1,12,0.0,0,0.0
+192,99,5,Education Loan,Education,2050000,48,10.53,4.236,Active,Approved,Customer_0099,63,121000,Nashik,Salaried,722,2,Good,High,0,1,12,1.25,1,0.08333333333333333
+193,486,2,Home Loan,Home Purchase,1945000,180,12.41,5.403,Active,Approved,Customer_0486,47,24000,Nagpur,Self-Employed,682,0,Good,High,0,1,12,0.0,0,0.0
+194,288,4,Education Loan,Education,720000,24,12.45,2.368,Defaulted,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,High,1,1,12,0.25,1,0.08333333333333333
+195,335,3,Auto Loan,Vehicle,2460000,84,12.24,2.492,Defaulted,Approved,Customer_0335,49,141000,Nagpur,Professional,581,0,Poor,High,1,1,12,3.75,2,0.16666666666666666
+196,48,6,Business Loan,Business Expansion,385000,60,11.57,0.616,Defaulted,Approved,Customer_0048,46,125000,Mumbai,Salaried,731,1,Good,High,1,1,12,0.0,0,0.0
+197,100,2,Personal Loan,Medical,1750000,36,15.07,3.452,Defaulted,Approved,Customer_0100,64,169000,Aurangabad,Self-Employed,681,0,Good,High,1,1,12,0.0,0,0.0
+198,440,1,Business Loan,Business Expansion,1045000,48,9.07,11.875,Active,Approved,Customer_0440,55,22000,Nagpur,Self-Employed,702,1,Good,High,0,1,12,0.0,0,0.0
+199,193,5,Personal Loan,Medical,1575000,36,9.2,5.25,Active,Approved,Customer_0193,30,100000,Aurangabad,Self-Employed,765,0,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+200,202,3,Education Loan,Education,1400000,12,11.67,22.951,Active,Approved,Customer_0202,62,61000,Navi Mumbai,Professional,708,1,Good,High,0,1,12,0.5,2,0.16666666666666666
+201,427,6,Business Loan,Business Expansion,615000,84,8.29,4.184,Closed,Approved,Customer_0427,51,21000,Nagpur,Self-Employed,761,0,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+202,395,2,Business Loan,Business Expansion,1605000,36,16.82,5.515,Closed,Approved,Customer_0395,43,97000,Aurangabad,Salaried,773,0,Excellent,High,0,1,12,0.0,0,0.0
+203,176,6,Home Loan,Home Purchase,560000,24,13.88,1.761,Active,Approved,Customer_0176,57,159000,Aurangabad,Salaried,565,0,Poor,High,0,1,12,1.25,1,0.08333333333333333
+204,321,5,Education Loan,Education,1625000,120,9.05,2.5,Defaulted,Approved,Customer_0321,51,65000,Pune,Self-Employed,707,0,Good,High,1,1,12,0.25,1,0.08333333333333333
+205,414,3,Business Loan,Business Expansion,875000,24,18.25,4.605,Active,Approved,Customer_0414,22,95000,Nashik,Self-Employed,713,1,Good,High,0,1,12,0.0,0,0.0
+206,75,3,Auto Loan,Vehicle,250000,24,11.73,2.5,Active,Approved,Customer_0075,48,50000,Kolhapur,Student,702,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+207,430,3,Business Loan,Business Expansion,1300000,84,12.06,0.868,Active,Approved,Customer_0430,33,214000,Mumbai,Business Owner,694,2,Good,High,0,1,12,0.0,0,0.0
+208,306,5,Business Loan,Business Expansion,1570000,36,9.12,5.567,Defaulted,Approved,Customer_0306,29,94000,Nagpur,Salaried,677,1,Fair,High,1,1,12,0.0,0,0.0
+209,30,5,Personal Loan,Medical,755000,120,17.4,0.442,Closed,Approved,Customer_0030,48,171000,Mumbai,Self-Employed,585,0,Poor,Medium,0,1,12,0.0,0,0.0
+210,37,6,Home Loan,Home Purchase,2155000,24,12.71,6.265,Closed,Approved,Customer_0037,23,172000,Kolhapur,Salaried,656,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+211,196,5,Auto Loan,Vehicle,2345000,36,13.5,26.056,Active,Approved,Customer_0196,25,30000,Nashik,Self-Employed,630,3,Fair,High,0,1,12,0.25,1,0.08333333333333333
+212,77,4,Personal Loan,Medical,1905000,84,18.07,3.728,Defaulted,Approved,Customer_0077,42,73000,Kolhapur,Student,659,0,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+213,401,4,Business Loan,Business Expansion,215000,60,11.24,0.632,Defaulted,Approved,Customer_0401,32,68000,Kolhapur,Salaried,704,1,Good,High,1,1,12,0.0,0,0.0
+214,69,2,Auto Loan,Vehicle,1505000,48,13.59,7.099,Closed,Approved,Customer_0069,43,53000,Nagpur,Professional,625,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+215,365,3,Business Loan,Business Expansion,835000,60,10.22,1.305,Active,Approved,Customer_0365,43,128000,Nashik,Self-Employed,612,2,Fair,High,0,1,12,0.0,0,0.0
+216,387,2,Auto Loan,Vehicle,2390000,24,15.3,6.948,Closed,Approved,Customer_0387,63,172000,Navi Mumbai,Salaried,627,0,Fair,High,0,1,12,0.0,0,0.0
+217,497,1,Personal Loan,Medical,440000,36,13.49,2.126,Active,Approved,Customer_0497,42,69000,Mumbai,Professional,717,1,Good,High,0,1,12,0.5,2,0.16666666666666666
+218,92,5,Business Loan,Business Expansion,2300000,84,18.5,4.44,Defaulted,Approved,Customer_0092,53,74000,Kolhapur,Salaried,620,1,Fair,High,1,1,12,0.0,0,0.0
+219,111,3,Business Loan,Business Expansion,1555000,12,12.88,7.934,Defaulted,Approved,Customer_0111,40,196000,Aurangabad,Salaried,574,0,Poor,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+220,273,6,Home Loan,Home Purchase,920000,24,17.18,2.473,Active,Approved,Customer_0273,60,186000,Aurangabad,Self-Employed,814,1,Excellent,High,0,1,12,0.0,0,0.0
+221,249,5,Business Loan,Business Expansion,2320000,60,14.33,2.746,Closed,Approved,Customer_0249,39,169000,Pune,Professional,714,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+222,487,1,Business Loan,Business Expansion,2295000,120,7.93,1.334,Closed,Approved,Customer_0487,35,172000,Navi Mumbai,Professional,615,1,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+223,101,3,Home Loan,Home Purchase,285000,180,17.48,0.905,Defaulted,Approved,Customer_0101,51,21000,Mumbai,Salaried,653,0,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+224,117,5,Business Loan,Business Expansion,2140000,60,15.44,4.0,Closed,Approved,Customer_0117,65,107000,Mumbai,Professional,637,1,Fair,High,0,1,12,0.0,0,0.0
+225,47,5,Auto Loan,Vehicle,2070000,180,13.54,3.538,Active,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,0,1,12,0.0,0,0.0
+226,465,6,Education Loan,Education,440000,60,10.53,0.838,Active,Approved,Customer_0465,38,105000,Satara,Business Owner,758,2,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+227,12,2,Home Loan,Home Purchase,1585000,36,17.94,5.503,Active,Approved,Customer_0012,26,96000,Satara,Salaried,659,1,Fair,High,0,1,12,0.0,0,0.0
+228,304,6,Education Loan,Education,85000,180,15.8,0.042,Active,Approved,Customer_0304,54,134000,Navi Mumbai,Salaried,850,0,Excellent,Low,0,0,12,0.25,1,0.08333333333333333
+229,183,3,Business Loan,Business Expansion,1465000,36,12.91,3.756,Active,Approved,Customer_0183,65,130000,Satara,Salaried,585,0,Poor,High,0,1,12,0.0,0,0.0
+230,417,3,Auto Loan,Vehicle,955000,84,15.88,1.922,Defaulted,Approved,Customer_0417,54,71000,Navi Mumbai,Salaried,766,1,Excellent,High,1,1,12,0.0,0,0.0
+231,203,1,Personal Loan,Medical,640000,84,11.48,1.604,Closed,Rejected,Customer_0203,60,57000,Nashik,Business Owner,549,1,Poor,High,0,1,12,1.25,1,0.08333333333333333
+232,179,4,Home Loan,Home Purchase,1210000,84,12.52,1.729,Active,Approved,Customer_0179,30,100000,Mumbai,Professional,624,1,Fair,High,0,1,12,0.0,0,0.0
+233,435,4,Home Loan,Home Purchase,2430000,60,15.91,4.909,Active,Approved,Customer_0435,39,99000,Satara,Salaried,671,0,Fair,High,0,1,12,0.0,0,0.0
+234,391,4,Personal Loan,Medical,1245000,24,18.46,3.683,Active,Approved,Customer_0391,40,169000,Mumbai,Self-Employed,597,0,Poor,High,0,1,12,0.25,1,0.08333333333333333
+235,429,3,Education Loan,Education,2410000,120,16.82,3.13,Active,Approved,Customer_0429,27,77000,Mumbai,Salaried,646,1,Fair,High,0,1,12,0.0,0,0.0
+236,63,5,Personal Loan,Medical,855000,84,12.43,0.596,Defaulted,Approved,Customer_0063,37,205000,Nagpur,Salaried,673,0,Fair,High,1,1,12,0.25,1,0.08333333333333333
+237,431,2,Auto Loan,Vehicle,230000,48,17.69,0.364,Closed,Approved,Customer_0431,42,158000,Mumbai,Salaried,637,1,Fair,Medium,0,0,12,0.0,0,0.0
+238,480,3,Education Loan,Education,2395000,180,15.06,0.928,Active,Approved,Customer_0480,36,172000,Kolhapur,Salaried,754,1,Excellent,High,0,1,12,0.0,0,0.0
+239,323,6,Auto Loan,Vehicle,690000,180,13.3,0.253,Active,Approved,Customer_0323,32,182000,Navi Mumbai,Salaried,738,0,Good,Low,0,0,12,0.0,0,0.0
+240,277,1,Education Loan,Education,1410000,180,16.52,0.475,Defaulted,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,Medium,1,1,12,1.5,2,0.16666666666666666
+241,152,3,Personal Loan,Medical,1155000,84,18.03,0.859,Active,Approved,Customer_0152,32,192000,Kolhapur,Self-Employed,669,1,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+242,19,1,Auto Loan,Vehicle,2005000,180,14.95,1.63,Closed,Approved,Customer_0019,59,82000,Kolhapur,Salaried,576,0,Poor,High,0,1,12,0.0,0,0.0
+243,488,1,Education Loan,Education,1615000,60,7.66,1.889,Closed,Approved,Customer_0488,33,171000,Aurangabad,Self-Employed,733,2,Good,High,0,1,12,0.0,0,0.0
+244,292,5,Home Loan,Home Purchase,735000,120,14.46,0.514,Active,Approved,Customer_0292,54,143000,Mumbai,Salaried,764,0,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+245,141,4,Auto Loan,Vehicle,2185000,84,17.81,1.696,Defaulted,Approved,Customer_0141,40,184000,Nashik,Salaried,641,0,Fair,High,1,1,12,1.25,1,0.08333333333333333
+246,128,3,Auto Loan,Vehicle,2155000,12,17.23,35.917,Active,Approved,Customer_0128,61,60000,Mumbai,Salaried,725,1,Good,High,0,1,12,0.0,0,0.0
+247,194,6,Business Loan,Business Expansion,1435000,48,15.45,2.847,Active,Approved,Customer_0194,57,126000,Nagpur,Salaried,646,2,Fair,High,0,1,12,1.8333333333333333,2,0.16666666666666666
+248,384,3,Auto Loan,Vehicle,410000,24,8.23,1.507,Active,Approved,Customer_0384,51,136000,Pune,Salaried,805,2,Excellent,High,0,1,12,0.0,0,0.0
+249,72,5,Education Loan,Education,1140000,60,16.39,1.452,Defaulted,Approved,Customer_0072,44,157000,Nashik,Salaried,563,0,Poor,High,1,1,12,0.0,0,0.0
+250,480,3,Business Loan,Business Expansion,265000,24,7.57,0.77,Active,Approved,Customer_0480,36,172000,Kolhapur,Salaried,754,1,Excellent,High,0,1,12,0.0,0,0.0
+251,123,2,Home Loan,Home Purchase,510000,120,8.35,0.291,Active,Approved,Customer_0123,65,175000,Satara,Professional,666,2,Fair,Low,0,0,12,0.0,0,0.0
+252,234,4,Auto Loan,Vehicle,235000,84,15.28,1.767,Closed,Approved,Customer_0234,27,19000,Nashik,Business Owner,677,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+253,322,4,Personal Loan,Medical,690000,120,11.93,0.35,Closed,Approved,Customer_0322,22,197000,Nashik,Self-Employed,678,2,Fair,Low,0,0,12,5.0,1,0.08333333333333333
+254,290,6,Home Loan,Home Purchase,2295000,12,17.72,91.8,Closed,Rejected,Customer_0290,45,25000,Aurangabad,Salaried,545,1,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+255,55,5,Auto Loan,Vehicle,2380000,180,11.04,2.333,Closed,Approved,Customer_0055,36,68000,Aurangabad,Business Owner,745,0,Good,High,0,1,12,0.0,0,0.0
+256,295,6,Personal Loan,Medical,1950000,36,13.54,21.667,Active,Approved,Customer_0295,64,30000,Kolhapur,Salaried,569,1,Poor,High,0,1,12,0.0,0,0.0
+257,437,5,Business Loan,Business Expansion,2050000,84,14.14,4.371,Active,Approved,Customer_0437,41,67000,Nashik,Salaried,648,0,Fair,High,0,1,12,0.0,0,0.0
+258,275,1,Business Loan,Business Expansion,1580000,60,15.86,3.038,Closed,Approved,Customer_0275,57,104000,Nagpur,Salaried,608,1,Fair,High,0,1,12,0.0,0,0.0
+259,183,2,Business Loan,Business Expansion,710000,180,17.04,0.364,Closed,Approved,Customer_0183,65,130000,Satara,Salaried,585,0,Poor,Medium,0,1,12,0.5833333333333334,1,0.08333333333333333
+260,10,4,Auto Loan,Vehicle,660000,180,14.37,0.667,Defaulted,Approved,Customer_0010,27,66000,Pune,Business Owner,668,1,Fair,High,1,1,12,4.0,3,0.25
+261,148,2,Auto Loan,Vehicle,50000,84,13.29,0.073,Closed,Approved,Customer_0148,25,98000,Pune,Salaried,653,1,Fair,Low,0,0,12,0.5833333333333334,1,0.08333333333333333
+262,412,6,Education Loan,Education,1245000,60,16.55,2.243,Closed,Approved,Customer_0412,52,111000,Navi Mumbai,Business Owner,806,1,Excellent,High,0,1,12,0.0,0,0.0
+263,30,2,Home Loan,Home Purchase,1325000,180,17.58,0.517,Active,Approved,Customer_0030,48,171000,Mumbai,Self-Employed,585,0,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+264,12,2,Business Loan,Business Expansion,1855000,48,10.63,4.831,Closed,Approved,Customer_0012,26,96000,Satara,Salaried,659,1,Fair,High,0,1,12,0.0,0,0.0
+265,248,4,Business Loan,Business Expansion,225000,180,8.1,0.441,Active,Approved,Customer_0248,30,34000,Navi Mumbai,Professional,622,0,Fair,Medium,0,0,12,0.0,0,0.0
+266,49,1,Business Loan,Business Expansion,925000,120,8.63,0.514,Active,Approved,Customer_0049,22,180000,Nashik,Professional,709,0,Good,High,0,1,12,0.0,0,0.0
+267,349,6,Personal Loan,Medical,885000,12,10.54,34.038,Closed,Approved,Customer_0349,56,26000,Navi Mumbai,Salaried,686,0,Good,High,0,1,12,0.0,0,0.0
+268,209,1,Home Loan,Home Purchase,860000,48,13.92,1.443,Active,Approved,Customer_0209,59,149000,Nagpur,Student,653,0,Fair,High,0,1,12,0.0,0,0.0
+269,390,5,Auto Loan,Vehicle,130000,120,15.65,0.078,Active,Approved,Customer_0390,35,167000,Kolhapur,Salaried,762,0,Excellent,Low,0,0,12,0.0,0,0.0
+270,156,3,Personal Loan,Medical,1465000,120,16.59,0.939,Closed,Approved,Customer_0156,38,156000,Nashik,Salaried,693,1,Good,High,0,1,12,0.0,0,0.0
+271,147,4,Business Loan,Business Expansion,2330000,180,16.77,1.263,Defaulted,Approved,Customer_0147,61,123000,Kolhapur,Professional,706,1,Good,High,1,1,12,0.0,0,0.0
+272,452,3,Home Loan,Home Purchase,1210000,36,17.87,6.722,Closed,Approved,Customer_0452,56,60000,Kolhapur,Self-Employed,685,1,Good,High,0,1,12,0.0,0,0.0
+273,177,4,Business Loan,Business Expansion,1595000,84,11.65,2.016,Defaulted,Approved,Customer_0177,37,113000,Kolhapur,Business Owner,695,0,Good,High,1,1,12,0.25,1,0.08333333333333333
+274,179,2,Education Loan,Education,1860000,120,8.78,1.86,Active,Approved,Customer_0179,30,100000,Mumbai,Professional,624,1,Fair,High,0,1,12,3.75,2,0.16666666666666666
+275,413,2,Personal Loan,Medical,2125000,180,14.46,1.749,Defaulted,Approved,Customer_0413,58,81000,Kolhapur,Salaried,600,1,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+276,175,5,Auto Loan,Vehicle,1445000,84,15.34,3.686,Closed,Approved,Customer_0175,63,56000,Aurangabad,Professional,602,0,Fair,High,0,1,12,2.75,3,0.25
+277,101,3,Auto Loan,Vehicle,1025000,180,10.56,3.254,Active,Approved,Customer_0101,51,21000,Mumbai,Salaried,653,0,Fair,High,0,1,12,1.25,1,0.08333333333333333
+278,273,6,Personal Loan,Medical,1450000,60,15.23,1.559,Closed,Approved,Customer_0273,60,186000,Aurangabad,Self-Employed,814,1,Excellent,High,0,1,12,0.0,0,0.0
+279,201,2,Personal Loan,Medical,2415000,60,14.59,2.792,Closed,Approved,Customer_0201,39,173000,Navi Mumbai,Business Owner,745,0,Good,High,0,1,12,0.25,1,0.08333333333333333
+280,401,4,Personal Loan,Medical,2300000,180,18.02,2.255,Active,Approved,Customer_0401,32,68000,Kolhapur,Salaried,704,1,Good,High,0,1,12,1.5,2,0.16666666666666666
+281,41,2,Auto Loan,Vehicle,1685000,60,12.53,1.575,Active,Approved,Customer_0041,54,214000,Navi Mumbai,Salaried,781,2,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+282,256,1,Business Loan,Business Expansion,2380000,120,15.98,1.345,Defaulted,Approved,Customer_0256,37,177000,Kolhapur,Salaried,687,0,Good,High,1,1,12,0.0,0,0.0
+283,380,2,Education Loan,Education,2445000,84,15.94,1.595,Defaulted,Approved,Customer_0380,34,219000,Pune,Business Owner,668,1,Fair,High,1,1,12,0.0,0,0.0
+284,229,6,Personal Loan,Medical,390000,60,11.58,1.04,Active,Approved,Customer_0229,47,75000,Aurangabad,Salaried,702,0,Good,High,0,1,12,5.0,1,0.08333333333333333
+285,459,1,Home Loan,Home Purchase,165000,84,17.18,0.11,Defaulted,Approved,Customer_0459,32,214000,Nagpur,Self-Employed,668,0,Fair,Low,1,1,12,1.8333333333333333,2,0.16666666666666666
+286,100,5,Auto Loan,Vehicle,385000,180,15.79,0.152,Active,Approved,Customer_0100,64,169000,Aurangabad,Self-Employed,681,0,Good,Low,0,0,12,0.0,0,0.0
+287,162,4,Business Loan,Business Expansion,920000,60,9.0,1.187,Defaulted,Approved,Customer_0162,43,155000,Nashik,Professional,740,0,Good,High,1,1,12,1.5,2,0.16666666666666666
+288,274,4,Auto Loan,Vehicle,895000,36,18.22,9.624,Active,Approved,Customer_0274,45,31000,Kolhapur,Salaried,637,0,Fair,High,0,1,12,0.0,0,0.0
+289,149,6,Business Loan,Business Expansion,2425000,48,15.35,2.781,Active,Approved,Customer_0149,57,218000,Nashik,Self-Employed,666,0,Fair,High,0,1,12,0.0,0,0.0
+290,65,3,Business Loan,Business Expansion,2480000,48,8.44,2.884,Closed,Approved,Customer_0065,51,215000,Pune,Self-Employed,656,1,Fair,High,0,1,12,0.0,0,0.0
+291,227,6,Home Loan,Home Purchase,2085000,24,16.56,33.629,Active,Approved,Customer_0227,46,31000,Aurangabad,Business Owner,674,2,Fair,High,0,1,12,0.0,0,0.0
+292,138,2,Education Loan,Education,110000,24,8.6,0.539,Closed,Approved,Customer_0138,28,102000,Mumbai,Professional,653,0,Fair,High,0,1,12,0.0,0,0.0
+293,46,2,Personal Loan,Medical,855000,12,17.52,32.885,Closed,Rejected,Customer_0046,31,26000,Nashik,Self-Employed,504,1,Poor,High,0,1,12,0.0,0,0.0
+294,470,2,Personal Loan,Medical,1760000,120,8.87,7.652,Closed,Approved,Customer_0470,51,23000,Aurangabad,Professional,850,0,Excellent,High,0,1,12,0.0,0,0.0
+295,163,6,Education Loan,Education,755000,180,13.34,0.662,Closed,Approved,Customer_0163,28,76000,Nagpur,Professional,651,2,Fair,High,0,1,12,0.0,0,0.0
+296,372,1,Auto Loan,Vehicle,725000,84,15.47,0.785,Active,Approved,Customer_0372,44,132000,Mumbai,Professional,580,2,Poor,High,0,1,12,0.0,0,0.0
+297,228,1,Home Loan,Home Purchase,2100000,24,11.87,6.688,Closed,Approved,Customer_0228,58,157000,Navi Mumbai,Self-Employed,618,1,Fair,High,0,1,12,0.0,0,0.0
+298,340,1,Personal Loan,Medical,2425000,12,10.44,20.726,Defaulted,Approved,Customer_0340,26,117000,Mumbai,Professional,737,0,Good,High,1,1,12,0.0,0,0.0
+299,104,6,Personal Loan,Medical,1885000,120,16.93,6.5,Defaulted,Approved,Customer_0104,65,29000,Nagpur,Salaried,663,2,Fair,High,1,1,12,5.0,1,0.08333333333333333
+300,181,6,Personal Loan,Medical,965000,12,15.97,10.722,Defaulted,Approved,Customer_0181,64,90000,Aurangabad,Salaried,575,2,Poor,High,1,1,12,2.75,3,0.25
+301,233,5,Education Loan,Education,435000,180,9.5,0.33,Active,Approved,Customer_0233,27,88000,Nagpur,Salaried,630,3,Fair,Low,0,0,12,0.0,0,0.0
+302,153,1,Auto Loan,Vehicle,1690000,12,9.96,11.818,Active,Approved,Customer_0153,25,143000,Mumbai,Salaried,671,0,Fair,High,0,1,12,0.0,0,0.0
+303,126,3,Business Loan,Business Expansion,1495000,24,7.51,22.652,Defaulted,Approved,Customer_0126,46,33000,Kolhapur,Salaried,800,1,Excellent,High,1,1,12,0.8333333333333334,2,0.16666666666666666
+304,373,3,Auto Loan,Vehicle,2325000,60,18.22,2.173,Active,Approved,Customer_0373,52,214000,Satara,Salaried,816,1,Excellent,High,0,1,12,0.0,0,0.0
+305,457,1,Business Loan,Business Expansion,425000,180,17.38,0.244,Defaulted,Approved,Customer_0457,50,116000,Navi Mumbai,Professional,672,2,Fair,Low,1,1,12,0.5833333333333334,1,0.08333333333333333
+306,471,5,Personal Loan,Medical,490000,180,10.7,0.176,Active,Approved,Customer_0471,36,186000,Aurangabad,Professional,651,3,Fair,Low,0,0,12,0.0,0,0.0
+307,214,5,Home Loan,Home Purchase,825000,84,17.39,0.818,Active,Approved,Customer_0214,25,144000,Pune,Professional,616,0,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+308,489,5,Education Loan,Education,2235000,60,14.14,2.18,Closed,Approved,Customer_0489,65,205000,Mumbai,Salaried,680,0,Good,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+309,79,2,Home Loan,Home Purchase,675000,84,12.71,0.736,Defaulted,Approved,Customer_0079,57,131000,Navi Mumbai,Salaried,649,3,Fair,High,1,1,12,0.25,1,0.08333333333333333
+310,4,4,Business Loan,Business Expansion,1515000,48,10.13,3.677,Active,Approved,Customer_0004,32,103000,Mumbai,Self-Employed,650,1,Fair,High,0,1,12,1.25,1,0.08333333333333333
+311,434,4,Education Loan,Education,305000,120,18.09,0.565,Closed,Approved,Customer_0434,59,54000,Pune,Salaried,621,2,Fair,High,0,1,12,1.5,2,0.16666666666666666
+312,278,2,Home Loan,Home Purchase,1965000,120,9.75,1.819,Closed,Approved,Customer_0278,36,108000,Mumbai,Professional,835,2,Excellent,High,0,1,12,0.0,0,0.0
+313,492,1,Personal Loan,Medical,810000,36,17.36,3.0,Closed,Approved,Customer_0492,60,90000,Nagpur,Professional,623,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+314,394,5,Personal Loan,Medical,790000,12,10.54,10.676,Active,Approved,Customer_0394,51,74000,Aurangabad,Self-Employed,723,1,Good,High,0,1,12,0.0,0,0.0
+315,181,4,Personal Loan,Medical,960000,180,17.47,0.711,Defaulted,Approved,Customer_0181,64,90000,Aurangabad,Salaried,575,2,Poor,High,1,1,12,0.0,0,0.0
+316,459,4,Auto Loan,Vehicle,645000,60,16.41,0.603,Closed,Approved,Customer_0459,32,214000,Nagpur,Self-Employed,668,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+317,102,1,Business Loan,Business Expansion,2045000,12,15.47,12.47,Active,Approved,Customer_0102,46,164000,Mumbai,Salaried,705,0,Good,High,0,1,12,1.25,1,0.08333333333333333
+318,47,2,Auto Loan,Vehicle,400000,48,15.28,2.564,Active,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,0,1,12,6.25,2,0.16666666666666666
+319,282,1,Home Loan,Home Purchase,170000,180,12.97,0.206,Active,Approved,Customer_0282,52,55000,Satara,Salaried,699,1,Good,Low,0,0,12,0.0,0,0.0
+320,459,6,Education Loan,Education,2135000,60,12.07,1.995,Closed,Approved,Customer_0459,32,214000,Nagpur,Self-Employed,668,0,Fair,High,0,1,12,0.0,0,0.0
+321,411,5,Auto Loan,Vehicle,1535000,84,10.16,1.858,Closed,Approved,Customer_0411,27,118000,Kolhapur,Salaried,623,1,Fair,High,0,1,12,0.0,0,0.0
+322,122,6,Personal Loan,Medical,1750000,36,8.34,8.102,Closed,Approved,Customer_0122,57,72000,Kolhapur,Business Owner,755,3,Excellent,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+323,62,6,Education Loan,Education,1445000,84,15.87,1.007,Active,Approved,Customer_0062,39,205000,Aurangabad,Professional,687,0,Good,High,0,1,12,0.25,1,0.08333333333333333
+324,202,3,Business Loan,Business Expansion,900000,180,12.54,0.984,Closed,Approved,Customer_0202,62,61000,Navi Mumbai,Professional,708,1,Good,High,0,1,12,0.0,0,0.0
+325,478,5,Personal Loan,Medical,1030000,48,12.79,1.88,Defaulted,Approved,Customer_0478,51,137000,Kolhapur,Student,578,0,Poor,High,1,1,12,5.25,2,0.16666666666666666
+326,235,3,Business Loan,Business Expansion,2285000,24,16.78,7.566,Closed,Approved,Customer_0235,43,151000,Mumbai,Salaried,704,0,Good,High,0,1,12,1.25,1,0.08333333333333333
+327,333,4,Business Loan,Business Expansion,1205000,84,11.81,3.513,Active,Approved,Customer_0333,26,49000,Nagpur,Salaried,807,1,Excellent,High,0,1,12,0.0,0,0.0
+328,70,3,Business Loan,Business Expansion,2175000,24,9.67,8.841,Active,Approved,Customer_0070,60,123000,Mumbai,Salaried,612,1,Fair,High,0,1,12,1.5,2,0.16666666666666666
+329,252,2,Business Loan,Business Expansion,1870000,48,15.33,14.609,Closed,Approved,Customer_0252,40,32000,Navi Mumbai,Salaried,771,0,Excellent,High,0,1,12,0.0,0,0.0
+330,446,5,Personal Loan,Medical,925000,36,9.91,2.318,Active,Approved,Customer_0446,59,133000,Satara,Student,596,1,Poor,High,0,1,12,0.0,0,0.0
+331,89,6,Business Loan,Business Expansion,1945000,180,14.03,1.525,Active,Approved,Customer_0089,23,85000,Navi Mumbai,Salaried,638,0,Fair,High,0,1,12,0.0,0,0.0
+332,374,4,Personal Loan,Medical,1485000,180,18.29,2.25,Active,Approved,Customer_0374,22,44000,Navi Mumbai,Salaried,655,2,Fair,High,0,1,12,0.25,1,0.08333333333333333
+333,108,3,Business Loan,Business Expansion,2405000,180,17.88,1.028,Defaulted,Approved,Customer_0108,43,156000,Kolhapur,Salaried,648,1,Fair,High,1,1,12,0.0,0,0.0
+334,299,5,Education Loan,Education,1145000,36,15.83,2.074,Closed,Approved,Customer_0299,21,184000,Satara,Salaried,671,0,Fair,High,0,1,12,2.5,1,0.08333333333333333
+335,362,4,Education Loan,Education,1495000,12,16.0,6.953,Closed,Approved,Customer_0362,36,215000,Pune,Salaried,850,1,Excellent,High,0,1,12,0.0,0,0.0
+336,495,3,Auto Loan,Vehicle,1020000,12,14.83,4.789,Closed,Approved,Customer_0495,21,213000,Kolhapur,Self-Employed,570,2,Poor,High,0,1,12,0.0,0,0.0
+337,84,4,Home Loan,Home Purchase,660000,48,16.91,1.528,Closed,Approved,Customer_0084,46,108000,Pune,Salaried,653,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+338,137,5,Home Loan,Home Purchase,1965000,120,7.6,2.339,Active,Approved,Customer_0137,44,84000,Aurangabad,Professional,615,1,Fair,High,0,1,12,1.25,1,0.08333333333333333
+339,476,3,Home Loan,Home Purchase,1820000,12,13.57,31.93,Defaulted,Approved,Customer_0476,51,57000,Nashik,Business Owner,672,1,Fair,High,1,1,12,0.0,0,0.0
+340,469,2,Home Loan,Home Purchase,1750000,180,16.39,0.758,Active,Approved,Customer_0469,30,154000,Satara,Self-Employed,635,0,Fair,High,0,1,12,0.25,1,0.08333333333333333
+341,55,6,Education Loan,Education,1535000,36,16.39,7.525,Closed,Approved,Customer_0055,36,68000,Aurangabad,Business Owner,745,0,Good,High,0,1,12,0.0,0,0.0
+342,101,5,Education Loan,Education,1855000,84,12.79,12.619,Defaulted,Approved,Customer_0101,51,21000,Mumbai,Salaried,653,0,Fair,High,1,1,12,0.0,0,0.0
+343,173,6,Education Loan,Education,1500000,180,17.42,1.176,Defaulted,Approved,Customer_0173,43,85000,Nagpur,Salaried,813,0,Excellent,High,1,1,12,0.25,1,0.08333333333333333
+344,248,1,Education Loan,Education,440000,120,12.94,1.294,Active,Approved,Customer_0248,30,34000,Navi Mumbai,Professional,622,0,Fair,High,0,1,12,2.5,1,0.08333333333333333
+345,93,4,Business Loan,Business Expansion,495000,36,11.59,1.352,Closed,Approved,Customer_0093,43,122000,Kolhapur,Self-Employed,805,0,Excellent,High,0,1,12,1.8333333333333333,2,0.16666666666666666
+346,404,3,Auto Loan,Vehicle,1590000,24,7.86,34.565,Active,Approved,Customer_0404,26,23000,Navi Mumbai,Professional,633,2,Fair,High,0,1,12,1.5,2,0.16666666666666666
+347,113,6,Business Loan,Business Expansion,175000,120,13.85,0.094,Active,Approved,Customer_0113,39,186000,Pune,Business Owner,719,1,Good,Low,0,0,12,0.0,0,0.0
+348,17,5,Personal Loan,Medical,1935000,12,18.42,34.554,Closed,Approved,Customer_0017,65,56000,Pune,Business Owner,733,1,Good,High,0,1,12,0.0,0,0.0
+349,468,1,Auto Loan,Vehicle,820000,180,12.07,0.448,Closed,Approved,Customer_0468,38,122000,Nashik,Salaried,663,1,Fair,Medium,0,0,12,0.0,0,0.0
+350,114,4,Business Loan,Business Expansion,850000,120,17.15,0.407,Active,Approved,Customer_0114,39,209000,Pune,Salaried,680,1,Good,Medium,0,0,12,0.25,1,0.08333333333333333
+351,116,3,Personal Loan,Medical,800000,48,13.07,0.93,Closed,Approved,Customer_0116,43,215000,Nashik,Salaried,600,2,Fair,High,0,1,12,0.0,0,0.0
+352,41,1,Personal Loan,Medical,815000,60,7.9,0.762,Active,Approved,Customer_0041,54,214000,Navi Mumbai,Salaried,781,2,Excellent,High,0,1,12,0.5,2,0.16666666666666666
+353,278,1,Home Loan,Home Purchase,2450000,12,14.98,22.685,Defaulted,Approved,Customer_0278,36,108000,Mumbai,Professional,835,2,Excellent,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+354,221,3,Education Loan,Education,2485000,12,15.41,11.667,Active,Approved,Customer_0221,24,213000,Satara,Student,706,0,Good,High,0,1,12,5.583333333333333,2,0.16666666666666666
+355,149,3,Home Loan,Home Purchase,465000,24,11.09,1.067,Closed,Approved,Customer_0149,57,218000,Nashik,Self-Employed,666,0,Fair,High,0,1,12,2.5,1,0.08333333333333333
+356,403,2,Education Loan,Education,1165000,12,11.38,6.619,Active,Approved,Customer_0403,25,176000,Aurangabad,Business Owner,712,3,Good,High,0,1,12,0.0,0,0.0
+357,40,4,Home Loan,Home Purchase,2415000,120,12.11,1.118,Active,Approved,Customer_0040,58,216000,Navi Mumbai,Salaried,746,1,Good,High,0,1,12,0.0,0,0.0
+358,279,4,Business Loan,Business Expansion,975000,48,12.97,1.219,Closed,Approved,Customer_0279,51,200000,Pune,Salaried,750,1,Excellent,High,0,1,12,0.0,0,0.0
+359,109,3,Home Loan,Home Purchase,1380000,36,10.31,2.486,Closed,Approved,Customer_0109,32,185000,Navi Mumbai,Salaried,775,0,Excellent,High,0,1,12,0.0,0,0.0
+360,112,6,Auto Loan,Vehicle,2360000,48,7.86,3.576,Defaulted,Approved,Customer_0112,56,165000,Pune,Self-Employed,626,3,Fair,High,1,1,12,0.0,0,0.0
+361,475,5,Business Loan,Business Expansion,1420000,84,17.85,2.779,Closed,Approved,Customer_0475,49,73000,Navi Mumbai,Student,693,1,Good,High,0,1,12,0.25,1,0.08333333333333333
+362,385,3,Auto Loan,Vehicle,1045000,48,8.55,2.779,Closed,Rejected,Customer_0385,34,94000,Nashik,Professional,532,2,Poor,High,0,1,12,0.0,0,0.0
+363,40,5,Personal Loan,Medical,735000,48,15.49,0.851,Active,Approved,Customer_0040,58,216000,Navi Mumbai,Salaried,746,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+364,24,3,Auto Loan,Vehicle,320000,12,14.7,2.286,Closed,Approved,Customer_0024,35,140000,Mumbai,Professional,807,1,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+365,290,4,Business Loan,Business Expansion,1780000,36,13.43,23.733,Closed,Rejected,Customer_0290,45,25000,Aurangabad,Salaried,545,1,Poor,High,0,1,12,0.0,0,0.0
+366,279,6,Education Loan,Education,1535000,180,7.91,0.512,Active,Approved,Customer_0279,51,200000,Pune,Salaried,750,1,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+367,181,4,Auto Loan,Vehicle,95000,120,13.99,0.106,Defaulted,Approved,Customer_0181,64,90000,Aurangabad,Salaried,575,2,Poor,Low,1,1,12,0.0,0,0.0
+368,54,6,Auto Loan,Vehicle,2075000,120,18.2,2.184,Active,Approved,Customer_0054,38,95000,Mumbai,Business Owner,636,1,Fair,High,0,1,12,0.0,0,0.0
+369,85,3,Auto Loan,Vehicle,1040000,120,12.31,0.693,Active,Approved,Customer_0085,43,150000,Pune,Professional,632,0,Fair,High,0,1,12,0.0,0,0.0
+370,342,3,Business Loan,Business Expansion,255000,180,10.91,0.386,Active,Approved,Customer_0342,55,44000,Aurangabad,Business Owner,674,2,Fair,Medium,0,0,12,0.0,0,0.0
+371,420,2,Personal Loan,Medical,1250000,60,12.15,3.378,Defaulted,Approved,Customer_0420,35,74000,Nashik,Salaried,784,1,Excellent,High,1,1,12,0.0,0,0.0
+372,30,3,Personal Loan,Medical,475000,180,16.5,0.185,Defaulted,Approved,Customer_0030,48,171000,Mumbai,Self-Employed,585,0,Poor,Low,1,1,12,0.5,2,0.16666666666666666
+373,435,3,Business Loan,Business Expansion,1580000,120,11.58,1.596,Defaulted,Approved,Customer_0435,39,99000,Satara,Salaried,671,0,Fair,High,1,1,12,0.0,0,0.0
+374,47,6,Business Loan,Business Expansion,275000,36,11.96,2.35,Active,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+375,213,1,Auto Loan,Vehicle,2105000,48,14.0,3.604,Active,Approved,Customer_0213,56,146000,Nagpur,Salaried,669,2,Fair,High,0,1,12,0.0,0,0.0
+376,272,2,Home Loan,Home Purchase,1470000,180,12.06,0.653,Defaulted,Approved,Customer_0272,46,150000,Mumbai,Self-Employed,682,0,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+377,202,6,Home Loan,Home Purchase,750000,48,9.34,3.074,Active,Approved,Customer_0202,62,61000,Navi Mumbai,Professional,708,1,Good,High,0,1,12,0.0,0,0.0
+378,9,2,Education Loan,Education,1300000,12,17.97,6.771,Defaulted,Approved,Customer_0009,34,192000,Aurangabad,Professional,644,1,Fair,High,1,1,12,3.3333333333333335,3,0.25
+379,214,4,Personal Loan,Medical,1690000,48,14.12,2.934,Closed,Approved,Customer_0214,25,144000,Pune,Professional,616,0,Fair,High,0,1,12,0.0,0,0.0
+380,111,5,Auto Loan,Vehicle,2440000,60,8.93,2.49,Defaulted,Approved,Customer_0111,40,196000,Aurangabad,Salaried,574,0,Poor,High,1,1,12,0.25,1,0.08333333333333333
+381,102,1,Home Loan,Home Purchase,2015000,48,13.15,3.072,Defaulted,Approved,Customer_0102,46,164000,Mumbai,Salaried,705,0,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+382,51,2,Home Loan,Home Purchase,650000,180,18.2,1.97,Defaulted,Approved,Customer_0051,23,22000,Kolhapur,Salaried,708,1,Good,High,1,1,12,3.0,3,0.25
+383,104,3,Business Loan,Business Expansion,2230000,48,15.36,19.224,Active,Approved,Customer_0104,65,29000,Nagpur,Salaried,663,2,Fair,High,0,1,12,0.5,2,0.16666666666666666
+384,198,2,Personal Loan,Medical,460000,84,8.84,0.427,Closed,Approved,Customer_0198,55,154000,Pune,Salaried,696,1,Good,Medium,0,0,12,0.0,0,0.0
+385,167,2,Education Loan,Education,1605000,180,11.29,0.648,Closed,Approved,Customer_0167,61,165000,Kolhapur,Professional,648,1,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+386,251,5,Auto Loan,Vehicle,640000,60,9.65,1.058,Active,Approved,Customer_0251,40,121000,Kolhapur,Salaried,655,0,Fair,High,0,1,12,1.25,1,0.08333333333333333
+387,70,3,Business Loan,Business Expansion,510000,180,18.26,0.276,Active,Approved,Customer_0070,60,123000,Mumbai,Salaried,612,1,Fair,Low,0,0,12,0.0,0,0.0
+388,337,5,Education Loan,Education,350000,84,15.5,0.239,Defaulted,Approved,Customer_0337,52,209000,Navi Mumbai,Salaried,635,0,Fair,Low,1,1,12,0.0,0,0.0
+389,183,3,Auto Loan,Vehicle,2115000,84,12.96,2.324,Closed,Approved,Customer_0183,65,130000,Satara,Salaried,585,0,Poor,High,0,1,12,2.5,1,0.08333333333333333
+390,474,4,Business Loan,Business Expansion,360000,48,11.76,0.495,Closed,Approved,Customer_0474,52,182000,Satara,Professional,729,2,Good,Medium,0,0,12,0.0,0,0.0
+391,402,4,Home Loan,Home Purchase,1925000,60,7.78,3.969,Closed,Approved,Customer_0402,39,97000,Aurangabad,Professional,723,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+392,419,4,Business Loan,Business Expansion,2325000,120,16.78,1.123,Active,Approved,Customer_0419,63,207000,Nashik,Salaried,669,2,Fair,High,0,1,12,0.0,0,0.0
+393,216,1,Personal Loan,Medical,525000,84,16.49,0.528,Active,Approved,Customer_0216,56,142000,Nagpur,Salaried,791,1,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+394,481,5,Business Loan,Business Expansion,1070000,48,13.45,3.715,Closed,Approved,Customer_0481,24,72000,Mumbai,Self-Employed,722,0,Good,High,0,1,12,1.25,1,0.08333333333333333
+395,193,6,Auto Loan,Vehicle,1080000,60,15.4,2.16,Defaulted,Approved,Customer_0193,30,100000,Aurangabad,Self-Employed,765,0,Excellent,High,1,1,12,3.75,2,0.16666666666666666
+396,488,6,Education Loan,Education,2385000,180,18.08,0.93,Closed,Approved,Customer_0488,33,171000,Aurangabad,Self-Employed,733,2,Good,High,0,1,12,0.0,0,0.0
+397,483,3,Auto Loan,Vehicle,1415000,36,11.86,9.433,Active,Approved,Customer_0483,57,50000,Satara,Salaried,818,1,Excellent,High,0,1,12,0.0,0,0.0
+398,43,4,Business Loan,Business Expansion,310000,180,16.4,0.626,Active,Approved,Customer_0043,36,33000,Aurangabad,Business Owner,658,0,Fair,High,0,1,12,0.0,0,0.0
+399,428,6,Business Loan,Business Expansion,75000,12,10.98,0.547,Closed,Approved,Customer_0428,56,137000,Aurangabad,Student,640,1,Fair,High,0,1,12,0.0,0,0.0
+400,371,6,Home Loan,Home Purchase,2360000,12,16.26,12.041,Defaulted,Approved,Customer_0371,40,196000,Satara,Salaried,598,3,Poor,High,1,1,12,5.0,1,0.08333333333333333
+401,440,3,Education Loan,Education,2010000,36,16.86,30.455,Defaulted,Approved,Customer_0440,55,22000,Nagpur,Self-Employed,702,1,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+402,179,4,Personal Loan,Medical,1930000,24,10.22,9.65,Closed,Approved,Customer_0179,30,100000,Mumbai,Professional,624,1,Fair,High,0,1,12,0.0,0,0.0
+403,481,5,Home Loan,Home Purchase,180000,48,7.72,0.625,Closed,Approved,Customer_0481,24,72000,Mumbai,Self-Employed,722,0,Good,High,0,1,12,0.0,0,0.0
+404,331,1,Auto Loan,Vehicle,140000,12,11.38,0.824,Closed,Approved,Customer_0331,49,170000,Pune,Salaried,648,2,Fair,High,0,1,12,0.0,0,0.0
+405,390,4,Business Loan,Business Expansion,330000,180,12.24,0.132,Closed,Approved,Customer_0390,35,167000,Kolhapur,Salaried,762,0,Excellent,Low,0,0,12,5.25,2,0.16666666666666666
+406,334,3,Home Loan,Home Purchase,200000,12,8.25,6.897,Closed,Approved,Customer_0334,46,29000,Kolhapur,Self-Employed,685,0,Good,High,0,1,12,0.25,1,0.08333333333333333
+407,33,6,Education Loan,Education,690000,12,11.17,4.481,Active,Approved,Customer_0033,28,154000,Kolhapur,Salaried,583,0,Poor,High,0,1,12,0.0,0,0.0
+408,197,4,Auto Loan,Vehicle,1435000,60,11.61,3.376,Active,Approved,Customer_0197,34,85000,Aurangabad,Salaried,702,0,Good,High,0,1,12,0.0,0,0.0
+409,289,6,Education Loan,Education,620000,36,16.13,1.088,Active,Approved,Customer_0289,43,190000,Navi Mumbai,Self-Employed,720,2,Good,High,0,1,12,0.25,1,0.08333333333333333
+410,215,5,Home Loan,Home Purchase,1615000,36,16.14,3.542,Active,Approved,Customer_0215,32,152000,Mumbai,Professional,755,1,Excellent,High,0,1,12,0.0,0,0.0
+411,248,2,Business Loan,Business Expansion,595000,60,10.56,3.5,Defaulted,Approved,Customer_0248,30,34000,Navi Mumbai,Professional,622,0,Fair,High,1,1,12,0.0,0,0.0
+412,319,2,Auto Loan,Vehicle,1670000,120,17.56,0.918,Active,Approved,Customer_0319,33,182000,Pune,Business Owner,713,0,Good,High,0,1,12,0.0,0,0.0
+413,62,2,Education Loan,Education,675000,180,18.25,0.22,Active,Approved,Customer_0062,39,205000,Aurangabad,Professional,687,0,Good,Low,0,0,12,0.0,0,0.0
+414,6,1,Personal Loan,Medical,145000,60,18.27,0.139,Closed,Approved,Customer_0006,36,208000,Nagpur,Salaried,735,1,Good,Low,0,0,12,0.0,0,0.0
+415,453,1,Home Loan,Home Purchase,1605000,12,15.25,15.142,Active,Approved,Customer_0453,36,106000,Aurangabad,Student,808,0,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+416,433,3,Education Loan,Education,790000,120,11.87,1.519,Closed,Approved,Customer_0433,47,52000,Pune,Salaried,770,2,Excellent,High,0,1,12,0.0,0,0.0
+417,387,3,Home Loan,Home Purchase,1140000,12,13.18,6.628,Closed,Approved,Customer_0387,63,172000,Navi Mumbai,Salaried,627,0,Fair,High,0,1,12,0.0,0,0.0
+418,208,6,Home Loan,Home Purchase,1560000,180,13.55,4.522,Defaulted,Approved,Customer_0208,49,23000,Nashik,Salaried,771,1,Excellent,High,1,1,12,0.0,0,0.0
+419,22,3,Auto Loan,Vehicle,1710000,24,14.14,4.858,Defaulted,Approved,Customer_0022,34,176000,Mumbai,Salaried,563,2,Poor,High,1,1,12,0.0,0,0.0
+420,157,1,Home Loan,Home Purchase,1125000,48,8.25,2.511,Active,Approved,Customer_0157,54,112000,Pune,Salaried,802,1,Excellent,High,0,1,12,2.75,2,0.16666666666666666
+421,438,4,Business Loan,Business Expansion,2130000,180,14.09,3.463,Active,Approved,Customer_0438,27,41000,Mumbai,Self-Employed,619,1,Fair,High,0,1,12,5.0,1,0.08333333333333333
+422,483,5,Home Loan,Home Purchase,335000,60,13.59,1.34,Defaulted,Approved,Customer_0483,57,50000,Satara,Salaried,818,1,Excellent,High,1,1,12,0.0,0,0.0
+423,290,3,Business Loan,Business Expansion,785000,12,11.61,31.4,Closed,Rejected,Customer_0290,45,25000,Aurangabad,Salaried,545,1,Poor,High,0,1,12,0.0,0,0.0
+424,266,6,Auto Loan,Vehicle,2155000,12,15.27,10.262,Defaulted,Approved,Customer_0266,63,210000,Mumbai,Self-Employed,799,0,Excellent,High,1,1,12,0.0,0,0.0
+425,233,4,Business Loan,Business Expansion,1620000,36,10.48,6.136,Defaulted,Approved,Customer_0233,27,88000,Nagpur,Salaried,630,3,Fair,High,1,1,12,5.0,1,0.08333333333333333
+426,258,2,Education Loan,Education,1135000,24,17.91,3.834,Active,Approved,Customer_0258,42,148000,Mumbai,Self-Employed,811,1,Excellent,High,0,1,12,0.0,0,0.0
+427,473,3,Business Loan,Business Expansion,2330000,48,14.23,4.895,Closed,Approved,Customer_0473,54,119000,Aurangabad,Business Owner,694,3,Good,High,0,1,12,0.0,0,0.0
+428,150,6,Education Loan,Education,825000,84,7.57,0.71,Active,Approved,Customer_0150,65,166000,Aurangabad,Salaried,570,0,Poor,High,0,1,12,0.0,0,0.0
+429,356,4,Personal Loan,Medical,2230000,24,14.98,8.577,Closed,Approved,Customer_0356,33,130000,Aurangabad,Salaried,696,1,Good,High,0,1,12,1.25,1,0.08333333333333333
+430,449,3,Auto Loan,Vehicle,785000,12,13.46,12.46,Active,Approved,Customer_0449,64,63000,Navi Mumbai,Professional,782,3,Excellent,High,0,1,12,0.0,0,0.0
+431,385,2,Personal Loan,Medical,650000,24,16.74,3.457,Closed,Rejected,Customer_0385,34,94000,Nashik,Professional,532,2,Poor,High,0,1,12,0.0,0,0.0
+432,416,2,Business Loan,Business Expansion,1955000,120,14.81,1.278,Defaulted,Approved,Customer_0416,46,153000,Satara,Professional,850,1,Excellent,High,1,1,12,1.25,1,0.08333333333333333
+433,370,1,Auto Loan,Vehicle,1800000,12,15.73,23.377,Closed,Approved,Customer_0370,51,77000,Navi Mumbai,Salaried,564,1,Poor,High,0,1,12,0.0,0,0.0
+434,412,2,Education Loan,Education,180000,180,15.46,0.108,Active,Approved,Customer_0412,52,111000,Navi Mumbai,Business Owner,806,1,Excellent,Low,0,0,12,0.0,0,0.0
+435,403,1,Business Loan,Business Expansion,90000,120,13.52,0.051,Active,Approved,Customer_0403,25,176000,Aurangabad,Business Owner,712,3,Good,Low,0,0,12,0.0,0,0.0
+436,170,1,Business Loan,Business Expansion,845000,120,9.74,0.748,Active,Approved,Customer_0170,37,113000,Pune,Professional,693,2,Good,High,0,1,12,2.5,1,0.08333333333333333
+437,245,4,Business Loan,Business Expansion,2270000,60,8.05,3.815,Defaulted,Approved,Customer_0245,48,119000,Aurangabad,Salaried,754,3,Excellent,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+438,47,1,Home Loan,Home Purchase,935000,24,10.23,11.987,Active,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,0,1,12,0.0,0,0.0
+439,366,2,Education Loan,Education,1330000,36,8.35,3.359,Closed,Approved,Customer_0366,52,132000,Navi Mumbai,Professional,650,0,Fair,High,0,1,12,2.5,1,0.08333333333333333
+440,296,3,Auto Loan,Vehicle,1630000,84,12.55,1.17,Active,Approved,Customer_0296,50,199000,Navi Mumbai,Professional,732,0,Good,High,0,1,12,0.0,0,0.0
+441,318,2,Home Loan,Home Purchase,1280000,60,14.07,1.196,Active,Approved,Customer_0318,53,214000,Satara,Salaried,712,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+442,94,2,Auto Loan,Vehicle,1415000,24,11.16,3.306,Active,Approved,Customer_0094,51,214000,Pune,Business Owner,789,1,Excellent,High,0,1,12,0.0,0,0.0
+443,38,3,Personal Loan,Medical,2075000,120,16.55,1.064,Active,Approved,Customer_0038,21,195000,Nagpur,Professional,683,0,Good,High,0,1,12,0.0,0,0.0
+444,319,3,Business Loan,Business Expansion,1375000,120,16.15,0.755,Active,Approved,Customer_0319,33,182000,Pune,Business Owner,713,0,Good,High,0,1,12,0.0,0,0.0
+445,458,6,Home Loan,Home Purchase,1885000,84,15.62,1.966,Closed,Approved,Customer_0458,52,137000,Aurangabad,Professional,660,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+446,264,1,Business Loan,Business Expansion,475000,84,15.98,0.326,Defaulted,Approved,Customer_0264,27,208000,Pune,Self-Employed,807,2,Excellent,Low,1,1,12,0.25,1,0.08333333333333333
+447,73,1,Home Loan,Home Purchase,745000,60,13.93,1.164,Active,Approved,Customer_0073,27,128000,Navi Mumbai,Professional,732,1,Good,High,0,1,12,0.0,0,0.0
+448,295,1,Home Loan,Home Purchase,1330000,48,17.02,11.083,Closed,Approved,Customer_0295,64,30000,Kolhapur,Salaried,569,1,Poor,High,0,1,12,0.0,0,0.0
+449,182,3,Personal Loan,Medical,1975000,120,14.83,1.372,Active,Approved,Customer_0182,54,144000,Kolhapur,Salaried,604,1,Fair,High,0,1,12,0.0,0,0.0
+450,341,3,Auto Loan,Vehicle,935000,60,14.43,8.13,Active,Approved,Customer_0341,23,23000,Nagpur,Self-Employed,757,0,Excellent,High,0,1,12,0.0,0,0.0
+451,123,4,Personal Loan,Medical,1690000,24,16.67,4.829,Active,Approved,Customer_0123,65,175000,Satara,Professional,666,2,Fair,High,0,1,12,1.25,1,0.08333333333333333
+452,114,6,Auto Loan,Vehicle,2325000,120,12.11,1.112,Active,Approved,Customer_0114,39,209000,Pune,Salaried,680,1,Good,High,0,1,12,5.0,1,0.08333333333333333
+453,139,4,Home Loan,Home Purchase,960000,84,7.74,0.779,Active,Approved,Customer_0139,48,176000,Nashik,Salaried,590,1,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+454,214,6,Personal Loan,Medical,1795000,180,8.12,0.831,Closed,Approved,Customer_0214,25,144000,Pune,Professional,616,0,Fair,High,0,1,12,0.0,0,0.0
+455,88,1,Personal Loan,Medical,1565000,180,9.81,0.796,Active,Approved,Customer_0088,25,131000,Nagpur,Self-Employed,733,1,Good,High,0,1,12,0.0,0,0.0
+456,311,2,Auto Loan,Vehicle,345000,12,12.01,8.023,Defaulted,Approved,Customer_0311,54,43000,Navi Mumbai,Salaried,684,2,Good,High,1,1,12,0.0,0,0.0
+457,121,5,Auto Loan,Vehicle,2070000,120,17.66,0.981,Defaulted,Approved,Customer_0121,62,211000,Pune,Self-Employed,731,0,Good,High,1,1,12,1.5,2,0.16666666666666666
+458,496,4,Auto Loan,Vehicle,820000,180,16.15,0.377,Active,Approved,Customer_0496,60,145000,Nashik,Professional,659,1,Fair,Medium,0,0,12,0.0,0,0.0
+459,21,3,Business Loan,Business Expansion,1405000,36,15.04,2.209,Active,Approved,Customer_0021,55,212000,Satara,Self-Employed,724,1,Good,High,0,1,12,5.25,2,0.16666666666666666
+460,452,4,Business Loan,Business Expansion,585000,48,7.59,2.438,Closed,Approved,Customer_0452,56,60000,Kolhapur,Self-Employed,685,1,Good,High,0,1,12,1.25,1,0.08333333333333333
+461,444,1,Personal Loan,Medical,1580000,120,13.59,1.225,Defaulted,Approved,Customer_0444,56,129000,Navi Mumbai,Professional,812,1,Excellent,High,1,1,12,0.5,2,0.16666666666666666
+462,277,4,Auto Loan,Vehicle,1520000,180,11.39,0.512,Defaulted,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,High,1,1,12,2.4166666666666665,3,0.25
+463,344,6,Personal Loan,Medical,1035000,84,16.61,0.96,Active,Approved,Customer_0344,45,154000,Mumbai,Salaried,773,0,Excellent,High,0,1,12,0.0,0,0.0
+464,32,2,Education Loan,Education,1015000,84,11.09,0.918,Active,Approved,Customer_0032,61,158000,Nagpur,Salaried,580,0,Poor,High,0,1,12,0.0,0,0.0
+465,177,1,Business Loan,Business Expansion,110000,48,17.85,0.243,Closed,Approved,Customer_0177,37,113000,Kolhapur,Business Owner,695,0,Good,Low,0,0,12,0.0,0,0.0
+466,369,6,Business Loan,Business Expansion,170000,36,17.44,0.292,Closed,Approved,Customer_0369,55,194000,Navi Mumbai,Student,670,2,Fair,Low,0,0,12,2.5,1,0.08333333333333333
+467,499,1,Business Loan,Business Expansion,920000,12,11.34,11.358,Defaulted,Approved,Customer_0499,64,81000,Aurangabad,Salaried,644,0,Fair,High,1,1,12,2.5,1,0.08333333333333333
+468,118,1,Education Loan,Education,2370000,48,14.95,3.445,Closed,Approved,Customer_0118,25,172000,Mumbai,Self-Employed,689,2,Good,High,0,1,12,6.25,2,0.16666666666666666
+469,76,6,Auto Loan,Vehicle,1620000,24,12.58,11.571,Defaulted,Approved,Customer_0076,45,70000,Nagpur,Business Owner,625,1,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+470,313,5,Education Loan,Education,2435000,180,14.22,1.866,Active,Approved,Customer_0313,35,87000,Nagpur,Salaried,756,1,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+471,239,4,Auto Loan,Vehicle,2375000,48,15.44,10.603,Active,Approved,Customer_0239,50,56000,Pune,Professional,663,0,Fair,High,0,1,12,0.0,0,0.0
+472,495,1,Personal Loan,Medical,555000,120,8.79,0.261,Defaulted,Approved,Customer_0495,21,213000,Kolhapur,Self-Employed,570,2,Poor,Low,1,1,12,2.5,1,0.08333333333333333
+473,247,5,Home Loan,Home Purchase,215000,180,16.99,0.105,Defaulted,Approved,Customer_0247,36,137000,Kolhapur,Business Owner,563,0,Poor,Low,1,1,12,0.0,0,0.0
+474,134,6,Education Loan,Education,1635000,120,13.16,2.336,Closed,Approved,Customer_0134,34,70000,Navi Mumbai,Professional,706,3,Good,High,0,1,12,2.5,1,0.08333333333333333
+475,246,6,Education Loan,Education,2395000,12,11.3,11.459,Defaulted,Approved,Customer_0246,52,209000,Pune,Salaried,736,2,Good,High,1,1,12,0.0,0,0.0
+476,235,2,Auto Loan,Vehicle,1040000,24,17.2,3.444,Active,Approved,Customer_0235,43,151000,Mumbai,Salaried,704,0,Good,High,0,1,12,1.8333333333333333,2,0.16666666666666666
+477,138,1,Personal Loan,Medical,530000,84,9.95,0.742,Active,Approved,Customer_0138,28,102000,Mumbai,Professional,653,0,Fair,High,0,1,12,0.0,0,0.0
+478,234,6,Business Loan,Business Expansion,1470000,12,10.92,77.368,Closed,Approved,Customer_0234,27,19000,Nashik,Business Owner,677,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+479,127,3,Education Loan,Education,1625000,84,18.06,1.469,Defaulted,Approved,Customer_0127,33,158000,Aurangabad,Self-Employed,809,2,Excellent,High,1,1,12,1.25,1,0.08333333333333333
+480,137,3,Education Loan,Education,1050000,24,17.09,6.25,Active,Approved,Customer_0137,44,84000,Aurangabad,Professional,615,1,Fair,High,0,1,12,0.0,0,0.0
+481,330,3,Auto Loan,Vehicle,2375000,48,13.0,6.985,Closed,Approved,Customer_0330,38,85000,Mumbai,Self-Employed,828,3,Excellent,High,0,1,12,2.5,1,0.08333333333333333
+482,141,5,Business Loan,Business Expansion,1805000,48,13.83,2.452,Active,Approved,Customer_0141,40,184000,Nashik,Salaried,641,0,Fair,High,0,1,12,1.1666666666666667,2,0.16666666666666666
+483,432,5,Education Loan,Education,735000,180,15.16,0.358,Closed,Approved,Customer_0432,62,137000,Aurangabad,Professional,640,1,Fair,Medium,0,0,12,0.0,0,0.0
+484,320,2,Business Loan,Business Expansion,2240000,36,11.21,11.313,Active,Approved,Customer_0320,25,66000,Nashik,Salaried,642,3,Fair,High,0,1,12,1.5,2,0.16666666666666666
+485,17,2,Home Loan,Home Purchase,895000,180,8.76,1.065,Active,Approved,Customer_0017,65,56000,Pune,Business Owner,733,1,Good,High,0,1,12,1.25,1,0.08333333333333333
+486,305,1,Education Loan,Education,850000,24,9.75,2.607,Active,Approved,Customer_0305,23,163000,Pune,Salaried,652,3,Fair,High,0,1,12,0.0,0,0.0
+487,103,6,Personal Loan,Medical,1450000,84,16.04,2.762,Active,Approved,Customer_0103,54,75000,Pune,Student,643,1,Fair,High,0,1,12,0.0,0,0.0
+488,17,5,Education Loan,Education,1745000,48,12.72,7.79,Closed,Approved,Customer_0017,65,56000,Pune,Business Owner,733,1,Good,High,0,1,12,0.5,2,0.16666666666666666
+489,117,4,Auto Loan,Vehicle,995000,180,15.07,0.62,Active,Approved,Customer_0117,65,107000,Mumbai,Professional,637,1,Fair,High,0,1,12,0.0,0,0.0
+490,144,1,Education Loan,Education,965000,84,15.54,1.745,Active,Approved,Customer_0144,53,79000,Aurangabad,Self-Employed,767,2,Excellent,High,0,1,12,0.0,0,0.0
+491,120,6,Home Loan,Home Purchase,820000,24,12.62,10.513,Active,Approved,Customer_0120,27,39000,Nagpur,Self-Employed,791,1,Excellent,High,0,1,12,0.0,0,0.0
+492,336,3,Auto Loan,Vehicle,1385000,24,12.84,7.446,Closed,Rejected,Customer_0336,49,93000,Kolhapur,Self-Employed,525,0,Poor,High,0,1,12,2.5,1,0.08333333333333333
+493,118,5,Personal Loan,Medical,2380000,48,13.35,3.459,Closed,Approved,Customer_0118,25,172000,Mumbai,Self-Employed,689,2,Good,High,0,1,12,0.25,1,0.08333333333333333
+494,339,5,Business Loan,Business Expansion,1275000,36,16.9,8.333,Active,Approved,Customer_0339,48,51000,Pune,Self-Employed,681,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+495,271,6,Education Loan,Education,2150000,180,7.65,0.89,Active,Approved,Customer_0271,63,161000,Nashik,Student,850,0,Excellent,High,0,1,12,0.0,0,0.0
+496,30,3,Education Loan,Education,1395000,36,16.34,2.719,Active,Approved,Customer_0030,48,171000,Mumbai,Self-Employed,585,0,Poor,High,0,1,12,0.25,1,0.08333333333333333
+497,384,6,Education Loan,Education,1540000,120,9.79,1.132,Active,Approved,Customer_0384,51,136000,Pune,Salaried,805,2,Excellent,High,0,1,12,0.0,0,0.0
+498,6,4,Business Loan,Business Expansion,405000,48,13.46,0.487,Active,Approved,Customer_0006,36,208000,Nagpur,Salaried,735,1,Good,Medium,0,0,12,0.0,0,0.0
+499,335,1,Education Loan,Education,730000,120,13.5,0.518,Active,Approved,Customer_0335,49,141000,Nagpur,Professional,581,0,Poor,High,0,1,12,5.0,1,0.08333333333333333
+500,173,5,Personal Loan,Medical,1265000,48,11.63,3.721,Active,Approved,Customer_0173,43,85000,Nagpur,Salaried,813,0,Excellent,High,0,1,12,0.0,0,0.0
+501,335,3,Home Loan,Home Purchase,490000,24,18.47,1.738,Defaulted,Approved,Customer_0335,49,141000,Nagpur,Professional,581,0,Poor,High,1,1,12,0.0,0,0.0
+502,234,6,Business Loan,Business Expansion,470000,36,9.92,8.246,Active,Approved,Customer_0234,27,19000,Nashik,Business Owner,677,0,Fair,High,0,1,12,0.0,0,0.0
+503,206,6,Personal Loan,Medical,2035000,180,14.19,1.596,Closed,Rejected,Customer_0206,59,85000,Nagpur,Business Owner,524,1,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+504,132,3,Education Loan,Education,1640000,84,11.56,1.116,Closed,Approved,Customer_0132,41,210000,Mumbai,Professional,734,2,Good,High,0,1,12,0.0,0,0.0
+505,122,3,Business Loan,Business Expansion,1490000,120,15.3,2.069,Closed,Approved,Customer_0122,57,72000,Kolhapur,Business Owner,755,3,Excellent,High,0,1,12,0.0,0,0.0
+506,414,1,Auto Loan,Vehicle,1390000,84,14.78,2.09,Defaulted,Approved,Customer_0414,22,95000,Nashik,Self-Employed,713,1,Good,High,1,1,12,3.0833333333333335,2,0.16666666666666666
+507,393,2,Business Loan,Business Expansion,1895000,36,14.45,3.63,Defaulted,Approved,Customer_0393,34,174000,Nashik,Self-Employed,700,2,Good,High,1,1,12,0.8333333333333334,2,0.16666666666666666
+508,317,1,Auto Loan,Vehicle,745000,24,13.53,3.184,Closed,Approved,Customer_0317,60,117000,Nagpur,Salaried,708,1,Good,High,0,1,12,0.0,0,0.0
+509,420,5,Auto Loan,Vehicle,1290000,24,13.92,8.716,Active,Approved,Customer_0420,35,74000,Nashik,Salaried,784,1,Excellent,High,0,1,12,0.0,0,0.0
+510,368,4,Home Loan,Home Purchase,1195000,36,14.95,1.906,Active,Approved,Customer_0368,23,209000,Kolhapur,Self-Employed,779,0,Excellent,High,0,1,12,0.0,0,0.0
+511,209,4,Personal Loan,Medical,1160000,120,9.78,0.779,Active,Approved,Customer_0209,59,149000,Nagpur,Student,653,0,Fair,High,0,1,12,0.0,0,0.0
+512,29,4,Personal Loan,Medical,1655000,120,9.64,1.465,Active,Approved,Customer_0029,26,113000,Aurangabad,Business Owner,658,2,Fair,High,0,1,12,0.0,0,0.0
+513,390,3,Education Loan,Education,2090000,36,17.49,4.172,Closed,Approved,Customer_0390,35,167000,Kolhapur,Salaried,762,0,Excellent,High,0,1,12,0.0,0,0.0
+514,277,5,Education Loan,Education,2005000,60,16.88,2.025,Active,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,High,0,1,12,0.0,0,0.0
+515,470,2,Auto Loan,Vehicle,2000000,180,9.22,5.797,Closed,Approved,Customer_0470,51,23000,Aurangabad,Professional,850,0,Excellent,High,0,1,12,0.0,0,0.0
+516,445,3,Auto Loan,Vehicle,1915000,12,11.75,11.748,Closed,Approved,Customer_0445,56,163000,Nashik,Salaried,563,0,Poor,High,0,1,12,0.25,1,0.08333333333333333
+517,313,2,Personal Loan,Medical,1290000,120,14.1,1.483,Defaulted,Approved,Customer_0313,35,87000,Nagpur,Salaried,756,1,Excellent,High,1,1,12,2.0833333333333335,3,0.25
+518,94,4,Business Loan,Business Expansion,2090000,180,17.49,0.651,Active,Approved,Customer_0094,51,214000,Pune,Business Owner,789,1,Excellent,High,0,1,12,0.0,0,0.0
+519,395,2,Education Loan,Education,1855000,120,13.64,1.912,Closed,Approved,Customer_0395,43,97000,Aurangabad,Salaried,773,0,Excellent,High,0,1,12,0.0,0,0.0
+520,2,2,Education Loan,Education,2195000,180,16.54,1.394,Active,Approved,Customer_0002,31,105000,Aurangabad,Salaried,713,2,Good,High,0,1,12,0.0,0,0.0
+521,318,6,Business Loan,Business Expansion,1520000,12,12.24,7.103,Closed,Approved,Customer_0318,53,214000,Satara,Salaried,712,0,Good,High,0,1,12,0.0,0,0.0
+522,294,6,Personal Loan,Medical,255000,60,10.4,0.287,Active,Approved,Customer_0294,49,178000,Navi Mumbai,Self-Employed,677,0,Fair,Low,0,0,12,0.0,0,0.0
+523,451,5,Personal Loan,Medical,1905000,60,11.07,14.111,Active,Approved,Customer_0451,54,27000,Navi Mumbai,Salaried,637,1,Fair,High,0,1,12,6.166666666666667,3,0.25
+524,480,6,Education Loan,Education,2180000,180,12.59,0.845,Closed,Approved,Customer_0480,36,172000,Kolhapur,Salaried,754,1,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+525,269,6,Home Loan,Home Purchase,1820000,24,14.05,41.364,Active,Approved,Customer_0269,44,22000,Nashik,Self-Employed,686,0,Good,High,0,1,12,0.0,0,0.0
+526,74,4,Business Loan,Business Expansion,1865000,84,16.46,2.537,Closed,Approved,Customer_0074,36,105000,Nashik,Salaried,775,0,Excellent,High,0,1,12,2.75,2,0.16666666666666666
+527,480,4,Home Loan,Home Purchase,515000,180,18.32,0.2,Active,Approved,Customer_0480,36,172000,Kolhapur,Salaried,754,1,Excellent,Low,0,0,12,0.0,0,0.0
+528,357,1,Education Loan,Education,835000,24,9.16,3.313,Closed,Approved,Customer_0357,59,126000,Navi Mumbai,Business Owner,758,0,Excellent,High,0,1,12,0.0,0,0.0
+529,165,5,Personal Loan,Medical,1475000,60,7.87,3.933,Defaulted,Approved,Customer_0165,39,75000,Pune,Salaried,650,0,Fair,High,1,1,12,2.5,1,0.08333333333333333
+530,96,4,Home Loan,Home Purchase,1045000,180,16.57,0.571,Active,Approved,Customer_0096,36,122000,Satara,Professional,721,2,Good,High,0,1,12,0.0,0,0.0
+531,120,6,Home Loan,Home Purchase,2490000,180,11.05,4.256,Defaulted,Approved,Customer_0120,27,39000,Nagpur,Self-Employed,791,1,Excellent,High,1,1,12,0.25,1,0.08333333333333333
+532,187,5,Home Loan,Home Purchase,2320000,48,11.08,18.71,Active,Approved,Customer_0187,58,31000,Nagpur,Salaried,732,1,Good,High,0,1,12,0.0,0,0.0
+533,455,2,Business Loan,Business Expansion,320000,84,14.83,0.462,Defaulted,Approved,Customer_0455,36,99000,Kolhapur,Salaried,649,0,Fair,Medium,1,1,12,0.0,0,0.0
+534,258,6,Business Loan,Business Expansion,965000,120,13.84,0.652,Active,Approved,Customer_0258,42,148000,Mumbai,Self-Employed,811,1,Excellent,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+535,176,3,Personal Loan,Medical,2110000,48,18.49,3.318,Defaulted,Approved,Customer_0176,57,159000,Aurangabad,Salaried,565,0,Poor,High,1,1,12,2.5,1,0.08333333333333333
+536,445,5,Home Loan,Home Purchase,635000,84,16.31,0.557,Closed,Approved,Customer_0445,56,163000,Nashik,Salaried,563,0,Poor,High,0,1,12,0.0,0,0.0
+537,458,5,Business Loan,Business Expansion,2445000,36,12.62,5.949,Active,Approved,Customer_0458,52,137000,Aurangabad,Professional,660,1,Fair,High,0,1,12,1.25,1,0.08333333333333333
+538,269,3,Auto Loan,Vehicle,895000,60,18.07,8.136,Closed,Approved,Customer_0269,44,22000,Nashik,Self-Employed,686,0,Good,High,0,1,12,0.0,0,0.0
+539,187,3,Business Loan,Business Expansion,2395000,24,16.12,38.629,Active,Approved,Customer_0187,58,31000,Nagpur,Salaried,732,1,Good,High,0,1,12,0.0,0,0.0
+540,414,5,Education Loan,Education,1240000,12,8.38,13.053,Defaulted,Approved,Customer_0414,22,95000,Nashik,Self-Employed,713,1,Good,High,1,1,12,10.0,4,0.3333333333333333
+541,291,6,Personal Loan,Medical,555000,36,7.66,1.907,Active,Approved,Customer_0291,36,97000,Nagpur,Professional,673,1,Fair,High,0,1,12,2.5,1,0.08333333333333333
+542,408,3,Auto Loan,Vehicle,495000,48,15.89,1.058,Closed,Approved,Customer_0408,33,117000,Satara,Professional,747,0,Good,High,0,1,12,0.0,0,0.0
+543,442,3,Education Loan,Education,800000,180,11.93,0.42,Active,Approved,Customer_0442,59,127000,Aurangabad,Self-Employed,648,0,Fair,Medium,0,0,12,0.0,0,0.0
+544,25,3,Auto Loan,Vehicle,1960000,120,14.52,1.4,Active,Approved,Customer_0025,52,140000,Mumbai,Salaried,696,2,Good,High,0,1,12,0.0,0,0.0
+545,171,3,Home Loan,Home Purchase,1525000,24,15.28,5.259,Active,Approved,Customer_0171,28,145000,Nagpur,Salaried,703,1,Good,High,0,1,12,5.0,1,0.08333333333333333
+546,153,3,Auto Loan,Vehicle,1595000,84,13.76,1.593,Active,Approved,Customer_0153,25,143000,Mumbai,Salaried,671,0,Fair,High,0,1,12,1.25,1,0.08333333333333333
+547,110,5,Education Loan,Education,1730000,84,11.26,1.916,Closed,Approved,Customer_0110,50,129000,Navi Mumbai,Salaried,754,1,Excellent,High,0,1,12,0.0,0,0.0
+548,191,4,Home Loan,Home Purchase,2345000,180,18.45,8.228,Closed,Approved,Customer_0191,58,19000,Aurangabad,Self-Employed,747,0,Good,High,0,1,12,2.75,2,0.16666666666666666
+549,50,2,Auto Loan,Vehicle,455000,24,16.97,1.191,Defaulted,Approved,Customer_0050,55,191000,Kolhapur,Self-Employed,748,1,Good,High,1,1,12,0.0,0,0.0
+550,468,3,Education Loan,Education,2105000,48,14.02,4.314,Defaulted,Approved,Customer_0468,38,122000,Nashik,Salaried,663,1,Fair,High,1,1,12,2.5,1,0.08333333333333333
+551,288,2,Personal Loan,Medical,590000,180,14.95,0.259,Active,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,Low,0,0,12,0.0,0,0.0
+552,376,4,Auto Loan,Vehicle,1275000,84,17.68,0.925,Closed,Approved,Customer_0376,32,197000,Pune,Self-Employed,571,1,Poor,High,0,1,12,0.0,0,0.0
+553,133,1,Personal Loan,Medical,2000000,180,14.59,1.223,Defaulted,Approved,Customer_0133,56,109000,Satara,Salaried,654,0,Fair,High,1,1,12,1.25,1,0.08333333333333333
+554,489,3,Home Loan,Home Purchase,2045000,12,10.53,9.976,Active,Approved,Customer_0489,65,205000,Mumbai,Salaried,680,0,Good,High,0,1,12,0.0,0,0.0
+555,321,1,Education Loan,Education,900000,12,16.41,13.846,Active,Approved,Customer_0321,51,65000,Pune,Self-Employed,707,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+556,143,6,Personal Loan,Medical,325000,180,15.26,0.319,Active,Approved,Customer_0143,25,68000,Nagpur,Business Owner,700,0,Good,Low,0,0,12,0.0,0,0.0
+557,242,2,Education Loan,Education,1995000,48,17.94,11.335,Defaulted,Approved,Customer_0242,48,44000,Kolhapur,Professional,821,1,Excellent,High,1,1,12,0.0,0,0.0
+558,404,3,Personal Loan,Medical,2420000,60,14.21,21.043,Active,Approved,Customer_0404,26,23000,Navi Mumbai,Professional,633,2,Fair,High,0,1,12,0.0,0,0.0
+559,207,4,Auto Loan,Vehicle,1185000,24,12.5,5.197,Closed,Approved,Customer_0207,23,114000,Nagpur,Professional,758,0,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+560,222,2,Auto Loan,Vehicle,290000,24,13.4,0.678,Active,Approved,Customer_0222,48,214000,Navi Mumbai,Self-Employed,723,1,Good,High,0,1,12,0.0,0,0.0
+561,94,1,Personal Loan,Medical,1640000,12,13.93,7.664,Active,Approved,Customer_0094,51,214000,Pune,Business Owner,789,1,Excellent,High,0,1,12,0.0,0,0.0
+562,230,3,Auto Loan,Vehicle,1805000,48,8.36,5.309,Active,Approved,Customer_0230,44,85000,Aurangabad,Salaried,748,0,Good,High,0,1,12,0.0,0,0.0
+563,456,6,Home Loan,Home Purchase,830000,24,11.4,1.967,Active,Approved,Customer_0456,25,211000,Pune,Professional,584,1,Poor,High,0,1,12,0.0,0,0.0
+564,148,2,Education Loan,Education,2170000,24,8.23,11.071,Active,Approved,Customer_0148,25,98000,Pune,Salaried,653,1,Fair,High,0,1,12,0.0,0,0.0
+565,414,6,Personal Loan,Medical,1775000,180,14.28,1.246,Active,Approved,Customer_0414,22,95000,Nashik,Self-Employed,713,1,Good,High,0,1,12,0.0,0,0.0
+566,318,5,Auto Loan,Vehicle,465000,24,9.82,1.086,Defaulted,Approved,Customer_0318,53,214000,Satara,Salaried,712,0,Good,High,1,1,12,2.0833333333333335,3,0.25
+567,443,3,Education Loan,Education,1555000,36,15.02,9.256,Active,Approved,Customer_0443,39,56000,Pune,Professional,732,0,Good,High,0,1,12,1.25,1,0.08333333333333333
+568,181,1,Personal Loan,Medical,1200000,120,10.65,1.333,Active,Approved,Customer_0181,64,90000,Aurangabad,Salaried,575,2,Poor,High,0,1,12,0.0,0,0.0
+569,419,2,Home Loan,Home Purchase,1585000,24,7.83,3.829,Active,Approved,Customer_0419,63,207000,Nashik,Salaried,669,2,Fair,High,0,1,12,0.5,2,0.16666666666666666
+570,465,1,Auto Loan,Vehicle,2455000,36,14.13,7.794,Active,Approved,Customer_0465,38,105000,Satara,Business Owner,758,2,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+571,264,6,Personal Loan,Medical,1525000,36,16.82,2.444,Active,Approved,Customer_0264,27,208000,Pune,Self-Employed,807,2,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+572,366,5,Business Loan,Business Expansion,1415000,12,11.32,10.72,Closed,Approved,Customer_0366,52,132000,Navi Mumbai,Professional,650,0,Fair,High,0,1,12,0.0,0,0.0
+573,119,2,Personal Loan,Medical,1995000,180,16.49,1.243,Active,Approved,Customer_0119,63,107000,Nagpur,Salaried,736,0,Good,High,0,1,12,0.0,0,0.0
+574,350,3,Personal Loan,Medical,1710000,36,8.44,7.917,Defaulted,Approved,Customer_0350,22,72000,Nagpur,Professional,582,1,Poor,High,1,1,12,1.25,1,0.08333333333333333
+575,98,2,Business Loan,Business Expansion,915000,180,9.82,0.332,Closed,Approved,Customer_0098,55,184000,Nagpur,Self-Employed,729,0,Good,Low,0,0,12,0.0,0,0.0
+576,251,2,Home Loan,Home Purchase,1580000,24,8.11,6.529,Active,Approved,Customer_0251,40,121000,Kolhapur,Salaried,655,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+577,416,4,Home Loan,Home Purchase,2190000,120,12.32,1.431,Active,Approved,Customer_0416,46,153000,Satara,Professional,850,1,Excellent,High,0,1,12,1.1666666666666667,2,0.16666666666666666
+578,387,4,Education Loan,Education,2210000,84,9.33,1.836,Defaulted,Approved,Customer_0387,63,172000,Navi Mumbai,Salaried,627,0,Fair,High,1,1,12,0.25,1,0.08333333333333333
+579,56,6,Personal Loan,Medical,1325000,60,16.28,1.732,Closed,Approved,Customer_0056,41,153000,Satara,Salaried,618,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+580,192,4,Personal Loan,Medical,2430000,60,9.92,12.789,Closed,Approved,Customer_0192,23,38000,Kolhapur,Salaried,690,1,Good,High,0,1,12,0.0,0,0.0
+581,138,5,Home Loan,Home Purchase,1600000,60,11.41,3.137,Active,Approved,Customer_0138,28,102000,Mumbai,Professional,653,0,Fair,High,0,1,12,0.0,0,0.0
+582,13,2,Business Loan,Business Expansion,325000,48,18.23,0.419,Closed,Approved,Customer_0013,49,194000,Nagpur,Student,676,1,Fair,Medium,0,0,12,0.0,0,0.0
+583,86,6,Auto Loan,Vehicle,1925000,12,16.04,13.007,Defaulted,Approved,Customer_0086,21,148000,Mumbai,Self-Employed,814,0,Excellent,High,1,1,12,0.0,0,0.0
+584,383,6,Personal Loan,Medical,1770000,180,9.2,0.694,Active,Approved,Customer_0383,21,170000,Navi Mumbai,Self-Employed,568,0,Poor,High,0,1,12,0.0,0,0.0
+585,130,4,Personal Loan,Medical,960000,180,10.83,0.529,Closed,Approved,Customer_0130,53,121000,Nagpur,Self-Employed,720,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+586,302,6,Home Loan,Home Purchase,450000,12,9.22,2.217,Defaulted,Approved,Customer_0302,24,203000,Kolhapur,Self-Employed,640,1,Fair,High,1,1,12,1.5,2,0.16666666666666666
+587,266,4,Auto Loan,Vehicle,2300000,36,10.93,3.651,Active,Approved,Customer_0266,63,210000,Mumbai,Self-Employed,799,0,Excellent,High,0,1,12,0.0,0,0.0
+588,112,1,Business Loan,Business Expansion,1830000,120,12.87,1.109,Active,Approved,Customer_0112,56,165000,Pune,Self-Employed,626,3,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+589,65,2,Personal Loan,Medical,905000,180,16.55,0.281,Defaulted,Approved,Customer_0065,51,215000,Pune,Self-Employed,656,1,Fair,Low,1,1,12,0.0,0,0.0
+590,181,5,Home Loan,Home Purchase,2315000,12,12.54,25.722,Closed,Approved,Customer_0181,64,90000,Aurangabad,Salaried,575,2,Poor,High,0,1,12,0.0,0,0.0
+591,89,4,Home Loan,Home Purchase,345000,60,13.52,0.812,Active,Approved,Customer_0089,23,85000,Navi Mumbai,Salaried,638,0,Fair,High,0,1,12,0.0,0,0.0
+592,424,5,Home Loan,Home Purchase,645000,120,16.98,0.303,Active,Approved,Customer_0424,56,213000,Kolhapur,Student,794,1,Excellent,Low,0,0,12,0.0,0,0.0
+593,337,4,Business Loan,Business Expansion,2245000,120,17.28,1.074,Active,Approved,Customer_0337,52,209000,Navi Mumbai,Salaried,635,0,Fair,High,0,1,12,0.0,0,0.0
+594,218,1,Education Loan,Education,1335000,24,12.88,4.48,Closed,Approved,Customer_0218,43,149000,Nagpur,Professional,714,0,Good,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+595,447,3,Business Loan,Business Expansion,85000,36,12.81,0.129,Active,Approved,Customer_0447,22,219000,Aurangabad,Self-Employed,643,1,Fair,Low,0,0,12,0.0,0,0.0
+596,444,2,Auto Loan,Vehicle,370000,24,8.79,1.434,Closed,Approved,Customer_0444,56,129000,Navi Mumbai,Professional,812,1,Excellent,High,0,1,12,0.0,0,0.0
+597,400,3,Personal Loan,Medical,510000,36,15.18,0.794,Closed,Approved,Customer_0400,28,214000,Aurangabad,Professional,840,1,Excellent,High,0,1,12,0.0,0,0.0
+598,345,5,Education Loan,Education,815000,24,8.89,4.075,Active,Approved,Customer_0345,28,100000,Kolhapur,Self-Employed,724,1,Good,High,0,1,12,0.0,0,0.0
+599,365,6,Education Loan,Education,1220000,48,16.5,2.383,Active,Approved,Customer_0365,43,128000,Nashik,Self-Employed,612,2,Fair,High,0,1,12,0.25,1,0.08333333333333333
+600,467,6,Home Loan,Home Purchase,960000,120,13.14,1.0,Active,Approved,Customer_0467,34,96000,Satara,Business Owner,600,1,Fair,High,0,1,12,0.0,0,0.0
+601,95,1,Business Loan,Business Expansion,1905000,12,10.03,9.115,Active,Approved,Customer_0095,52,209000,Mumbai,Salaried,835,1,Excellent,High,0,1,12,0.0,0,0.0
+602,333,6,Personal Loan,Medical,2345000,24,10.57,23.929,Active,Approved,Customer_0333,26,49000,Nagpur,Salaried,807,1,Excellent,High,0,1,12,2.75,2,0.16666666666666666
+603,120,4,Personal Loan,Medical,1180000,12,10.57,30.256,Active,Approved,Customer_0120,27,39000,Nagpur,Self-Employed,791,1,Excellent,High,0,1,12,5.0,1,0.08333333333333333
+604,131,6,Auto Loan,Vehicle,995000,60,11.97,1.354,Closed,Rejected,Customer_0131,64,147000,Nashik,Professional,547,0,Poor,High,0,1,12,0.0,0,0.0
+605,96,6,Personal Loan,Medical,1620000,60,13.84,2.656,Closed,Approved,Customer_0096,36,122000,Satara,Professional,721,2,Good,High,0,1,12,2.5,1,0.08333333333333333
+606,185,3,Home Loan,Home Purchase,2140000,12,11.62,10.439,Active,Approved,Customer_0185,24,205000,Nagpur,Salaried,703,2,Good,High,0,1,12,0.0,0,0.0
+607,394,4,Education Loan,Education,920000,60,17.33,2.486,Closed,Approved,Customer_0394,51,74000,Aurangabad,Self-Employed,723,1,Good,High,0,1,12,0.0,0,0.0
+608,177,5,Auto Loan,Vehicle,1740000,24,13.81,7.699,Active,Approved,Customer_0177,37,113000,Kolhapur,Business Owner,695,0,Good,High,0,1,12,0.0,0,0.0
+609,190,1,Business Loan,Business Expansion,1080000,84,14.9,1.265,Active,Approved,Customer_0190,21,122000,Mumbai,Business Owner,628,2,Fair,High,0,1,12,0.0,0,0.0
+610,287,4,Business Loan,Business Expansion,1910000,36,13.22,7.579,Active,Approved,Customer_0287,62,84000,Kolhapur,Salaried,697,0,Good,High,0,1,12,0.0,0,0.0
+611,487,5,Auto Loan,Vehicle,330000,24,10.4,0.959,Defaulted,Approved,Customer_0487,35,172000,Navi Mumbai,Professional,615,1,Fair,High,1,1,12,0.0,0,0.0
+612,45,1,Home Loan,Home Purchase,2420000,48,14.1,4.007,Closed,Approved,Customer_0045,40,151000,Kolhapur,Salaried,722,2,Good,High,0,1,12,1.75,3,0.25
+613,276,6,Home Loan,Home Purchase,2425000,12,15.75,22.248,Defaulted,Approved,Customer_0276,39,109000,Nagpur,Salaried,759,0,Excellent,High,1,1,12,0.25,1,0.08333333333333333
+614,420,5,Home Loan,Home Purchase,1405000,48,13.6,4.747,Active,Approved,Customer_0420,35,74000,Nashik,Salaried,784,1,Excellent,High,0,1,12,0.0,0,0.0
+615,273,2,Auto Loan,Vehicle,65000,120,12.85,0.035,Defaulted,Approved,Customer_0273,60,186000,Aurangabad,Self-Employed,814,1,Excellent,Low,1,1,12,2.5,1,0.08333333333333333
+616,219,3,Personal Loan,Medical,135000,12,17.89,0.894,Closed,Approved,Customer_0219,63,151000,Mumbai,Self-Employed,669,1,Fair,High,0,1,12,5.0,1,0.08333333333333333
+617,474,5,Education Loan,Education,1040000,48,13.99,1.429,Active,Approved,Customer_0474,52,182000,Satara,Professional,729,2,Good,High,0,1,12,1.5,2,0.16666666666666666
+618,497,2,Education Loan,Education,285000,84,15.87,0.59,Active,Approved,Customer_0497,42,69000,Mumbai,Professional,717,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+619,246,6,Home Loan,Home Purchase,1325000,84,13.14,0.906,Active,Approved,Customer_0246,52,209000,Pune,Salaried,736,2,Good,High,0,1,12,0.25,1,0.08333333333333333
+620,359,2,Home Loan,Home Purchase,1785000,36,15.29,3.005,Active,Approved,Customer_0359,23,198000,Navi Mumbai,Salaried,694,1,Good,High,0,1,12,0.0,0,0.0
+621,269,1,Business Loan,Business Expansion,865000,12,15.89,39.318,Defaulted,Approved,Customer_0269,44,22000,Nashik,Self-Employed,686,0,Good,High,1,1,12,0.8333333333333334,2,0.16666666666666666
+622,424,1,Home Loan,Home Purchase,815000,180,14.27,0.255,Closed,Approved,Customer_0424,56,213000,Kolhapur,Student,794,1,Excellent,Low,0,0,12,0.0,0,0.0
+623,180,5,Auto Loan,Vehicle,425000,84,16.01,2.024,Active,Approved,Customer_0180,54,30000,Aurangabad,Salaried,689,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+624,471,1,Education Loan,Education,1535000,12,7.88,8.253,Active,Approved,Customer_0471,36,186000,Aurangabad,Professional,651,3,Fair,High,0,1,12,0.0,0,0.0
+625,313,4,Auto Loan,Vehicle,1395000,60,18.46,3.207,Closed,Approved,Customer_0313,35,87000,Nagpur,Salaried,756,1,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+626,227,4,Personal Loan,Medical,795000,180,11.2,1.71,Active,Approved,Customer_0227,46,31000,Aurangabad,Business Owner,674,2,Fair,High,0,1,12,2.5,1,0.08333333333333333
+627,481,3,Education Loan,Education,1185000,48,17.56,4.115,Closed,Approved,Customer_0481,24,72000,Mumbai,Self-Employed,722,0,Good,High,0,1,12,5.25,2,0.16666666666666666
+628,190,2,Business Loan,Business Expansion,1390000,48,11.68,2.848,Active,Approved,Customer_0190,21,122000,Mumbai,Business Owner,628,2,Fair,High,0,1,12,0.0,0,0.0
+629,190,1,Education Loan,Education,500000,12,8.88,4.098,Active,Approved,Customer_0190,21,122000,Mumbai,Business Owner,628,2,Fair,High,0,1,12,0.0,0,0.0
+630,481,6,Auto Loan,Vehicle,255000,12,13.72,3.542,Defaulted,Approved,Customer_0481,24,72000,Mumbai,Self-Employed,722,0,Good,High,1,1,12,0.0,0,0.0
+631,342,6,Home Loan,Home Purchase,1775000,120,16.6,4.034,Defaulted,Approved,Customer_0342,55,44000,Aurangabad,Business Owner,674,2,Fair,High,1,1,12,1.0833333333333333,3,0.25
+632,200,1,Auto Loan,Vehicle,265000,24,12.1,1.274,Active,Approved,Customer_0200,55,104000,Satara,Self-Employed,742,0,Good,High,0,1,12,0.0,0,0.0
+633,149,3,Personal Loan,Medical,2430000,120,10.73,1.115,Closed,Approved,Customer_0149,57,218000,Nashik,Self-Employed,666,0,Fair,High,0,1,12,0.0,0,0.0
+634,359,6,Home Loan,Home Purchase,630000,36,14.69,1.061,Closed,Approved,Customer_0359,23,198000,Navi Mumbai,Salaried,694,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+635,28,5,Home Loan,Home Purchase,1995000,12,14.32,32.705,Defaulted,Approved,Customer_0028,48,61000,Satara,Salaried,735,1,Good,High,1,1,12,0.0,0,0.0
+636,371,2,Business Loan,Business Expansion,2070000,120,15.63,1.056,Defaulted,Approved,Customer_0371,40,196000,Satara,Salaried,598,3,Poor,High,1,1,12,0.0,0,0.0
+637,177,5,Auto Loan,Vehicle,1620000,180,11.24,0.956,Defaulted,Approved,Customer_0177,37,113000,Kolhapur,Business Owner,695,0,Good,High,1,1,12,0.0,0,0.0
+638,308,1,Home Loan,Home Purchase,1675000,24,15.38,11.632,Closed,Approved,Customer_0308,58,72000,Satara,Self-Employed,725,0,Good,High,0,1,12,0.0,0,0.0
+639,228,2,Education Loan,Education,470000,24,18.39,1.497,Closed,Approved,Customer_0228,58,157000,Navi Mumbai,Self-Employed,618,1,Fair,High,0,1,12,1.1666666666666667,2,0.16666666666666666
+640,252,3,Home Loan,Home Purchase,600000,120,9.06,1.875,Closed,Approved,Customer_0252,40,32000,Navi Mumbai,Salaried,771,0,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+641,284,1,Personal Loan,Medical,1365000,48,8.48,2.174,Active,Approved,Customer_0284,35,157000,Mumbai,Salaried,850,1,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+642,447,2,Auto Loan,Vehicle,2070000,120,9.54,0.945,Closed,Approved,Customer_0447,22,219000,Aurangabad,Self-Employed,643,1,Fair,High,0,1,12,0.0,0,0.0
+643,388,1,Auto Loan,Vehicle,1115000,84,8.18,2.182,Active,Approved,Customer_0388,63,73000,Nagpur,Business Owner,729,1,Good,High,0,1,12,0.0,0,0.0
+644,367,6,Personal Loan,Medical,785000,24,14.05,3.191,Defaulted,Approved,Customer_0367,26,123000,Nashik,Student,591,1,Poor,High,1,1,12,0.0,0,0.0
+645,237,3,Personal Loan,Medical,1875000,24,17.55,10.417,Active,Approved,Customer_0237,50,90000,Kolhapur,Salaried,636,2,Fair,High,0,1,12,0.0,0,0.0
+646,250,2,Personal Loan,Medical,665000,180,12.68,0.232,Closed,Approved,Customer_0250,22,191000,Pune,Salaried,596,2,Poor,Low,0,1,12,0.0,0,0.0
+647,73,2,Education Loan,Education,910000,24,14.62,3.555,Closed,Approved,Customer_0073,27,128000,Navi Mumbai,Professional,732,1,Good,High,0,1,12,0.0,0,0.0
+648,211,3,Personal Loan,Medical,320000,180,10.74,0.577,Active,Approved,Customer_0211,24,37000,Nagpur,Business Owner,686,2,Good,High,0,1,12,5.0,1,0.08333333333333333
+649,442,3,Auto Loan,Vehicle,590000,24,8.11,2.323,Active,Approved,Customer_0442,59,127000,Aurangabad,Self-Employed,648,0,Fair,High,0,1,12,0.0,0,0.0
+650,460,2,Auto Loan,Vehicle,1925000,12,10.24,36.321,Active,Approved,Customer_0460,61,53000,Satara,Salaried,659,2,Fair,High,0,1,12,1.25,1,0.08333333333333333
+651,471,4,Auto Loan,Vehicle,1435000,36,17.35,2.572,Active,Approved,Customer_0471,36,186000,Aurangabad,Professional,651,3,Fair,High,0,1,12,0.0,0,0.0
+652,87,1,Personal Loan,Medical,170000,84,15.1,0.125,Active,Approved,Customer_0087,45,194000,Aurangabad,Business Owner,703,1,Good,Low,0,0,12,0.0,0,0.0
+653,246,3,Home Loan,Home Purchase,820000,60,15.53,0.785,Active,Approved,Customer_0246,52,209000,Pune,Salaried,736,2,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+654,378,1,Personal Loan,Medical,1255000,12,12.23,7.844,Defaulted,Approved,Customer_0378,50,160000,Mumbai,Student,636,0,Fair,High,1,1,12,1.5,2,0.16666666666666666
+655,116,1,Education Loan,Education,2160000,48,15.58,2.512,Active,Approved,Customer_0116,43,215000,Nashik,Salaried,600,2,Fair,High,0,1,12,3.0833333333333335,2,0.16666666666666666
+656,372,2,Home Loan,Home Purchase,2250000,36,12.92,5.682,Active,Approved,Customer_0372,44,132000,Mumbai,Professional,580,2,Poor,High,0,1,12,0.0,0,0.0
+657,366,1,Home Loan,Home Purchase,1675000,48,15.57,3.172,Active,Approved,Customer_0366,52,132000,Navi Mumbai,Professional,650,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+658,277,6,Education Loan,Education,1645000,84,11.79,1.187,Closed,Approved,Customer_0277,37,198000,Aurangabad,Professional,706,0,Good,High,0,1,12,1.8333333333333333,2,0.16666666666666666
+659,113,4,Home Loan,Home Purchase,1455000,60,11.28,1.565,Defaulted,Approved,Customer_0113,39,186000,Pune,Business Owner,719,1,Good,High,1,1,12,0.0,0,0.0
+660,91,6,Home Loan,Home Purchase,1700000,12,16.53,27.869,Defaulted,Approved,Customer_0091,32,61000,Nagpur,Salaried,688,1,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+661,360,2,Personal Loan,Medical,2070000,180,17.38,1.15,Defaulted,Approved,Customer_0360,28,120000,Pune,Professional,641,1,Fair,High,1,1,12,2.0833333333333335,3,0.25
+662,138,3,Home Loan,Home Purchase,1235000,84,7.62,1.73,Active,Approved,Customer_0138,28,102000,Mumbai,Professional,653,0,Fair,High,0,1,12,0.0,0,0.0
+663,61,5,Education Loan,Education,495000,12,13.85,2.633,Active,Approved,Customer_0061,48,188000,Mumbai,Professional,584,1,Poor,High,0,1,12,0.0,0,0.0
+664,56,5,Business Loan,Business Expansion,1640000,120,18.29,1.072,Defaulted,Approved,Customer_0056,41,153000,Satara,Salaried,618,1,Fair,High,1,1,12,1.25,1,0.08333333333333333
+665,197,1,Education Loan,Education,865000,180,14.04,0.678,Active,Approved,Customer_0197,34,85000,Aurangabad,Salaried,702,0,Good,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+666,360,3,Education Loan,Education,980000,36,14.29,2.722,Active,Approved,Customer_0360,28,120000,Pune,Professional,641,1,Fair,High,0,1,12,2.5,1,0.08333333333333333
+667,476,2,Personal Loan,Medical,1790000,60,8.64,6.281,Active,Approved,Customer_0476,51,57000,Nashik,Business Owner,672,1,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+668,205,5,Personal Loan,Medical,535000,12,10.76,18.448,Closed,Approved,Customer_0205,53,29000,Satara,Salaried,752,2,Excellent,High,0,1,12,0.0,0,0.0
+669,381,6,Business Loan,Business Expansion,1685000,48,12.16,1.932,Closed,Approved,Customer_0381,40,218000,Navi Mumbai,Salaried,662,3,Fair,High,0,1,12,0.0,0,0.0
+670,457,5,Education Loan,Education,2315000,120,18.17,1.996,Defaulted,Approved,Customer_0457,50,116000,Navi Mumbai,Professional,672,2,Fair,High,1,1,12,0.0,0,0.0
+671,184,1,Education Loan,Education,2390000,12,8.77,125.789,Active,Approved,Customer_0184,26,19000,Mumbai,Salaried,732,0,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+672,76,5,Education Loan,Education,685000,36,12.54,3.262,Active,Approved,Customer_0076,45,70000,Nagpur,Business Owner,625,1,Fair,High,0,1,12,0.0,0,0.0
+673,111,2,Business Loan,Business Expansion,985000,48,10.28,1.256,Closed,Approved,Customer_0111,40,196000,Aurangabad,Salaried,574,0,Poor,High,0,1,12,1.1666666666666667,2,0.16666666666666666
+674,182,1,Business Loan,Business Expansion,1260000,12,16.56,8.75,Defaulted,Approved,Customer_0182,54,144000,Kolhapur,Salaried,604,1,Fair,High,1,1,12,0.0,0,0.0
+675,22,6,Auto Loan,Vehicle,1665000,180,11.36,0.631,Closed,Approved,Customer_0022,34,176000,Mumbai,Salaried,563,2,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+676,175,2,Education Loan,Education,170000,84,11.11,0.434,Defaulted,Approved,Customer_0175,63,56000,Aurangabad,Professional,602,0,Fair,Medium,1,1,12,0.0,0,0.0
+677,141,6,Business Loan,Business Expansion,425000,84,13.72,0.33,Active,Approved,Customer_0141,40,184000,Nashik,Salaried,641,0,Fair,Low,0,0,12,0.0,0,0.0
+678,239,3,Personal Loan,Medical,1340000,12,16.56,23.929,Active,Approved,Customer_0239,50,56000,Pune,Professional,663,0,Fair,High,0,1,12,2.5,2,0.16666666666666666
+679,269,3,Personal Loan,Medical,645000,12,10.53,29.318,Defaulted,Approved,Customer_0269,44,22000,Nashik,Self-Employed,686,0,Good,High,1,1,12,5.0,1,0.08333333333333333
+680,60,2,Auto Loan,Vehicle,2110000,12,14.97,10.711,Defaulted,Approved,Customer_0060,54,197000,Nashik,Self-Employed,672,1,Fair,High,1,1,12,0.0,0,0.0
+681,305,5,Education Loan,Education,1430000,84,14.12,1.253,Defaulted,Approved,Customer_0305,23,163000,Pune,Salaried,652,3,Fair,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+682,474,3,Personal Loan,Medical,2290000,36,10.25,4.194,Active,Approved,Customer_0474,52,182000,Satara,Professional,729,2,Good,High,0,1,12,1.25,1,0.08333333333333333
+683,448,1,Personal Loan,Medical,470000,60,18.18,0.514,Closed,Approved,Customer_0448,58,183000,Kolhapur,Business Owner,742,1,Good,High,0,1,12,0.5,2,0.16666666666666666
+684,249,4,Home Loan,Home Purchase,630000,48,8.25,0.932,Closed,Approved,Customer_0249,39,169000,Pune,Professional,714,1,Good,High,0,1,12,0.0,0,0.0
+685,375,4,Education Loan,Education,2155000,84,16.01,1.587,Defaulted,Approved,Customer_0375,26,194000,Kolhapur,Professional,738,2,Good,High,1,1,12,2.75,2,0.16666666666666666
+686,419,3,Personal Loan,Medical,795000,36,10.05,1.28,Active,Approved,Customer_0419,63,207000,Nashik,Salaried,669,2,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+687,416,5,Auto Loan,Vehicle,985000,84,11.02,0.92,Defaulted,Approved,Customer_0416,46,153000,Satara,Professional,850,1,Excellent,High,1,1,12,0.0,0,0.0
+688,145,3,Home Loan,Home Purchase,1995000,84,18.08,2.192,Defaulted,Approved,Customer_0145,52,130000,Aurangabad,Professional,792,1,Excellent,High,1,1,12,0.25,1,0.08333333333333333
+689,288,2,Business Loan,Business Expansion,170000,36,12.04,0.373,Closed,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,Medium,0,0,12,0.25,1,0.08333333333333333
+690,128,4,Personal Loan,Medical,730000,180,11.85,0.811,Closed,Approved,Customer_0128,61,60000,Mumbai,Salaried,725,1,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+691,296,6,Personal Loan,Medical,2465000,180,7.82,0.826,Active,Approved,Customer_0296,50,199000,Navi Mumbai,Professional,732,0,Good,High,0,1,12,2.75,2,0.16666666666666666
+692,388,5,Home Loan,Home Purchase,1070000,48,9.92,3.664,Closed,Approved,Customer_0388,63,73000,Nagpur,Business Owner,729,1,Good,High,0,1,12,2.5,1,0.08333333333333333
+693,194,3,Home Loan,Home Purchase,1765000,180,8.55,0.934,Active,Approved,Customer_0194,57,126000,Nagpur,Salaried,646,2,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+694,159,2,Business Loan,Business Expansion,520000,48,10.94,1.781,Closed,Approved,Customer_0159,24,73000,Nagpur,Business Owner,724,0,Good,High,0,1,12,0.0,0,0.0
+695,264,3,Auto Loan,Vehicle,1805000,36,17.78,2.893,Defaulted,Approved,Customer_0264,27,208000,Pune,Self-Employed,807,2,Excellent,High,1,1,12,2.75,2,0.16666666666666666
+696,103,3,Auto Loan,Vehicle,825000,12,14.43,11.0,Active,Approved,Customer_0103,54,75000,Pune,Student,643,1,Fair,High,0,1,12,0.0,0,0.0
+697,286,2,Business Loan,Business Expansion,1960000,36,10.96,17.658,Closed,Approved,Customer_0286,59,37000,Navi Mumbai,Business Owner,741,0,Good,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+698,197,6,Business Loan,Business Expansion,265000,84,12.38,0.445,Defaulted,Approved,Customer_0197,34,85000,Aurangabad,Salaried,702,0,Good,Medium,1,1,12,0.0,0,0.0
+699,173,2,Auto Loan,Vehicle,1105000,120,13.44,1.3,Closed,Approved,Customer_0173,43,85000,Nagpur,Salaried,813,0,Excellent,High,0,1,12,0.0,0,0.0
+700,494,6,Auto Loan,Vehicle,875000,60,11.67,8.333,Active,Approved,Customer_0494,37,21000,Satara,Business Owner,681,0,Good,High,0,1,12,0.0,0,0.0
+701,288,2,Personal Loan,Medical,805000,120,16.79,0.53,Defaulted,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,High,1,1,12,3.75,2,0.16666666666666666
+702,96,3,Education Loan,Education,975000,84,13.8,1.142,Active,Approved,Customer_0096,36,122000,Satara,Professional,721,2,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+703,447,3,Business Loan,Business Expansion,2255000,84,16.61,1.471,Active,Approved,Customer_0447,22,219000,Aurangabad,Self-Employed,643,1,Fair,High,0,1,12,1.25,1,0.08333333333333333
+704,401,4,Business Loan,Business Expansion,1790000,36,18.12,8.775,Active,Approved,Customer_0401,32,68000,Kolhapur,Salaried,704,1,Good,High,0,1,12,0.0,0,0.0
+705,337,6,Auto Loan,Vehicle,490000,36,16.93,0.781,Active,Approved,Customer_0337,52,209000,Navi Mumbai,Salaried,635,0,Fair,High,0,1,12,0.0,0,0.0
+706,291,6,Home Loan,Home Purchase,2055000,120,8.96,2.119,Defaulted,Approved,Customer_0291,36,97000,Nagpur,Professional,673,1,Fair,High,1,1,12,1.8333333333333333,2,0.16666666666666666
+707,368,3,Business Loan,Business Expansion,920000,12,10.43,4.402,Active,Approved,Customer_0368,23,209000,Kolhapur,Self-Employed,779,0,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+708,490,4,Auto Loan,Vehicle,1675000,48,18.47,2.737,Closed,Approved,Customer_0490,31,153000,Pune,Salaried,657,1,Fair,High,0,1,12,0.0,0,0.0
+709,87,3,Home Loan,Home Purchase,2390000,180,12.24,0.821,Active,Approved,Customer_0087,45,194000,Aurangabad,Business Owner,703,1,Good,High,0,1,12,0.0,0,0.0
+710,233,5,Home Loan,Home Purchase,2280000,48,8.22,6.477,Active,Approved,Customer_0233,27,88000,Nagpur,Salaried,630,3,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+711,175,1,Auto Loan,Vehicle,2455000,36,17.59,14.613,Closed,Approved,Customer_0175,63,56000,Aurangabad,Professional,602,0,Fair,High,0,1,12,0.8333333333333334,2,0.16666666666666666
+712,412,1,Home Loan,Home Purchase,210000,84,13.72,0.27,Active,Approved,Customer_0412,52,111000,Navi Mumbai,Business Owner,806,1,Excellent,Low,0,0,12,0.0,0,0.0
+713,74,6,Auto Loan,Vehicle,2210000,48,15.47,5.262,Active,Approved,Customer_0074,36,105000,Nashik,Salaried,775,0,Excellent,High,0,1,12,0.0,0,0.0
+714,314,6,Home Loan,Home Purchase,1235000,84,7.68,1.423,Active,Approved,Customer_0314,26,124000,Nashik,Salaried,618,0,Fair,High,0,1,12,0.0,0,0.0
+715,355,5,Home Loan,Home Purchase,1825000,12,10.08,45.625,Active,Approved,Customer_0355,30,40000,Aurangabad,Self-Employed,766,0,Excellent,High,0,1,12,2.5,1,0.08333333333333333
+716,405,1,Education Loan,Education,90000,120,18.22,0.07,Defaulted,Approved,Customer_0405,45,129000,Navi Mumbai,Self-Employed,664,0,Fair,Low,1,1,12,0.5833333333333334,1,0.08333333333333333
+717,448,1,Education Loan,Education,1100000,180,10.55,0.401,Closed,Approved,Customer_0448,58,183000,Kolhapur,Business Owner,742,1,Good,Medium,0,0,12,0.0,0,0.0
+718,298,3,Auto Loan,Vehicle,730000,120,8.06,0.562,Active,Approved,Customer_0298,38,130000,Satara,Professional,667,1,Fair,High,0,1,12,0.0,0,0.0
+719,272,3,Education Loan,Education,1410000,48,16.94,2.35,Active,Approved,Customer_0272,46,150000,Mumbai,Self-Employed,682,0,Good,High,0,1,12,0.0,0,0.0
+720,346,4,Home Loan,Home Purchase,2055000,12,7.62,13.344,Active,Approved,Customer_0346,64,154000,Navi Mumbai,Salaried,735,2,Good,High,0,1,12,0.0,0,0.0
+721,491,4,Auto Loan,Vehicle,990000,60,15.17,7.071,Defaulted,Approved,Customer_0491,46,28000,Navi Mumbai,Salaried,656,1,Fair,High,1,1,12,0.0,0,0.0
+722,333,2,Home Loan,Home Purchase,765000,84,7.57,2.23,Active,Approved,Customer_0333,26,49000,Nagpur,Salaried,807,1,Excellent,High,0,1,12,0.0,0,0.0
+723,315,6,Education Loan,Education,955000,36,15.3,5.395,Closed,Rejected,Customer_0315,33,59000,Navi Mumbai,Salaried,428,1,Poor,High,0,1,12,0.25,1,0.08333333333333333
+724,63,6,Business Loan,Business Expansion,1865000,24,12.19,4.549,Active,Approved,Customer_0063,37,205000,Nagpur,Salaried,673,0,Fair,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+725,43,4,Business Loan,Business Expansion,485000,180,9.97,0.98,Closed,Approved,Customer_0043,36,33000,Aurangabad,Business Owner,658,0,Fair,High,0,1,12,0.0,0,0.0
+726,469,4,Education Loan,Education,360000,36,8.55,0.779,Closed,Approved,Customer_0469,30,154000,Satara,Self-Employed,635,0,Fair,High,0,1,12,0.0,0,0.0
+727,118,5,Education Loan,Education,2370000,36,14.39,4.593,Active,Approved,Customer_0118,25,172000,Mumbai,Self-Employed,689,2,Good,High,0,1,12,0.0,0,0.0
+728,414,2,Auto Loan,Vehicle,1975000,48,9.82,5.197,Defaulted,Approved,Customer_0414,22,95000,Nashik,Self-Employed,713,1,Good,High,1,1,12,1.25,1,0.08333333333333333
+729,71,5,Education Loan,Education,2250000,60,17.08,6.25,Closed,Approved,Customer_0071,59,72000,Navi Mumbai,Professional,639,0,Fair,High,0,1,12,0.0,0,0.0
+730,293,6,Auto Loan,Vehicle,1840000,48,12.83,10.222,Active,Approved,Customer_0293,33,45000,Navi Mumbai,Salaried,738,0,Good,High,0,1,12,0.0,0,0.0
+731,436,5,Education Loan,Education,1055000,180,9.88,2.01,Active,Approved,Customer_0436,55,35000,Nagpur,Self-Employed,605,1,Fair,High,0,1,12,1.25,1,0.08333333333333333
+732,64,4,Auto Loan,Vehicle,2165000,12,15.86,103.095,Active,Approved,Customer_0064,44,21000,Nashik,Self-Employed,743,1,Good,High,0,1,12,0.0,0,0.0
+733,285,4,Auto Loan,Vehicle,2225000,180,10.45,2.514,Active,Approved,Customer_0285,28,59000,Satara,Self-Employed,687,2,Good,High,0,1,12,0.5,2,0.16666666666666666
+734,386,2,Home Loan,Home Purchase,1130000,48,8.88,1.823,Active,Approved,Customer_0386,21,155000,Navi Mumbai,Professional,709,0,Good,High,0,1,12,3.0833333333333335,2,0.16666666666666666
+735,453,5,Auto Loan,Vehicle,940000,24,7.88,4.434,Closed,Approved,Customer_0453,36,106000,Aurangabad,Student,808,0,Excellent,High,0,1,12,0.0,0,0.0
+736,275,6,Home Loan,Home Purchase,550000,60,9.63,1.058,Defaulted,Approved,Customer_0275,57,104000,Nagpur,Salaried,608,1,Fair,High,1,1,12,1.5,2,0.16666666666666666
+737,374,4,Education Loan,Education,315000,180,11.29,0.477,Defaulted,Approved,Customer_0374,22,44000,Navi Mumbai,Salaried,655,2,Fair,Medium,1,1,12,0.5,2,0.16666666666666666
+738,436,3,Auto Loan,Vehicle,1715000,24,10.77,24.5,Closed,Approved,Customer_0436,55,35000,Nagpur,Self-Employed,605,1,Fair,High,0,1,12,0.0,0,0.0
+739,403,1,Education Loan,Education,1325000,36,17.13,2.509,Active,Approved,Customer_0403,25,176000,Aurangabad,Business Owner,712,3,Good,High,0,1,12,0.0,0,0.0
+740,148,2,Education Loan,Education,1080000,84,13.5,1.574,Active,Approved,Customer_0148,25,98000,Pune,Salaried,653,1,Fair,High,0,1,12,0.0,0,0.0
+741,338,6,Home Loan,Home Purchase,1650000,60,9.22,1.71,Active,Approved,Customer_0338,23,193000,Kolhapur,Salaried,744,0,Good,High,0,1,12,0.0,0,0.0
+742,75,4,Auto Loan,Vehicle,575000,48,8.4,2.875,Defaulted,Approved,Customer_0075,48,50000,Kolhapur,Student,702,0,Good,High,1,1,12,0.5833333333333334,1,0.08333333333333333
+743,477,2,Business Loan,Business Expansion,2190000,12,8.39,19.043,Active,Approved,Customer_0477,54,115000,Nagpur,Professional,684,2,Good,High,0,1,12,0.0,0,0.0
+744,137,2,Home Loan,Home Purchase,650000,24,8.79,3.869,Closed,Approved,Customer_0137,44,84000,Aurangabad,Professional,615,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+745,478,1,Business Loan,Business Expansion,1090000,120,14.75,0.796,Defaulted,Approved,Customer_0478,51,137000,Kolhapur,Student,578,0,Poor,High,1,1,12,2.5,1,0.08333333333333333
+746,341,5,Business Loan,Business Expansion,935000,48,10.68,10.163,Closed,Approved,Customer_0341,23,23000,Nagpur,Self-Employed,757,0,Excellent,High,0,1,12,0.0,0,0.0
+747,288,2,Education Loan,Education,1120000,120,12.28,0.737,Defaulted,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,High,1,1,12,1.25,1,0.08333333333333333
+748,130,6,Education Loan,Education,935000,48,14.82,1.932,Closed,Approved,Customer_0130,53,121000,Nagpur,Self-Employed,720,1,Good,High,0,1,12,2.5,2,0.16666666666666666
+749,423,5,Home Loan,Home Purchase,180000,120,8.92,0.094,Closed,Approved,Customer_0423,47,191000,Satara,Professional,703,0,Good,Low,0,0,12,0.0,0,0.0
+750,4,1,Home Loan,Home Purchase,750000,36,16.5,2.427,Active,Approved,Customer_0004,32,103000,Mumbai,Self-Employed,650,1,Fair,High,0,1,12,5.0,1,0.08333333333333333
+751,225,1,Education Loan,Education,240000,36,18.41,0.678,Defaulted,Approved,Customer_0225,21,118000,Navi Mumbai,Self-Employed,610,1,Fair,High,1,1,12,3.3333333333333335,4,0.3333333333333333
+752,47,2,Personal Loan,Medical,1585000,48,16.09,10.16,Defaulted,Approved,Customer_0047,43,39000,Mumbai,Business Owner,663,1,Fair,High,1,1,12,0.25,1,0.08333333333333333
+753,106,3,Personal Loan,Medical,1455000,12,13.13,7.908,Active,Approved,Customer_0106,29,184000,Kolhapur,Professional,755,2,Excellent,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+754,410,5,Education Loan,Education,2185000,48,14.91,26.012,Defaulted,Approved,Customer_0410,41,21000,Nagpur,Professional,622,1,Fair,High,1,1,12,1.4166666666666667,3,0.25
+755,195,3,Personal Loan,Medical,525000,60,9.17,0.946,Closed,Rejected,Customer_0195,31,111000,Kolhapur,Business Owner,504,0,Poor,High,0,1,12,0.0,0,0.0
+756,369,2,Home Loan,Home Purchase,2490000,24,14.13,6.418,Active,Approved,Customer_0369,55,194000,Navi Mumbai,Student,670,2,Fair,High,0,1,12,0.0,0,0.0
+757,316,6,Education Loan,Education,1635000,84,12.22,1.557,Defaulted,Approved,Customer_0316,23,150000,Aurangabad,Student,624,1,Fair,High,1,1,12,0.0,0,0.0
+758,284,2,Business Loan,Business Expansion,160000,180,7.7,0.068,Closed,Approved,Customer_0284,35,157000,Mumbai,Salaried,850,1,Excellent,Low,0,0,12,0.0,0,0.0
+759,444,6,Home Loan,Home Purchase,1465000,120,14.77,1.136,Active,Approved,Customer_0444,56,129000,Navi Mumbai,Professional,812,1,Excellent,High,0,1,12,1.25,1,0.08333333333333333
+760,42,5,Personal Loan,Medical,490000,36,8.16,0.855,Closed,Approved,Customer_0042,29,191000,Nashik,Salaried,660,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+761,22,1,Business Loan,Business Expansion,955000,24,7.99,2.713,Defaulted,Approved,Customer_0022,34,176000,Mumbai,Salaried,563,2,Poor,High,1,1,12,1.5,2,0.16666666666666666
+762,336,1,Business Loan,Business Expansion,2190000,24,9.52,11.774,Closed,Rejected,Customer_0336,49,93000,Kolhapur,Self-Employed,525,0,Poor,High,0,1,12,0.0,0,0.0
+763,322,4,Business Loan,Business Expansion,1085000,84,11.15,0.787,Defaulted,Approved,Customer_0322,22,197000,Nashik,Self-Employed,678,2,Fair,High,1,1,12,0.0,0,0.0
+764,346,1,Auto Loan,Vehicle,95000,120,14.35,0.062,Closed,Approved,Customer_0346,64,154000,Navi Mumbai,Salaried,735,2,Good,Low,0,0,12,0.0,0,0.0
+765,226,4,Business Loan,Business Expansion,985000,180,7.81,0.876,Active,Approved,Customer_0226,29,75000,Nagpur,Professional,635,2,Fair,High,0,1,12,0.25,1,0.08333333333333333
+766,66,6,Auto Loan,Vehicle,1310000,120,15.47,0.658,Active,Approved,Customer_0066,43,199000,Navi Mumbai,Salaried,748,0,Good,High,0,1,12,0.0,0,0.0
+767,411,4,Business Loan,Business Expansion,2020000,120,11.88,1.712,Active,Approved,Customer_0411,27,118000,Kolhapur,Salaried,623,1,Fair,High,0,1,12,0.25,1,0.08333333333333333
+768,101,5,Auto Loan,Vehicle,1950000,48,7.77,23.214,Active,Approved,Customer_0101,51,21000,Mumbai,Salaried,653,0,Fair,High,0,1,12,0.0,0,0.0
+769,394,6,Education Loan,Education,190000,60,16.74,0.514,Defaulted,Approved,Customer_0394,51,74000,Aurangabad,Self-Employed,723,1,Good,High,1,1,12,0.0,0,0.0
+770,162,6,Home Loan,Home Purchase,1230000,84,16.99,1.134,Closed,Approved,Customer_0162,43,155000,Nashik,Professional,740,0,Good,High,0,1,12,2.5,1,0.08333333333333333
+771,454,6,Auto Loan,Vehicle,1090000,60,10.73,1.29,Active,Approved,Customer_0454,32,169000,Aurangabad,Salaried,666,2,Fair,High,0,1,12,0.0,0,0.0
+772,127,1,Education Loan,Education,2485000,24,18.44,7.864,Defaulted,Approved,Customer_0127,33,158000,Aurangabad,Self-Employed,809,2,Excellent,High,1,1,12,3.0833333333333335,2,0.16666666666666666
+773,96,3,Personal Loan,Medical,1025000,36,17.91,2.801,Active,Approved,Customer_0096,36,122000,Satara,Professional,721,2,Good,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+774,151,3,Education Loan,Education,630000,84,15.82,1.636,Closed,Rejected,Customer_0151,21,55000,Navi Mumbai,Self-Employed,429,2,Poor,High,0,1,12,0.0,0,0.0
+775,453,1,Education Loan,Education,2100000,24,15.52,9.906,Active,Approved,Customer_0453,36,106000,Aurangabad,Student,808,0,Excellent,High,0,1,12,0.0,0,0.0
+776,493,6,Personal Loan,Medical,1545000,120,13.62,0.92,Closed,Approved,Customer_0493,49,168000,Nashik,Salaried,727,0,Good,High,0,1,12,0.0,0,0.0
+777,288,4,Business Loan,Business Expansion,1880000,84,16.65,1.767,Defaulted,Approved,Customer_0288,65,152000,Aurangabad,Self-Employed,655,1,Fair,High,1,1,12,0.0,0,0.0
+778,98,3,Business Loan,Business Expansion,1645000,36,15.52,2.98,Active,Approved,Customer_0098,55,184000,Nagpur,Self-Employed,729,0,Good,High,0,1,12,0.0,0,0.0
+779,206,5,Business Loan,Business Expansion,280000,120,17.3,0.329,Active,Approved,Customer_0206,59,85000,Nagpur,Business Owner,524,1,Poor,Low,0,1,12,0.25,1,0.08333333333333333
+780,287,3,Business Loan,Business Expansion,2025000,12,11.42,24.107,Active,Approved,Customer_0287,62,84000,Kolhapur,Salaried,697,0,Good,High,0,1,12,1.5,2,0.16666666666666666
+781,110,5,Personal Loan,Medical,915000,12,8.51,7.093,Active,Approved,Customer_0110,50,129000,Navi Mumbai,Salaried,754,1,Excellent,High,0,1,12,0.25,1,0.08333333333333333
+782,251,1,Education Loan,Education,1610000,12,13.72,13.306,Defaulted,Approved,Customer_0251,40,121000,Kolhapur,Salaried,655,0,Fair,High,1,1,12,1.25,1,0.08333333333333333
+783,285,6,Personal Loan,Medical,455000,60,16.43,1.542,Active,Approved,Customer_0285,28,59000,Satara,Self-Employed,687,2,Good,High,0,1,12,0.25,1,0.08333333333333333
+784,450,1,Education Loan,Education,2430000,120,11.78,1.699,Defaulted,Approved,Customer_0450,22,143000,Nagpur,Student,599,1,Poor,High,1,1,12,0.0,0,0.0
+785,72,4,Home Loan,Home Purchase,1075000,12,12.78,6.847,Active,Approved,Customer_0072,44,157000,Nashik,Salaried,563,0,Poor,High,0,1,12,0.0,0,0.0
+786,343,6,Education Loan,Education,645000,180,16.63,0.977,Active,Approved,Customer_0343,44,44000,Nashik,Salaried,683,3,Good,High,0,1,12,0.0,0,0.0
+787,344,2,Education Loan,Education,1885000,84,13.35,1.749,Active,Approved,Customer_0344,45,154000,Mumbai,Salaried,773,0,Excellent,High,0,1,12,0.0,0,0.0
+788,16,3,Auto Loan,Vehicle,1990000,24,17.3,33.167,Active,Approved,Customer_0016,44,30000,Satara,Self-Employed,571,3,Poor,High,0,1,12,0.5833333333333334,1,0.08333333333333333
+789,193,2,Education Loan,Education,390000,12,11.0,3.9,Active,Approved,Customer_0193,30,100000,Aurangabad,Self-Employed,765,0,Excellent,High,0,1,12,0.0,0,0.0
+790,413,5,Business Loan,Business Expansion,825000,48,15.0,2.546,Defaulted,Approved,Customer_0413,58,81000,Kolhapur,Salaried,600,1,Fair,High,1,1,12,1.8333333333333333,2,0.16666666666666666
+791,112,4,Personal Loan,Medical,1755000,48,11.51,2.659,Active,Approved,Customer_0112,56,165000,Pune,Self-Employed,626,3,Fair,High,0,1,12,0.0,0,0.0
+792,163,4,Education Loan,Education,1625000,12,8.82,21.382,Defaulted,Approved,Customer_0163,28,76000,Nagpur,Professional,651,2,Fair,High,1,1,12,0.25,1,0.08333333333333333
+793,109,3,Home Loan,Home Purchase,2375000,180,16.35,0.856,Defaulted,Approved,Customer_0109,32,185000,Navi Mumbai,Salaried,775,0,Excellent,High,1,1,12,2.5,1,0.08333333333333333
+794,275,5,Personal Loan,Medical,185000,12,16.08,1.779,Active,Approved,Customer_0275,57,104000,Nagpur,Salaried,608,1,Fair,High,0,1,12,0.0,0,0.0
+795,188,5,Business Loan,Business Expansion,1600000,60,10.88,5.0,Closed,Approved,Customer_0188,46,64000,Mumbai,Professional,752,2,Excellent,High,0,1,12,0.0,0,0.0
+796,365,4,Auto Loan,Vehicle,1550000,120,10.06,1.211,Defaulted,Approved,Customer_0365,43,128000,Nashik,Self-Employed,612,2,Fair,High,1,1,12,0.0,0,0.0
+797,200,2,Auto Loan,Vehicle,590000,180,8.69,0.378,Active,Approved,Customer_0200,55,104000,Satara,Self-Employed,742,0,Good,Medium,0,0,12,0.0,0,0.0
+798,407,4,Education Loan,Education,2200000,60,13.46,9.362,Closed,Approved,Customer_0407,58,47000,Kolhapur,Self-Employed,681,2,Good,High,0,1,12,0.0,0,0.0
+799,440,3,Business Loan,Business Expansion,1705000,120,16.66,7.75,Closed,Approved,Customer_0440,55,22000,Nagpur,Self-Employed,702,1,Good,High,0,1,12,0.0,0,0.0
+800,268,6,Home Loan,Home Purchase,2330000,84,13.49,2.484,Closed,Approved,Customer_0268,59,134000,Aurangabad,Business Owner,630,1,Fair,High,0,1,12,0.0,0,0.0
